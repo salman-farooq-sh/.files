@@ -1,0 +1,10 @@
+cd ~/Programming/esketchers/mentalhealthmatch/apps/web/
+launch low fish --interactive --init-command 'nvm use 18 && NODE_OPTIONS=--openssl-legacy-provider npm run dev:ssr'
+
+new_tab
+cd ~/Programming/esketchers/mentalhealthmatch/apps/web/
+launch low fish --interactive --init-command 'nvm use 18 && NODE_OPTIONS=--openssl-legacy-provider npm start'
+
+new_tab
+cd ~/Programming/esketchers/mentalhealthmatch/apps/web/
+launch fish --interactive --init-command 'nvm use 18 && hx .'

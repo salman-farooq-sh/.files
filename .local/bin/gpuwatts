@@ -1,0 +1,7 @@
+#!/usr/bin/fish
+
+printf %02d (
+    math round (
+        nvidia-smi --query-gpu power.draw --format=csv,noheader,nounits
+    )
+)

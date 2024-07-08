@@ -1,0 +1,106 @@
+abbr -a cplc 'history | head -n 1 | wl-copy'
+abbr -a gcom. 'git commit -m .'
+abbr -a se sudoedit
+abbr -a ch 'sudo chth'
+abbr -a st speedtest
+abbr -a m moar
+abbr -a h hx
+abbr -a hw 'hx (which'
+abbr -a f fastfetch
+
+abbr -a ys 'yay -S --needed'
+abbr -a yr 'yay -Rnsu'
+abbr -a yq 'yay -Qi'
+
+abbr -a sr 'systemctl restart'
+abbr -a sur 'systemctl --user restart'
+
+abbr -a a amdgpu_top
+
+abbr -a ya "yadm add"
+
+abbr -a .c 'cd $HOME/.config/'
+abbr -a .lb 'cd $HOME/.local/bin/'
+abbr -a ap 'cd $HOME/Archives/parts/'
+abbr -a chx 'chmod +x'
+abbr -a cplc 'history | head -n 1 | xclip -sel clip'
+abbr -a dds 'sudo dd status=progress of=/dev/sd'
+abbr -a fc fish_config
+abbr -a ga. 'git add .'
+abbr -a ga 'git add'
+abbr -a gb 'git branch'
+abbr -a gch 'git checkout'
+abbr -a gco 'git commit'
+abbr -a gcom 'git commit -m'
+abbr -a gd 'git diff'
+abbr -a gds 'git diff && for i in (seq 50); echo -n =; end; echo && git status'
+abbr -a g git
+abbr -a ghe 'git help'
+abbr -a gl 'git log'
+abbr -a gm 'git merge'
+abbr -a gpl 'git pull'
+abbr -a gps 'git push'
+abbr -a grlte 'grep --recursive --line-number --text --exclude-dir='
+abbr -a grte 'grep --recursive --text --exclude-dir='
+abbr -a gst 'git status'
+abbr -a igt 'sudo intel_gpu_top -s 700'
+abbr -a i ipython3
+abbr -a keycodes 'nvim /usr/include/linux/input-event-codes.h'
+abbr -a kr2 'qdbus org.kde.KWin /KWin reconfigure'
+abbr -a kr 'killall plasmashell && plasmashell > /dev/null 2>&1 &&'
+abbr -a lsexts 'find . -type f | perl -ne \'print $1 if m/\\.([^.\\/]+)$/\' | sort -u'
+abbr -a nar 'sudo nala autoremove'
+abbr -a na 'sudo nala'
+abbr -a ncl 'sudo nala clean'
+abbr -a nf 'sudo nala fetch'
+abbr -a nh 'nala history'
+abbr -a ni 'sudo nala install'
+abbr -a nli 'nala list'
+abbr -a np 'sudo nala purge'
+abbr -a nr 'sudo nala remove'
+abbr -a nse 'nala search'
+abbr -a nsh 'nala show'
+abbr -a nud 'sudo nala update'
+abbr -a nug 'sudo nala upgrade'
+abbr -a p3i 'pip3 install'
+abbr -a pei 'pipenv install'
+abbr -a pes 'pipenv shell'
+abbr -a pmcs 'python manage.py createsuperuser'
+abbr -a pmmm 'python manage.py makemigrations'
+abbr -a pmm 'python manage.py migrate'
+abbr -a pm 'python manage.py'
+abbr -a pmr 'python manage.py runserver'
+abbr -a pmsa 'python manage.py startapp'
+abbr -a pms 'DJANGO_SETTINGS_MODULE=(python3 manage.py shell -i python -c \'import os; print(os.environ.get("DJANGO_SETTINGS_MODULE")\') ipython3 -c \'import django; django.setup()\' -i'
+abbr -a ppjson 'python3 -m json.tool'
+abbr -a ppp 'powerprofilesctl launch --profile performance'
+abbr -a p python3
+abbr -a pc 'sudo protonvpn c --cc NL'
+abbr -a pcu 'sudo protonvpn c --cc US'
+abbr -a pd 'sudo protonvpn d'
+abbr -a rbios 'systemctl reboot -firmware-setup'
+abbr -a rw 'nmcli radio wifi off; nmcli radio wifi on'
+abbr -a saa 'sudo apt autoremove'
+abbr -a sadg 'sudo apt update && sudo apt upgrade'
+abbr -a sad 'sudo apt update'
+abbr -a sag 'sudo apt upgrade'
+abbr -a sai 'sudo apt install'
+abbr -a sap 'sudo apt purge'
+abbr -a sar 'sudo apt remove'
+abbr -a sa 'sudo apt'
+abbr -a sdi 'systemd-inhibit --what=sleep:handle-lid-switch'
+abbr -a ss 'scrapy shell'
+abbr -a s 'stress -c 16 -timeout 30'
+abbr -a t 'cd /tmp'
+abbr -a te trash-empty
+abbr -a tra trash
+abbr -a udm 'udisksctl mount --block-device /dev/sd'
+abbr -a udpo 'udisksctl power-off --block-device /dev/sd'
+abbr -a uds 'udisksctl status'
+abbr -a udu 'udisksctl unmount --force --block-device /dev/sd'
+abbr -a wcpu 'watch -n 0.7 --color "cat /proc/cpuinfo | grep MHz --color=always"'
+abbr -a wfan 'watch -n 0.5 cat /proc/acpi/ibm/fan'
+abbr -a wgpu 'watch -n 0.2 nvidia-smi'
+abbr -a w which
+abbr -a xo xdg-open
+abbr -a y 'yt-dlp --retries=infinite --no-playlist -f \'bestvideo[height<=2400]+bestaudio\' -o - (fcl) | mpv --save-position-on-quit=no -'

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=mhm-api
+Type=Application
+Terminal=false
+Icon=kitty
+Exec=kitty --class mhm-api --start-as=maximized --session mhm-api

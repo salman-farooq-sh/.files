@@ -1,0 +1,21 @@
+#!/usr/bin/fish
+
+# pass "+" or "-" as the only argument to change the
+# brightness by 1 step as defined in $steps
+
+set steps 1 3 5 7 10 13 15 17 20 23 25 27 30 33 35 37 40 43 50 60 70 80 90 100
+
+set -q CURRENT_INTERNAL_BRIGHTNESS_INDEX || set -U CURRENT_INTERNAL_BRIGHTNESS_INDEX 4
+
+if test "$argv" = "+"
+    set CURRENT_INTERNAL_BRIGHTNESS_INDEX (math $CURRENT_INTERNAL_BRIGHTNESS_INDEX + 1)
+    test $CURRENT_INTERNAL_BRIGHTNESS_INDEX -gt (count $steps) && set CURRENT_INTERNAL_BRIGHTNESS_INDEX (count $steps)
+else if test "$argv" = -
+    set CURRENT_INTERNAL_BRIGHTNESS_INDEX (math $CURRENT_INTERNAL_BRIGHTNESS_INDEX - 1)
+    test $CURRENT_INTERNAL_BRIGHTNESS_INDEX -lt 1 && set CURRENT_INTERNAL_BRIGHTNESS_INDEX 1
+else
+    echo "Invalid Option"
+    exit 1
+end
+
+brightnessctl set $steps[$CURRENT_INTERNAL_BRIGHTNESS_INDEX]%

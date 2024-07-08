@@ -1,0 +1,50 @@
+#!/usr/bin/fish
+
+set videos_root "$HOME/Videos/"
+
+set video_folders (
+    find \
+        $videos_root \
+        -maxdepth 1 \
+        -print \
+    | tail -n+2 \
+    | sort
+)
+
+set video_folders_display (
+    for v in $video_folders; echo $v; end \
+    | python3 -c (
+        echo '''
+            import pathlib
+            import sys
+            import os
+            sys.stdout.writelines(
+                [
+                    str(
+                        pathlib.Path(
+                            *pathlib.Path(line).parts[-1:]
+                        )
+                    )
+                    for line in sys.stdin.readlines()
+                ]
+            )
+        ''' \
+        | dedent \
+        | string collect
+    )
+)
+
+# set lines 25
+set lines (math min (count $video_folders_display), 26)
+
+set dmenu_index (for v in $video_folders_display; echo $v; end | dmenu --index)
+
+set dmenu_status $status
+
+set selected_video_folder $video_folders[(math $dmenu_index + 1)]
+
+test $dmenu_status = 0 && mpv \
+    --save-position-on-quit=yes \
+    #--window-maximized \
+    #--fullscreen \
+    $selected_video_folder**.{mp4,mkv,webm,avi}

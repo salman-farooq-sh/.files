@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=mhm-next
+Type=Application
+Terminal=false
+Icon=kitty
+Exec=kitty --class mhm-next --start-as=maximized --session mhm-next

@@ -1,0 +1,10 @@
+#!/usr/bin/fish
+
+konsole \
+# --name markedfloating \
+-p TerminalMargin=0 \
+-p Font='Hack,10' \
+-p TerminalColumns=65 \
+-p TerminalRows=10 \
+-e \
+cbm

@@ -1,0 +1,7 @@
+# example lfrc at /usr/share/doc/lf/lfrc.example
+
+set shell fish
+
+cmd on-cd &{{
+    set -U LF_CURRENT_PWD $PWD
+}}

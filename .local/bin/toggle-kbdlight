@@ -1,0 +1,8 @@
+#!/bin/fish
+
+set -l file '/proc/acpi/ibm/kbdlight'
+set -l current (cat $file | grep status | egrep -o '[012]')
+
+test $current = 0 && echo 1 | sudo tee $file
+test $current = 1 && echo 0 | sudo tee $file
+test $current = 2 && echo 0 | sudo tee $file

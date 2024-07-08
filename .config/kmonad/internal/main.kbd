@@ -1,0 +1,76 @@
+(defcfg
+	input  (device-file "/dev/input/by-path/platform-i8042-serio-0-event-kbd")
+	output (uinput-sink "kmonad-output-internal")
+	fallthrough true
+	allow-cmd true)
+
+(defsrc
+	f1 f2 f3 f4 f5 f6 f7 f8 f9 f10 f11 f12 ins
+	esc mute vold volu home end sysrq del
+	grv 1 2 3 4 5 6 7 8 9 0 - = bspc
+	tab q w e r t y u i o p [ ] \
+	caps a s d f g h j k l ; ' ent
+	lsft z x c v b n m , . / rsft
+	lctl wkup lmeta lalt spc ralt rctl left down up right
+	pgup pgdn)
+	
+(deflayer base
+	_ _ _ _ _ _ _ _ _ _ _ _ _
+	_ @mute _ _ _ _ _ _
+	_ _ _ _ _ _ _ _ _ _ _ _ _ _
+	_ _ _ _ _ _ _ _ _ _ _ _ _ _
+	@caps _ _ _ _ _ _ _ _ _ _ _ _
+	_ _ _ _ _ _ _ _ _ _ _ _
+	_ _ _ lalt spc lalt lctl _ _ _ _
+	_ _)
+	
+(deflayer layer1
+	XX XX XX XX XX XX XX XX XX XX XX XX XX
+	_ XX XX XX XX XX XX XX
+	XX f1 f2 f3 f4 f5 f6 f7 f8 f9 f10 f11 f12 _
+	XX XX back fwd brdn brup @mu @pt @nt XX XX XX XX XX
+	_ XX @pt @nt @tf XX left down up right ; ' _
+	_ XX @dbd @cbd @vid ins del comp home end XX _
+	_ _ _ _ _ _ _ vold brdn brup volu
+	XX XX) 
+	
+(deflayer layer2
+	XX XX XX XX XX XX XX XX XX XX XX XX XX
+	@pp XX @prev @next XX XX XX XX
+	XX XX XX XX XX XX XX XX XX XX XX XX XX XX
+	XX XX XX XX XX XX XX XX @nolo @lo XX XX XX XX
+	XX XX XX XX XX XX @rwn @rwn2 @ff2 @ff XX XX XX
+	_ XX XX XX XX XX XX XX XX XX XX _
+	_ XX _ _ _ _ _ XX XX XX XX
+	XX XX)
+	
+(defalias
+	pt      C-pgup
+	nt      C-pgdn
+
+	next    (cmd-button "playerctl next")
+	prev    (cmd-button "playerctl previous")
+	pp      (cmd-button "playerctl play-pause")
+	rwn     (cmd-button "playerctl position 10-")
+	rwn2    (cmd-button "playerctl position 35-")
+	ff      (cmd-button "playerctl position 10+")
+	ff2     (cmd-button "playerctl position 35+")
+	volr    (cmd-button "playerctl volume 1.0")
+	vold    (cmd-button "playerctl volume 0.1-")
+	volu    (cmd-button "playerctl volume 0.1+")
+	lo      (cmd-button "playerctl loop Track")
+	nolo    (cmd-button "playerctl loop Playlist")
+	stop    (cmd-button "playerctl stop")
+	vid     (cmd-button "video-player")
+	mu      (cmd-button "music-player")
+	tf      (cmd-button "toggle-fan")
+	cbd     (cmd-button "connect-buds")
+	dbd     (cmd-button "disconnect-buds")
+
+	caps    (tap-hold 200 esc (layer-toggle layer1))
+	mute    (tap-hold 200 mute (layer-toggle layer2))
+	spc     (tap-hold 200 spc lsft)
+
+	mt      (multi-tap 300 lsft 300 lsft x)
+	type    #(h o w  spc  a r e  spc  y o u ?  ent :delay 10)
+)

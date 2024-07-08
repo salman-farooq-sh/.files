@@ -1,0 +1,11 @@
+#!/usr/bin/fish
+
+sudo modprobe -r psmouse
+sudo modprobe psmouse
+
+# sleep 1.7
+
+# trackpad_config
+# trackpoint_config
+
+notify-send -a Info "Pointing devices reloaded"

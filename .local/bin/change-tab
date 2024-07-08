@@ -1,0 +1,30 @@
+#!/usr/bin/fish
+
+set direction $argv[1]
+
+# from /usr/include/linux/input-event-codes.h:
+set lctl 29
+set lsft 42
+set tab 15
+set pgup 104
+set pgdn 109
+
+set active_window_class (xprop -id (xdotool getactivewindow) WM_CLASS | awk '{print $NF}' | xargs)
+
+function perform_ydotool_shortcut
+    if test $direction = "prev"
+        ydotool key (string split ' ' $argv[1])
+    else if test $direction = "next"
+        ydotool key (string split ' ' $argv[2])
+    end
+end
+
+if contains $active_window_class "Postman" "another-window-class" "another-window-class" "another-window-class"
+    perform_ydotool_shortcut \
+    "$lctl:1 $lsft:1 $tab:1 $tab:0 $lsft:0 $lctl:0" \
+    "$lctl:1 $tab:1 $tab:0 $lctl:0"
+else
+    perform_ydotool_shortcut \
+    "$lctl:1 $pgup:1 $pgup:0 $lctl:0" \
+    "$lctl:1 $pgdn:1 $pgdn:0 $lctl:0"
+end

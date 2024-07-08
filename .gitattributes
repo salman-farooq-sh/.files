@@ -1,1 +1,5 @@
-.config/fish/conf.d/50-secrets.fish filter=crypt diff=crypt merge=crypt
+.config/fish/conf.d/50-secrets.fish                                                       filter=crypt diff=crypt merge=crypt
+.config/rclone/rclone.conf                                                                filter=crypt diff=crypt merge=crypt
+.ipython/profile_default/history.sqlite                                                   filter=crypt diff=crypt merge=crypt
+.local/share/fish/fish_history                                                            filter=crypt diff=crypt merge=crypt
+.git-credentials                                                                          filter=crypt diff=crypt merge=crypt

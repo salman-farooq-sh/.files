@@ -1,0 +1,11 @@
+#!/bin/fish
+
+set -l video_url (xclip --selection clipboard -o)
+set -l suggested_name (yt-dlp --no-playlist $video_url --get-filename -o '%(title)s')
+set -l final_name (read -p "set_color green; echo -n 'Name for video file: '; set_color normal;" -c $suggested_name)
+
+yt-dlp $video_url \
+--no-playlist \
+--retries infinite \
+-f 'bestvideo*[height<=1080]+bestaudio/best[height<=1080]' \
+-o "$HOME/Music/video/$final_name.%(ext)s"

@@ -1,0 +1,4 @@
+#!/usr/bin/fish
+
+
+pqiv -fti --bind-key='w { command(ln -sf $1 ~/Pictures/wallpapers/current); command(set-wall); }' ~/Pictures/wallpapers/*

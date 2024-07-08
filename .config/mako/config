@@ -1,0 +1,10 @@
+font=JetBrainsMonoNFM 20
+background-color=#000000A0
+width=400
+height=300
+border-size=2
+border-color=#FFFFFFFF
+anchor=bottom-right
+outer-margin=20
+on-button-left=dismiss
+layer=overlay

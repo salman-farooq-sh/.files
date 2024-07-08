@@ -1,0 +1,71 @@
+#!/usr/bin/python
+
+import os
+import sys
+import socket
+import subprocess
+
+SOCKET_PATH = "/tmp/tasks-salman.sock"
+COMMANDS = {
+    "rewind 10s": "playerctl position 10-",
+    "rewind 35s": "playerctl position 35-",
+    "fast-foward 10s": "playerctl position 10+",
+    "fast-foward 35s": "playerctl position 35+",
+    "reset volume": "playerctl volume 1.0",
+    "decrease volume 10%": "playerctl volume 0.1-",
+    "increase volume 10%": "playerctl volume 0.1+",
+    "loop track": "playerctl loop Track",
+    "loop playlist": "playerctl loop Playlist",
+    "stop player": "playerctl stop",
+    "video-player": "video-player",
+    "music-player": "music-player",
+    "toggle-fan": "toggle-fan",
+    "nautilus": "nautilus",
+    "kitty-max": "kitty-max",
+    "firefox": "firefox",
+    "youtube": "firefox https://www.youtube.com",
+}
+
+fish_executable = subprocess.run(
+    ["which", "fish"], capture_output=True, text=True
+).stdout.strip()
+
+subprocess_run_args = {
+    "capture_output": True,
+    "shell": True,
+    "executable": fish_executable,
+}
+
+if len(sys.argv) == 3 and "exec" == sys.argv[1]:
+    if sys.argv[2] in COMMANDS:
+        subprocess.run(
+            f"echo '{sys.argv[2].replace("'", "\\'")}' | socat - UNIX-CONNECT:{SOCKET_PATH}",
+            **subprocess_run_args,
+        )
+    else:
+        print("unknown task")
+
+    sys.exit(0)
+
+try:
+    os.unlink(SOCKET_PATH)
+except FileNotFoundError:
+    pass
+server = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
+server.bind(SOCKET_PATH)
+server.listen(1)
+
+while True:
+    connection, client_address = server.accept()
+    command = connection.recv(4096).decode().strip()
+
+    if command in COMMANDS:
+        subprocess.Popen(
+            COMMANDS[command],
+            # "nohup music-player > /tmp/output.txt &; disown",
+            start_new_session=True,
+            shell=True,
+            executable=fish_executable,
+        )
+    else:
+        print("unkown task requested")

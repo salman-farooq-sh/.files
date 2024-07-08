@@ -1,0 +1,38 @@
+#!/usr/bin/python3
+import sys
+
+ms = int(sys.argv[1])
+
+if ms < 500:
+    exit()
+
+s = ms / 1000 % 60
+m = int(ms / 1000 / 60 % 60)
+h = int(ms / 1000 / 3600 % 24)
+d = int(ms / 1000 / 3600 / 24 % 30)
+
+s_format = "{s:.1f}s"
+m_format = "{m}m, " + s_format
+h_format = "{h}h, " + m_format
+d_format = "{d}d, " + h_format
+
+print(
+    "[took ",
+    (
+        d_format
+        if d > 0
+        else h_format
+        if h > 0
+        else m_format
+        if m > 0
+        else s_format
+    ).format(
+        d=d,
+        h=h,
+        m=m,
+        s=s,
+    ),
+    "]",
+    sep="",
+    end="",
+)

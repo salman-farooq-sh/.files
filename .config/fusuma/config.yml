@@ -1,0 +1,21 @@
+swipe:
+  4:
+    up:
+      sendkey: "BRIGHTNESSUP"
+    down:
+      sendkey: "BRIGHTNESSDOWN"
+    right:
+      sendkey: "VOLUMEUP"
+    left:
+      sendkey: "VOLUMEDOWN"
+
+threshold:
+  swipe: 0.01
+
+interval:
+  swipe: 0.35
+
+plugin:
+  executors:
+    sendkey_executor:
+      device_name: 'kmonad-output-internal'

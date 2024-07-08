@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+Name=Oracle VM VirtualBox
+GenericName=Virtualization Software
+Type=Application
+Exec=env QT_QPA_PLATFORM=xcb VirtualBox %U
+TryExec=VirtualBox
+Keywords=virtualization;
+MimeType=application/x-virtualbox-vbox;application/x-virtualbox-vbox-extpack;application/x-virtualbox-ovf;application/x-virtualbox-ova;
+Icon=virtualbox
+Categories=Emulator;System;
+Actions=Manager;
+StartupWMClass=VirtualBox Manager
+Comment=Run several virtual systems on a single host computer
+
+[Desktop Action Manager]
+Exec=VirtualBox
+Name=Open VM Manager

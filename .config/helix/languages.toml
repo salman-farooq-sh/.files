@@ -1,0 +1,95 @@
+#######################################################################################
+# PYTHON:
+
+[[language]]
+name = "python"
+auto-format = true
+language-servers = ["pyright", "ruff"]
+
+[language-server.pyright]
+config.python.analysis.typeCheckingMode = "basic"
+
+[language-server.ruff]
+command = "ruff-lsp"
+config.settings.args = ["--ignore", "E501"]
+
+#######################################################################################
+# WEB:
+
+[[language]]
+name = "html"
+auto-format = false
+language-servers = ["vscode-html-language-server"]
+
+[[language]]
+name = "css"
+auto-format = false
+language-servers = ["vscode-css-language-server"]
+
+[[language]]
+name = "javascript"
+auto-format = false
+language-servers = ["efm", "typescript-language-server"]
+
+[[language]]
+name = "typescript"
+auto-format = false
+language-servers = ["efm", "typescript-language-server"]
+
+[[language]]
+name = "jsx"
+auto-format = true
+language-servers = ["efm", "typescript-language-server"]
+
+[[language]]
+name = "tsx"
+auto-format = true
+language-servers = ["efm", "typescript-language-server"]
+
+[language-server.eslint]
+command = "vscode-eslint-language-server"
+args = ["--stdio"]
+
+[language-server.eslint.config]
+format = true
+nodePath = ""
+onIgnoredFiles = "off"
+packageManager = "npm"
+quiet = false
+rulesCustomizations = []
+run = "onType"
+useESLintClass = false
+validate = "on"
+codeAction = { disableRuleComment = { enable = true, location = "separateLine" }, showDocumentation = { enable = true } }
+codeActionOnSave = { mode = "all" }
+experimental = {}
+problems = { shortenToSingleLine = false }
+workingDirectory = { mode = "auto" }
+
+[language-server.efm]
+command = "efm-langserver"
+
+[language-server.efm.config]
+documentFormatting = true
+
+[[language-server.efm.config.languages.javascript]]
+formatCommand = "prettier --stdin-filepath ${INPUT}"
+formatStdin = true
+
+[[language-server.efm.config.languages.javascriptreact]]
+formatCommand = "prettier --stdin-filepath ${INPUT}"
+formatStdin = true
+
+[[language-server.efm.config.languages.typescript]]
+formatCommand = "prettier --stdin-filepath ${INPUT}"
+formatStdin = true
+
+[[language-server.efm.config.languages.typescriptreact]]
+formatCommand = "prettier --stdin-filepath ${INPUT}"
+formatStdin = true
+
+[[language-server.efm.config.languages.json]]
+formatCommand = "prettier --stdin-filepath ${INPUT}"
+formatStdin = true
+
+#######################################################################################

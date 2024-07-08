@@ -1,0 +1,2071 @@
+<head>
+  <style>
+    body * {
+      color: white;
+      background-color: black;
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <table border="0" cellspacing="0" width="100%" cellpadding="0">
+    <tr>
+      <td width="24%" valign="top">
+        <section style="z-index: 30; page-break-inside: avoid">
+          <h3>Movement</h3>
+          <div>
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">h, Left</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move left</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">j, Down</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move down</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">k, Up</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move up</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">l, Right</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move right</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">w</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move next word start</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">b</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move previous word start</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">e</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move next word end</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">W</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move next WORD end</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">B</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move previous WORD start</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">E</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">ove next WORD end</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">t</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Find 'till next char</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">f</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Find next char</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">T</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Find 'till previous char</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">F</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Find previous char</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">G</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Go to line number &lt;n&gt;
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-.</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Reapeat last motion (f, t ro m)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Home</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Move to the start of the line
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">End</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move to the end ofthe line</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-b, PageUp</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move page up</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-f, PageDown</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move page down</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-u</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move half page up</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrf-d</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move half page down</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-i</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Jump forward on the jumplist
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-o</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Jump backward on the jumplist
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-s</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Save the current selection to the jumplist
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <section style="z-index: 30; page-break-inside: avoid">
+          <h3>Picker</h3>
+          <div>
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Up, Ctrl-k, Ctrl-p</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Previous entry</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">PageUp, Ctrl-b</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Page up</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Down, Ctrl-j, Ctrl-n</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Next entry</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">PageDown, Ctrl-f</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Page down</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Home</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Go to first entry</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">End</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Go to last entry</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-space</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Filter options</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Enter</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Open selected</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-s</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Open horizo&#173;ntally</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-v</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Open vertically</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Escape, Ctrl-c</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Close picker</div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <section style="z-index: 30; page-break-inside: avoid">
+          <h3>Match mode</h3>
+          <div>
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">m</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Goto matching bracket (TS)</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">s &lt;ch&#173;ar&gt;</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Surround current selection with &lt;ch&#173;ar&gt;
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    r &lt;fr&#173;om&gt;&#173;&lt;to&gt;
+                  </div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Replace surround character &lt;fr&#173;om&gt; with
+                    &lt;to&gt;
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">d &lt;ch&#173;ar&gt;</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Delete surround character &lt;ch&#173;ar&gt;
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    a &lt;ob&#173;jec&#173;t&gt;
+                  </div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Select around textobject</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    i &lt;ob&#173;jec&#173;t&gt;
+                  </div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Select inside textobject</div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <section style="z-index: 30; page-break-inside: avoid">
+          <h3>Space mode</h3>
+          <div>
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">f</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Open file picker</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">b</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Open buffer picker</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">k</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Show docume&#173;ntation for item under cursor in a popup
+                    (LSP)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">s</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Open document symbol picker (LSP)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">S</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Open workspace symbol picker (LSP)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">r</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Rename symbol (LSP)</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">a</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Apply code action (LSP)</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">'</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Open last fuzzy picker</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">w</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Enter window mode</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">p</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Paste system clipboard after selections
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">P</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Paste system clipboard before selections
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">y</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Join and yank selections to clipboard
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Y</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Yank main selection to clipboard
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">R</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Replace selections by clipboard contents
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">/</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Global search in workspace folder
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">?</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Open command palette</div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <section style="z-index: 30; page-break-inside: avoid">
+          <h3>Popup</h3>
+
+          <body>
+            <div>
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td valign="top" style="">
+                    <div style="padding: 3px 8px">Ctrl-u</div>
+                  </td>
+                  <td valign="top" style="">
+                    <div style="padding: 3px 8px">Scroll up</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top" style="">
+                    <div style="padding: 3px 8px">Ctrl-d</div>
+                  </td>
+                  <td valign="top" style="">
+                    <div style="padding: 3px 8px">Scroll down</div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+        </section>
+      </td>
+      <td>&nbsp;</td>
+      <td width="24%" valign="top">
+        <section style="z-index: 30; page-break-inside: avoid">
+          <h3>Changes</h3>
+          <div>
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">r</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Replace with a character</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">R</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Replace with yanked text</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">~</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Switch case of the selected text
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">`</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Set the selected text to lower case
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-`</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Set the selected text to upper case
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">i</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Insert before selection</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">a</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Insert after selection (append)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">I</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Insert at the start of the line
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">A</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Insert at the end of the line
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">o</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Open new line below selection
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">O</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Open new line above selection
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">.</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Repeat last change</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">u</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Undo change</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">U</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Redo change</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-u</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move backward in history</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-U</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move forward in history</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">y</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Yank selection</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">p</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Paste after selection</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">P</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Paste before selection</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">&quot; &lt;re&#173;g&gt;</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Select a register to yank to or paste from
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">&gt;</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Indent selection</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">&lt;</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Unindent selection</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">=</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Format selection (currently
+                    nonfun&#173;cti&#173;ona&#173;l/d&#173;isa&#173;bled) (LSP)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">d</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Delete selection</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-d</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Delete selection, without yanking
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">c</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Change selection (delete and enter insert mode)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-c</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Change selection (delete and enter insert mode, without
+                    yanking)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-a</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Increment object (number) under cursor
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-x</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Decrement object (number) under cursor
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Q</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Start/stop macro recording to the selected register
+                    (exper&#173;ime&#173;ntal)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">q</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Play back a recorded macro from the selected register
+                    (exper&#173;ime&#173;ntal)
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <section style="z-index: 30; page-break-inside: avoid">
+          <h3>Search</h3>
+          <div>
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">/</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Search for regex pattern</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">?</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Search for previous pattern
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">n</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Select next search match</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">N</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Select previous search match
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">*</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Use current selection as the search pattern
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <section style="z-index: 30; page-break-inside: avoid">
+          <h3>Minor modes</h3>
+          <div>
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">v</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Enter select (extend) mode</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">g</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Enter goto mode</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">m</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Enter match mode</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">:</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Enter command mode</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">z</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Enter view mode</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Z</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Enter sticky view mode</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-w</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Enter window mode</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Space</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Enter space mode</div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <section style="z-index: 30; page-break-inside: avoid">
+          <h3>Goto mode</h3>
+          <div>
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">g</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Go to line number &lt;n&gt; else start of file
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">e</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Go to the end of the file</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">f</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Go to files in the selection
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">h</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Go to the start of the line
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">l</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Go to the end of the line</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">s</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Go to first non-wh&#173;ite&#173;space character of the line
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">t</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Go to the top of the screen
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">c</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Go to the middle of the screen
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">b</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Go to the bottom of the screen
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">d</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Go to definition (LSP)</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">y</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Go to type definition (LSP)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">r</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Go to references (LSP)</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">i</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Go to implem&#173;ent&#173;ation (LSP)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">a</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Go to the last access&#173;ed/&#173;alt&#173;ernate file
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">m</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Go to the last modifi&#173;ed/&#173;alt&#173;ernate file
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">n</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Go to next buffer</div>
+                </td>
+              </tr>
+
+              <body>
+                <tr>
+                  <td valign="top" style="">
+                    <div style="padding: 3px 8px">p</div>
+                  </td>
+                  <td valign="top" style="">
+                    <div style="padding: 3px 8px">Go to previous buffer</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top" style="">
+                    <div style="padding: 3px 8px">.</div>
+                  </td>
+                  <td valign="top" style="">
+                    <div style="padding: 3px 8px">
+                      Go to last modifi&#173;cation in current file
+                    </div>
+                  </td>
+                </tr>
+            </table>
+          </div>
+        </section>
+      </td>
+      <td>&nbsp;</td>
+      <td width="24%" valign="top">
+        <section style="z-index: 30; page-break-inside: avoid">
+          <h3>Shell</h3>
+          <div>
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">|</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Pipe each selection through shell command, replacing with
+                    output
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-|</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Pipe each selection into shell command, ignoring output
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">!</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Run shell command, inserting output before each selection
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-!</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Run shell command, appending output after each selection
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">$</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Pipe each selection into shell command, keep selections
+                    where command returned 0
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </section>
+
+        <section style="z-index: 30; page-break-inside: avoid">
+          <h3>View mode</h3>
+          <div>
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">z, c</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Vertically center the line</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">t</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Align the line to the top of the screen
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">b</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Align the line to the bottom of the screen
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">m</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Align the line to the middle of the screen
+                    (horiz&#173;ont&#173;ally)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">j,down</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Scroll the view downwards</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">k, up</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Scroll the view upwards</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-f, PageDown</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move page down</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-b, PageUp</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move page up</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-d</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move half page down</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-u</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move half page up</div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </section>
+
+        <section style="z-index: 30; page-break-inside: avoid">
+          <h3>Window mode</h3>
+          <div>
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">w, Ctrl-w</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Switch to next window</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">v, Ctrl-v</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Vertical right split</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">s, Ctrl-s</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Horizontal bottom split</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">f</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Go to files in the selection in horizontal splits
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">F</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Go to files in the selection in vertical splits
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">h, Ctrl-h, Left</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move to left split</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">j, Ctrl-j, Down</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move to split below</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">k, Ctrl-k, Up</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move to split above</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">l, Ctrl-l, Right</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move to right split</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">q, Ctrl-q</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Close current window</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">o, Ctrl-o</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Only keep the current window, closing all the others
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </section>
+
+        <section style="z-index: 30; page-break-inside: avoid">
+          <h3>Prompt</h3>
+          <div>
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Escape, Ctrl-c</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Close prompt</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-b, Alt-Left</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Backward a word</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-b, Left</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Backward a char</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-f, Alt-Right</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Forward a word</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-f, Right</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Forward a char</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-e, End</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move prompt end</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-a, Home</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move prompt start</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-w</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Delete previous word</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-d</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Delete next word</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-u</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Delete to start of line</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-k</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Delete to end of line</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">backspace, Ctrl-h</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Delete previous char</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">delete, Ctrl-d</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Delete next char</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-s</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Insert a word under doc cursor, may be changed to Ctrl-r
+                    Ctrl-w later
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-p, Up</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Select previous history</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-n, Down</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Select next history</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Tab</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Select next completion item
+                  </div>
+                </td>
+              </tr>
+
+              <body>
+                <tr>
+                  <td valign="top" style="">
+                    <div style="padding: 3px 8px">BackTab</div>
+                  </td>
+                  <td valign="top" style="">
+                    <div style="padding: 3px 8px">
+                      Select previous completion item
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top" style="">
+                    <div style="padding: 3px 8px">Enter</div>
+                  </td>
+                  <td valign="top" style="">
+                    <div style="padding: 3px 8px">Open selected</div>
+                  </td>
+                </tr>
+            </table>
+          </div>
+        </section>
+      </td>
+      <td>&nbsp;</td>
+      <td width="24%" valign="top">
+        <section style="z-index: 30; page-break-inside: avoid">
+          <h3>Insert Mode</h3>
+          <div>
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Escape</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Switch to normal mode</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-x</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Autoco&#173;mplete</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-r</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Insert a register content</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Ctrl-w, Alt-Ba&#173;ckspace
+                  </div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Delete previous word</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-d</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Delete next word</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-b, Alt-Left</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Backward a word</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-b, Left</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Backward a char</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-f, Alt-Right</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Forward a word</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-f, Right</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Forward a char</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-e, End</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move to line end</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-a, Home</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move to line start</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-u</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Delete to start of line</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-k</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Delete to end of line</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-j, Enter</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Insert new line</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Backspace, Ctrl-h</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Delete previous char</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Delete, Ctrl-d</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Delete previous char</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-p, Up</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move to previous line</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-n, Down</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move to next line</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">PageUp</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move one page up</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">PageDown</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Move one page down</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-&gt;</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Go to end of buffer</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-&lt;</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Go to start of buffer</div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </section>
+
+        <section style="z-index: 30; page-break-inside: avoid">
+          <h3>Selection manipu&#173;lation</h3>
+          <div>
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">s</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Select all regex matches inside selections
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">S</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Split selection into subsel&#173;ections on regex matches
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-s</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Split selection on newlines
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">&amp;</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Align selection in columns</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">_</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Trim whitespace from the selection
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">;</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Collapse selection onto a single cursor
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-;</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Flip selection cursor and anchor
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-:</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Ensures the selection is in forward direction
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">,</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Keep only the primary selection
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-,</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Remove the primary selection
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">C</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Copy selection onto the next line (Add cursor below)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-C</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Copy selection onto the previous line (Add cursor above)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">(</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Rotate main selection backward
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">)</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Rotate main selection forward
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-(</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Rotate selection contents backward
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-)</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Rotate selection contents forward
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">%</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Select entire file</div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">x</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Select current line, if already selected, extend to next
+                    line
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">X</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Extend selection to line bounds (line-wise selection)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">J</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Join lines inside selection
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">K</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Keep selections matching the regex
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-K</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Remove selections matching the regex
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Ctrl-c</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Commen&#173;t/u&#173;nco&#173;mment the selections
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-k, Alt-up</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Expand selection to parent syntax node (TS)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-j, Alt-down</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Shrink syntax tree object selection (TS)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-h, Alt-left</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Select previous sibling node in syntax tree (TS)
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">Alt-l, Alt-right</div>
+                </td>
+                <td valign="top" style="">
+                  <div style="padding: 3px 8px">
+                    Select next sibling node in syntax tree (TS)
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </section>
+      </td>
+    </tr>
+  </table>
+</body>

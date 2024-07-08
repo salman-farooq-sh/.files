@@ -1,0 +1,26 @@
+# use something like this as arguments for 
+# restic if your shell is fish:
+#
+# --files-from=(
+#     grep -E '^[^\^]' $path_to_this_file \
+#     | psub
+# ) \
+# --exclude-file=(
+#     grep -E '^\^' $path_to_this_file \
+#     | string sub --start=2 \
+#     | psub
+# ) \
+
+^node_modules
+^__pycache__
+^.webpack
+#^.git
+
+/home/salman/Archives/pixel-3-modding/patching-imei/
+/home/salman/Archives/psp-isos/tetris-psp.iso
+/home/salman/Archives/ringtones/
+/home/salman/Archives/text-tests/
+/home/salman/Arduino/online-geyser/
+/home/salman/Documents/
+/home/salman/Music/
+/home/salman/Pictures/

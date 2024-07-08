@@ -1,0 +1,108 @@
+# theme = "dark_plus"
+theme = "base16_transparent"
+# theme = "dark_high_contrast"
+# theme = "heisenberg"
+# theme = "molokai"
+# theme = "onedarker"
+# theme = "catppuccin_latte"
+# theme = "onelight"
+# theme = "emacs"
+
+[editor]
+scrolloff = 5
+line-number = "absolute"
+shell = ["fish", "-c"]
+cursorline = true
+# cursorcolumn = true
+auto-format = true
+auto-save = true
+auto-pairs = false
+bufferline = "multiple"
+color-modes = true
+popup-border = "all"
+insert-final-newline = false
+mouse = true
+completion-timeout = 5
+soft-wrap.enable = true
+
+[editor.statusline]
+left = ["mode", "spinner", "read-only-indicator", "file-modification-indicator"]
+center = ["file-name"]
+right = [
+  "diagnostics",
+  "workspace-diagnostics",
+  "selections",
+  "register",
+  "position",
+  "version-control",
+]
+
+[editor.lsp]
+enable = true
+display-messages = true
+auto-signature-help = false
+display-inlay-hints = false
+goto-reference-include-declaration = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+git-ignore = false
+git-global = true
+
+[editor.whitespace.render]
+space = "none"
+tab = "none"
+nbsp = "none"
+nnbsp = "none"
+newline = "none"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+nnbsp = "␣"
+newline = "⏎"
+tab = "·"
+tabpad = "·"
+
+[keys.normal]
+tab = "move_parent_node_end"
+S-tab = "move_parent_node_start"
+d = [":yank-join", ":clipboard-yank-join", ":primary-clipboard-yank-join", "delete_selection_noyank"]
+y = [":yank-join", ":clipboard-yank-join", ":primary-clipboard-yank-join", "collapse_selection", "exit_select_mode"]
+Y = "no_op"
+p = ":clipboard-paste-after"
+P = ":clipboard-paste-before"
+r = [":clipboard-paste-replace", "collapse_selection", "collapse_selection", "exit_select_mode"]
+# C-pagedown = "goto_next_buffer"
+# C-pageup = "goto_previous_buffer"
+
+[keys.insert]
+S-tab = "move_parent_node_start"
+# C-pagedown = "goto_next_buffer"
+# C-pageup = "goto_previous_buffer"
+
+[keys.select]
+tab = "extend_parent_node_end"
+S-tab = "extend_parent_node_start"
+d = [":yank-join", ":clipboard-yank-join", ":primary-clipboard-yank-join", "delete_selection_noyank"]
+y = [":yank-join", ":clipboard-yank-join", ":primary-clipboard-yank-join", "collapse_selection", "exit_select_mode"]
+Y = "no_op"
+r = [":clipboard-paste-replace", "collapse_selection", "collapse_selection", "exit_select_mode"]
+# C-pagedown = "goto_next_buffer"
+# C-pageup = "goto_previous_buffer"
+
+[keys.normal.space]
+Y = "no_op"
+
+[keys.normal.minus]
+w = ":w"
+c = ":config-reload"
+q = ":q"
+Q = ":q!"
+r = ":rla"
+e = ":buffer-close"

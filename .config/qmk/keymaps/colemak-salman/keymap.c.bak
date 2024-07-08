@@ -1,0 +1,90 @@
+#include QMK_KEYBOARD_H
+
+#define ___x___ XXXXXXX /* the NO_OP */
+
+#define _NUMBERS 1
+#define _FKEYS 2
+#define _MOUSE 3
+#define _ARROWS 4
+#define _VOLUME 5
+
+#define MT_SFT2 MT(MOD_LSFT, KC_SCLN)
+#define MT_LGUI MT(MOD_LGUI, KC_ESC)
+#define MT_LALT MT(MOD_LALT, KC_LSFT)
+#define MT_LSFT MT(MOD_LSFT, KC_SPC)
+#define MT_LCTL MT(MOD_LCTL, KC_ESC)
+
+#define  LT_T  LT(_NUMBERS, KC_T) 
+#define  LT_F  LT(_FKEYS,   KC_F)
+#define  LT_A  LT(_MOUSE,   KC_A)
+#define  LT_S  LT(_ARROWS,  KC_S)
+#define  LT_O  LT(_ARROWS,  KC_O) 
+#define  LT_C  LT(_VOLUME,  KC_C) 
+#define  TG_AR TG(_ARROWS) 
+
+#define P_TAB LCTL(KC_PGUP)
+#define N_TAB LCTL(KC_PGDN)
+
+enum custom_keycodes {
+    QMKBEST = SAFE_RANGE,
+    PASSWD,
+};
+
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+    [0] = LAYOUT_ortho_4x12( \
+        MT_SFT2, KC_QUOT,  KC_W  ,  LT_F  ,   KC_P ,    KC_G,      KC_J   , KC_L   ,  KC_U  ,  KC_Y  , KC_BSPC, KC_SLSH, \
+        KC_TAB ,  LT_A  ,  KC_R  ,  LT_S  ,   LT_T ,    KC_D,      KC_H   , KC_N   ,  KC_E  ,  KC_I  ,  KC_O  , KC_ENT , \
+        KC_LSFT,  KC_Z  ,  KC_X  ,  LT_C  ,   KC_V ,    KC_B,      KC_K   , KC_M   , KC_COMM, KC_DOT ,  KC_Q  , KC_GRV , \
+        KC_VOLD, KC_VOLU,  KC_F14, KC_LCTL, MT_LGUI, MT_LALT,      MT_LSFT, KC_RCTL,  TG_AR , QK_BOOT, KC_BRID, KC_BRIU  \
+    ), 
+    [_NUMBERS] = LAYOUT_ortho_4x12( \
+        ___x___, ___x___, ___x___, ___x___, ___x___, ___x___,      ___x___,   KC_9 ,   KC_0 ,  KC_8  , KC_MINS, KC_EQL , \
+        ___x___, ___x___, ___x___, ___x___,   LT_T , ___x___,      ___x___,   KC_1 ,   KC_2 ,  KC_3  ,  KC_4  , KC_BSLS, \
+        _______, ___x___, ___x___, ___x___, ___x___, ___x___,      ___x___,   KC_5 ,   KC_6 ,  KC_7  , ___x___, ___x___, \
+        ___x___, ___x___, ___x___, _______, _______, _______,      _______, _______, _______, ___x___, ___x___, ___x___  \
+    ),
+    [_FKEYS] = LAYOUT_ortho_4x12( \
+        ___x___, ___x___, KC_BRID,   LT_F , KC_BRIU, ___x___,      KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  , KC_F6  , \
+        ___x___, ___x___, ___x___, ___x___, ___x___, ___x___,      KC_F7  , KC_F8  , KC_F9  , KC_F10 , KC_F11 , KC_F12 , \
+        _______, ___x___, ___x___, ___x___, ___x___, ___x___,      KC_DEL , KC_INS , KC_HOME, KC_END , KC_PGDN, KC_PGUP, \
+        ___x___, ___x___, ___x___, _______, _______, _______,      _______, _______, _______, ___x___, ___x___, ___x___  \
+    ),
+    [_MOUSE] = LAYOUT_ortho_4x12( \
+        ___x___, ___x___, ___x___, ___x___, ___x___, ___x___,      ___x___, KC_WH_L, KC_MS_U, KC_WH_R, ___x___, ___x___, \
+        ___x___,  LT_A  , KC_ACL0, KC_ACL1, KC_ACL2, ___x___,      KC_WH_D, KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_U, ___x___, \
+        _______, ___x___, ___x___, ___x___, ___x___, ___x___,      ___x___, ___x___, ___x___, ___x___, ___x___, ___x___, \
+        ___x___, ___x___, ___x___, _______, _______, _______,      KC_BTN1, KC_BTN2, ___x___, ___x___, ___x___, ___x___  \
+    ), 
+    [_ARROWS] = LAYOUT_ortho_4x12( \
+        ___x___, ___x___, ___x___,   KC_F , PASSWD , ___x___,      ___x___, ___x___,  KC_UP ,   KC_O , KC_LBRC, KC_RBRC, \
+        ___x___, ___x___,  P_TAB ,   LT_S ,  N_TAB , ___x___,      ___x___, KC_LEFT, KC_DOWN, KC_RGHT,   KC_F , _______, \
+        _______, ___x___, ___x___, ___x___, ___x___, ___x___,      ___x___, ___x___, ___x___, ___x___, ___x___, ___x___, \
+        ___x___, ___x___, ___x___, _______, _______, _______,      _______, _______, _______, ___x___, ___x___, ___x___  \
+    ),
+    [_VOLUME] = LAYOUT_ortho_4x12( \
+        ___x___, ___x___, ___x___, ___x___, ___x___, ___x___,      ___x___, ___x___, KC_MSTP, ___x___, ___x___, ___x___, \
+        ___x___, ___x___, ___x___, ___x___, ___x___, ___x___,      ___x___, KC_MPRV, KC_MPLY, KC_MNXT, ___x___, ___x___, \
+        ___x___, ___x___, KC_VOLD,  LT_C  , KC_VOLU, ___x___,      ___x___, ___x___, ___x___, ___x___, ___x___, ___x___, \
+        ___x___, ___x___, ___x___, _______, _______, _______,      _______, _______, _______, ___x___, ___x___, ___x___  \
+    ),
+};
+
+
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case FOO:
+            if (record->event.pressed) {
+                SEND_STRING("salman");
+            }
+            break;
+
+        case PASSWD:
+            if (record->event.pressed) {
+                SEND_STRING("farooq");
+            }
+            break;
+    }
+
+    return true;
+}
+

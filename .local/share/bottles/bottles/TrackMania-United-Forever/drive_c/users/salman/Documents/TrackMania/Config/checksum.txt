@@ -1,0 +1,3491 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<cache version=4.0>
+	<packdesc>
+		<name>Skins\Avatars\Flags\ALG.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\ALG.dds</file>
+		<checksum>0xF5D2C03E623AEFE73E66E8E9D3E460D8</checksum>
+		<size>8 320</size>
+		<lastuse>21/01/2006 11:37</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\ANG.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\ANG.dds</file>
+		<checksum>0x5EE2D003C6AFE2C8A3FBBAFF09142912</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\ARG.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\ARG.dds</file>
+		<checksum>0x9B0746803B31789C853DA4BD760E0BCC</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\AUS.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\AUS.dds</file>
+		<checksum>0x1DD603CF527380562E6796D347C5A136</checksum>
+		<size>8 320</size>
+		<lastuse>21/01/2006 11:37</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\AUT.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\AUT.dds</file>
+		<checksum>0x3DC18448C82C1C369104C3848DDB7F39</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\BAN.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\BAN.DDS</file>
+		<checksum>0xBE71F5208C7EFD26498661E4EF6E1F47</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\BEL.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\BEL.dds</file>
+		<checksum>0x5C0B9B1310601CBD4671D7EEB9941EF6</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\BIH.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\BIH.dds</file>
+		<checksum>0x4EEF55C3DDE5C2835738565E6093FACA</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\BLR.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\BLR.dds</file>
+		<checksum>0x339B9A1F694F9A371EB8F360C1AD34A4</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\BOL.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\BOL.DDS</file>
+		<checksum>0x449A01168AF25B19468FE534B028EB4A</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\BRA.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\BRA.dds</file>
+		<checksum>0x8F98D41EFEFDE2E41DBF800FDAFEB4A1</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\BRN.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\BRN.dds</file>
+		<checksum>0xF41DF64CC767931BA221C19F5B570B61</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\BUL.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\BUL.dds</file>
+		<checksum>0xAAD66463E850F3A59B751A57C0802382</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\CAN.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\CAN.dds</file>
+		<checksum>0x850AD0B8F79A5612CA1C295DBDA7BB53</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\CGO.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\CGO.DDS</file>
+		<checksum>0x5DD2F8CFFF06B9EADE6FCBF1347F186D</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\CHI.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\CHI.DDS</file>
+		<checksum>0xF78327F9D271FC134049144ABDD03AE6</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\CHN.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\CHN.dds</file>
+		<checksum>0x3646EDA5FB24E827C56F6A3584AD6CA8</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\CIV.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\CIV.DDS</file>
+		<checksum>0xBDA700C6E9DE3458BDC8F8A90D291834</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\CMR.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\CMR.DDS</file>
+		<checksum>0x87F04599D54786F22A9BB84B69D01CDD</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\COL.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\COL.DDS</file>
+		<checksum>0xC8CD040B7E2CD2C4B1F5F7A295E354D3</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\CRO.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\CRO.dds</file>
+		<checksum>0x17E04371E0CDFED5C6F3B502F4E9AF20</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\CYP.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\CYP.dds</file>
+		<checksum>0x980AD53E64E8C5BCF6FAE3A90A15FA23</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\CZE.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\CZE.dds</file>
+		<checksum>0x51457FA2FEAA211705988F44F22CAEED</checksum>
+		<size>8 320</size>
+		<lastuse>21/01/2006 11:36</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\DEN.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\DEN.dds</file>
+		<checksum>0x25CE7B620E92254B3137614A856E43C9</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\ECU.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\ECU.DDS</file>
+		<checksum>0x663E2A2411D9137B6DBAF8F1849F878A</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\EGY.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\EGY.dds</file>
+		<checksum>0x7AA7E7B887AE53F337DB5FF129BAA9FE</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\ESP.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\ESP.dds</file>
+		<checksum>0xCA9BD79F7175AE5428C7E7C5C0574270</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\EST.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\EST.dds</file>
+		<checksum>0xFCD858EFCFF5012D864106A15712C629</checksum>
+		<size>8 320</size>
+		<lastuse>21/01/2006 11:37</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\FIN.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\FIN.dds</file>
+		<checksum>0x3CA3F287638161EDF29C1A8412A1A6F3</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\FRA.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\FRA.dds</file>
+		<checksum>0x034EA0BCB83EB039EF62129720F1A95F</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\GBR.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\GBR.dds</file>
+		<checksum>0x5F5CC0C46B89205B1C33AB22F4ECACC8</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\GER.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\GER.dds</file>
+		<checksum>0xEE81D813678B995AC031EFDC63EF717B</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\GRE.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\GRE.dds</file>
+		<checksum>0x76915B31EE5B5F8BD07C6CEDF60284EF</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\GUA.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\GUA.DDS</file>
+		<checksum>0xF41F56CBCAAB039DAD29DCFA74901A85</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\HUN.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\HUN.dds</file>
+		<checksum>0xB668DA0DF5BAC50535EAC06282EFEA08</checksum>
+		<size>8 320</size>
+		<lastuse>21/01/2006 11:44</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\INA.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\INA.dds</file>
+		<checksum>0xDDF90BB8E529E2C40AE64D06D5C6B84E</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\IND.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\IND.dds</file>
+		<checksum>0x1897B7298DB583D15E5DC641A7B6E5A3</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\IRI.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\IRI.dds</file>
+		<checksum>0x5E35EDB32819BA8811D7826E8E5D4AE5</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\IRL.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\IRL.dds</file>
+		<checksum>0x32647A9D633ADB57FDDD31303F486C74</checksum>
+		<size>11 064</size>
+		<lastuse>05/05/2006 12:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\IRQ.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\IRQ.DDS</file>
+		<checksum>0xF731624DC3851A8323FEE68FC6688364</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\ISL.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\ISL.dds</file>
+		<checksum>0xA693735A2E34BFA8195BD387D55E2211</checksum>
+		<size>11 064</size>
+		<lastuse>05/05/2006 12:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\ISR.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\ISR.dds</file>
+		<checksum>0xB23C5E946C40458A30F82308293D9515</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\ITA.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\ITA.dds</file>
+		<checksum>0x978C17DD9C98BAFBBEB3D87AC8D4E410</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\JAM.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\JAM.dds</file>
+		<checksum>0x95E83D2991C9913D130E9EC2F33173FB</checksum>
+		<size>11 064</size>
+		<lastuse>05/05/2006 12:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\JPN.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\JPN.dds</file>
+		<checksum>0xE1C6039935CFEF27EA8B0A9A2709B233</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\KAZ.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\KAZ.DDS</file>
+		<checksum>0x10715A7571F859BC672CF977B70E17B6</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\KOR.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\KOR.dds</file>
+		<checksum>0xEEEEAFB4302F1B0BF8E3E567E5B1F2CD</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\KSA.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\KSA.dds</file>
+		<checksum>0xD0533F56E108C77B8800DC445E887CE3</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\KUW.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\KUW.dds</file>
+		<checksum>0xE19A1C3FBBEC2162284C8312557232E5</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\LAO.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\LAO.DDS</file>
+		<checksum>0xDA4094ADCD84230B27C90B0C38792D4A</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\LAT.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\LAT.DDS</file>
+		<checksum>0xB00FF29354DAFC4DCDDA9D8513E4DB5A</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\LBA.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\LBA.DDS</file>
+		<checksum>0x74249F57E88D8D2EB38825762F156D5B</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\LIB.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\LIB.dds</file>
+		<checksum>0xA70565534A928F27447DFD367E9491B2</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\LTU.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\LTU.dds</file>
+		<checksum>0xDD96B40B93735EF045B84F6FB93A1037</checksum>
+		<size>8 320</size>
+		<lastuse>21/01/2006 11:44</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\LUX.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\LUX.dds</file>
+		<checksum>0xD948E15ADA3ED4E3CEE7486A7A021AC9</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\MAR.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\MAR.dds</file>
+		<checksum>0xA8CC09D02D7768F62B818F9076B1904A</checksum>
+		<size>8 320</size>
+		<lastuse>21/01/2006 11:50</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\MAS.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\MAS.dds</file>
+		<checksum>0x2CE771E0E430AE5A526831B50D499227</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\MEX.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\MEX.dds</file>
+		<checksum>0x3177CA063283BB4B64963B7CEF9AF155</checksum>
+		<size>8 320</size>
+		<lastuse>21/01/2006 11:49</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\MGL.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\MGL.dds</file>
+		<checksum>0x7F0F5B420EC229D07552C71B89CC8628</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\MKD.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\MKD.dds</file>
+		<checksum>0x73F34CE2DB58BB1FA0D36AD7DA08C361</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\MRT.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\MRT.dds</file>
+		<checksum>0x0CD2096A0650715869583A17DDB1C8C6</checksum>
+		<size>8 320</size>
+		<lastuse>21/01/2006 11:48</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\NED.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\NED.dds</file>
+		<checksum>0xD83676E5675E238EBEB90628EF6A22E0</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\NGR.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\NGR.DDS</file>
+		<checksum>0x8AD714886C584FEEC1B82A7350D2528A</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\NOR.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\NOR.dds</file>
+		<checksum>0x5B384CF8D32553D9C9E7F6E1BA04B03D</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\NZL.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\NZL.dds</file>
+		<checksum>0xCF5038A142780E2B3880CA6C0D396E40</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:29</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\OMA.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\OMA.dds</file>
+		<checksum>0x2BAEB1ED062CE6FD1D46EDE097A07D51</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:29</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\other.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\other.dds</file>
+		<checksum>0x90BDC77EAC714F27A0153D56545CA424</checksum>
+		<size>11 064</size>
+		<lastuse>26/03/2008 12:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\PAK.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\PAK.dds</file>
+		<checksum>0x71EC396106703FE169F8248DC23BCFA3</checksum>
+		<size>16 512</size>
+		<lastuse>23/05/2024 18:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\PAN.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\PAN.dds</file>
+		<checksum>0x440EAC189FF3DCAA10AE23CE1F75E1A6</checksum>
+		<size>8 320</size>
+		<lastuse>21/01/2006 10:51</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\PER.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\PER.DDS</file>
+		<checksum>0x0E3562A3B32BBBED0988066F2304F499</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\PHI.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\PHI.DDS</file>
+		<checksum>0x75078CF84D45038A12B376C7B5F2C990</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\POL.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\POL.dds</file>
+		<checksum>0x66AE3156CA0605554D67F6FC0BAF8F25</checksum>
+		<size>11 064</size>
+		<lastuse>05/05/2006 12:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\POR.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\POR.dds</file>
+		<checksum>0xA78486169955529C56C03DA82E07D180</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:28</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\QAT.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\QAT.dds</file>
+		<checksum>0x78BDBBA365DFAA1DB2F9A11841534ECE</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:33</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\ROU.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\ROU.dds</file>
+		<checksum>0x78F644C1F8FF66F174B12E83AD85C118</checksum>
+		<size>8 320</size>
+		<lastuse>21/01/2006 11:51</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\RSA.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\RSA.dds</file>
+		<checksum>0x11504ACAFFA56E8F25F55ECDFF94F6BC</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:32</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\RUS.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\RUS.dds</file>
+		<checksum>0x678460EB90CFEFE5D6E43B6AB34CE2EF</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:32</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\SCG.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\SCG.dds</file>
+		<checksum>0xDD587E5DA48C255BB6E9BE242591FCE6</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:32</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\SEN.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\SEN.DDS</file>
+		<checksum>0x74458358C7DD62BB9F7C35E864886FDD</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\SIN.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\SIN.dds</file>
+		<checksum>0xC934980AA75A50A860CCC8236CD7C56A</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:32</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\SLO.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\SLO.dds</file>
+		<checksum>0x8F628C28143D13E5DD27E1BE5C62E114</checksum>
+		<size>11 064</size>
+		<lastuse>05/05/2006 12:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Smileys\Smiley01.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Smileys\Smiley01.dds</file>
+		<checksum>0xD4C94E7C8C99635C4136F82FD4D98017</checksum>
+		<size>8 320</size>
+		<lastuse>23/05/2024 18:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Smileys\Smiley02.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Smileys\Smiley02.dds</file>
+		<checksum>0xC4C22B8A2CCB10FAFE141E3530BF5EBF</checksum>
+		<size>8 320</size>
+		<lastuse>10/03/2004 07:02</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Smileys\Smiley03.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Smileys\Smiley03.dds</file>
+		<checksum>0x40A06DCB57FAEBCFF78DDCB5958C6185</checksum>
+		<size>8 320</size>
+		<lastuse>18/03/2004 14:16</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Smileys\Smiley04.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Smileys\Smiley04.dds</file>
+		<checksum>0xD67CB09BC0064450FD1153090D1D0B05</checksum>
+		<size>8 320</size>
+		<lastuse>18/03/2004 14:27</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Smileys\Smiley05.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Smileys\Smiley05.dds</file>
+		<checksum>0xFF9B6391970DD8E8382EF5140299D6F5</checksum>
+		<size>8 320</size>
+		<lastuse>10/03/2004 07:07</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Smileys\Smiley06.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Smileys\Smiley06.dds</file>
+		<checksum>0x38BFC8AEC00448F46F7BB31789A7A1CD</checksum>
+		<size>8 320</size>
+		<lastuse>10/03/2004 07:17</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Smileys\Smiley07.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Smileys\Smiley07.dds</file>
+		<checksum>0xB8F059323A3289C9A8148E7A345A99F9</checksum>
+		<size>8 320</size>
+		<lastuse>10/03/2004 07:04</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Smileys\Smiley08.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Smileys\Smiley08.dds</file>
+		<checksum>0xF76FE8FC29746AE4025E0A6774A65762</checksum>
+		<size>8 320</size>
+		<lastuse>10/03/2004 08:57</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Smileys\Smiley09.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Smileys\Smiley09.dds</file>
+		<checksum>0xCB88463A323B9EF48A3E2AB89830B153</checksum>
+		<size>8 320</size>
+		<lastuse>18/03/2004 14:33</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Smileys\Smiley10.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Smileys\Smiley10.dds</file>
+		<checksum>0x9BA4DEAAE5159802E5598B9873A7EE05</checksum>
+		<size>8 320</size>
+		<lastuse>10/03/2004 07:19</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Smileys\Smiley11.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Smileys\Smiley11.dds</file>
+		<checksum>0xD728CB411ED73366875B922EAF5FE9AC</checksum>
+		<size>8 320</size>
+		<lastuse>10/03/2004 07:20</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Smileys\Smiley12.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Smileys\Smiley12.dds</file>
+		<checksum>0x6B0733413C070C6068CB6D81BA20664A</checksum>
+		<size>8 320</size>
+		<lastuse>10/03/2004 07:21</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Smileys\Smiley13.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Smileys\Smiley13.dds</file>
+		<checksum>0xDA0577A4406D3093FF8D130B7C779995</checksum>
+		<size>8 320</size>
+		<lastuse>10/03/2004 07:58</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Smileys\Smiley14.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Smileys\Smiley14.dds</file>
+		<checksum>0xBEA53393CB068B9106FD4CB900CD4779</checksum>
+		<size>8 320</size>
+		<lastuse>10/03/2004 08:54</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Smileys\Smiley15.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Smileys\Smiley15.dds</file>
+		<checksum>0x97171D28F649CFB3480550028FF3D766</checksum>
+		<size>8 320</size>
+		<lastuse>10/03/2004 08:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Smileys\Smiley16.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Smileys\Smiley16.dds</file>
+		<checksum>0x4B249FD12BD883B9649A5573055A4EB2</checksum>
+		<size>8 320</size>
+		<lastuse>18/03/2004 14:54</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Smileys\Smiley17.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Smileys\Smiley17.dds</file>
+		<checksum>0xFCC8332C7F630A34259E3AE814BB2DE4</checksum>
+		<size>8 320</size>
+		<lastuse>10/03/2004 08:58</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\SRB.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\SRB.DDS</file>
+		<checksum>0xCE5EBAF5939319A18D3E043FF66F2811</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\SUI.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\SUI.dds</file>
+		<checksum>0xC8C20EF7E327F91506235F23DCDD194E</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:32</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\SVK.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\SVK.dds</file>
+		<checksum>0xC0E84B65CFE304EB90E71CAC5D877D6D</checksum>
+		<size>8 320</size>
+		<lastuse>21/01/2006 11:51</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\SWE.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\SWE.dds</file>
+		<checksum>0x32C9D109B754C30FBEBF84452BD96A9B</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:32</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\SYR.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\SYR.DDS</file>
+		<checksum>0xEFDD4645581A3317FE1BD8DF2AEB055C</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\THA.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\THA.dds</file>
+		<checksum>0xF8AA51E8415AB0307A54C9603D188DD6</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\TUN.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\TUN.dds</file>
+		<checksum>0xE02B8D58D350E3E63818C16B51FE56E2</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\TUR.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\TUR.dds</file>
+		<checksum>0x12D51EE793BFCF35DC9F699511E29100</checksum>
+		<size>8 320</size>
+		<lastuse>21/01/2006 11:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\UAE.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\UAE.dds</file>
+		<checksum>0x9470AA010C3ABD6BEC310BF7C6FD68C1</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\UKR.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\UKR.dds</file>
+		<checksum>0xB4385ECA3E6CA7CB500AF5ADFF72801A</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\URU.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\URU.DDS</file>
+		<checksum>0x6999A06BBD41314A2B3BDF41C547E79B</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\USA.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\USA.dds</file>
+		<checksum>0x106B8A29934C7DE4D5E04623198A0B6E</checksum>
+		<size>16 512</size>
+		<lastuse>13/01/2006 11:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\UZB.DDS</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\UZB.DDS</file>
+		<checksum>0xCF243F6A2A628DD0A7FFF797824AB758</checksum>
+		<size>8 320</size>
+		<lastuse>25/03/2008 18:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\VEN.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\VEN.dds</file>
+		<checksum>0x36D2035D5D24E8ACB7627F6AF2274369</checksum>
+		<size>8 320</size>
+		<lastuse>21/01/2006 11:53</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Avatars\Flags\VIE.dds</name>
+		<root>data</root>
+		<file>Skins\Avatars\Flags\VIE.dds</file>
+		<checksum>0x43D25103542826885512540ABD93587B</checksum>
+		<size>8 320</size>
+		<lastuse>21/01/2006 11:37</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Alpine\Music\Race\ Trackmania United - Snow.ogg</name>
+		<root>data</root>
+		<file>Skins\Alpine\Music\Race\ Trackmania United - Snow.ogg</file>
+		<checksum>0x693370BCE815A8E694E8CC0A5133FF53</checksum>
+		<size>4 983 365</size>
+		<lastuse>16/10/2006 12:26</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Any\Advertisement\Advert1.zip</name>
+		<root>data</root>
+		<file>Interface\Advertising\Any+Advertisement#RaceAd2x1A.dds</file>
+		<checksum>0x00000000000000000000000000000001</checksum>
+		<size>21 992</size>
+		<lastuse>24/12/2023 20:28</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Any\Advertisement\Advert2.zip</name>
+		<root>data</root>
+		<file>Interface\Advertising\Any+Advertisement#RaceAd2x1B.dds</file>
+		<checksum>0x00000000000000000000000000000001</checksum>
+		<size>21 992</size>
+		<lastuse>24/12/2023 20:28</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Any\Advertisement\Advert3.zip</name>
+		<root>data</root>
+		<file>Interface\Advertising\Any+Advertisement#RaceAd2x1C.dds</file>
+		<checksum>0x00000000000000000000000000000001</checksum>
+		<size>21 992</size>
+		<lastuse>24/12/2023 20:28</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Buildings\AmberSalt.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Buildings\AmberSalt.zip</file>
+		<checksum>0x3CC190F9B97017F3CEDDB6BAE84E8913</checksum>
+		<size>243 584</size>
+		<lastuse>22/01/2005 23:01</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Buildings\Emerald.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Buildings\Emerald.zip</file>
+		<checksum>0x0CA6F5321994306E0B43382F03D69C6E</checksum>
+		<size>371 168</size>
+		<lastuse>22/01/2005 22:59</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Buildings\Lamedan.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Buildings\Lamedan.zip</file>
+		<checksum>0x993416A893920968FB0F44E651087A06</checksum>
+		<size>241 231</size>
+		<lastuse>16/01/2005 10:41</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Buildings\Swedon.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Buildings\Swedon.zip</file>
+		<checksum>0x28044F463FE0DF17AB7ABF2589C518A6</checksum>
+		<size>220 493</size>
+		<lastuse>22/01/2005 23:00</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Cargo\Ouqsikov.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Cargo\Ouqsikov.zip</file>
+		<checksum>0xBA6BB99557389FAEBC224519621F8BB3</checksum>
+		<size>1 059 576</size>
+		<lastuse>04/06/2010 06:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Cargo\Penaghen.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Cargo\Penaghen.zip</file>
+		<checksum>0x8BB246E9C22D482D95AD8E8DBB976BAD</checksum>
+		<size>1 102 645</size>
+		<lastuse>04/06/2010 06:38</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Flats\HighRise.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Flats\HighRise.zip</file>
+		<checksum>0xC6033F74A5E5B3962CC44786EE71A61A</checksum>
+		<size>700 203</size>
+		<lastuse>23/01/2005 16:43</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Music\Race\ Trackmania United - Bay.ogg</name>
+		<root>data</root>
+		<file>Skins\Bay\Music\Race\ Trackmania United - Bay.ogg</file>
+		<checksum>0x4C25A4E27BA52C7D335C58A8E68AA092</checksum>
+		<size>4 550 419</size>
+		<lastuse>24/10/2006 13:38</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Shops\Azimuth-DecOrama.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Shops\Azimuth-DecOrama.zip</file>
+		<checksum>0xDAE6208A6BECFF18FC154625D5729A01</checksum>
+		<size>105 432</size>
+		<lastuse>07/02/2005 08:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Shops\Florabilis-NewStyle.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Shops\Florabilis-NewStyle.zip</file>
+		<checksum>0xE2B8BC00081026F4A30FE535FD5C6CB5</checksum>
+		<size>106 065</size>
+		<lastuse>07/06/2010 05:27</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Shops\Jiwils-Mati.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Shops\Jiwils-Mati.zip</file>
+		<checksum>0x567C6C45BF7C95BF3E579357D8A8ED48</checksum>
+		<size>97 558</size>
+		<lastuse>04/06/2010 07:43</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Shops\Outlander-GoldLovers.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Shops\Outlander-GoldLovers.zip</file>
+		<checksum>0x3C19DA7B0CC69C83CA99A6E4CA2B71FE</checksum>
+		<size>96 361</size>
+		<lastuse>07/06/2010 05:32</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Shops\PharmaTCF.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Shops\PharmaTCF.zip</file>
+		<checksum>0xFD99CBA9FDB574E78B971D9EDF6B4110</checksum>
+		<size>91 812</size>
+		<lastuse>04/06/2010 06:40</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Signs\DownBlue.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Signs\DownBlue.zip</file>
+		<checksum>0xA41962DCC9FB3E09938A49F76A5047B9</checksum>
+		<size>76 136</size>
+		<lastuse>04/03/2005 14:41</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Signs\LeftGreen.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Signs\LeftGreen.zip</file>
+		<checksum>0x4A07B67677060F8A73D72EA9D3F36D00</checksum>
+		<size>80 490</size>
+		<lastuse>11/03/2005 05:25</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Signs\LeftRed.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Signs\LeftRed.zip</file>
+		<checksum>0x04B00094E31F45ED00DE1C0CA7B61AB9</checksum>
+		<size>75 053</size>
+		<lastuse>04/03/2005 15:35</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Signs\LeftYellow.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Signs\LeftYellow.zip</file>
+		<checksum>0x30EE58BCA6246598DDF0C7C53BE28A47</checksum>
+		<size>79 257</size>
+		<lastuse>04/03/2005 15:40</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Signs\RightGreen.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Signs\RightGreen.zip</file>
+		<checksum>0xA56D13A5771B046E4D3E2FFDB5871633</checksum>
+		<size>81 077</size>
+		<lastuse>11/03/2005 05:25</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Signs\RightRed.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Signs\RightRed.zip</file>
+		<checksum>0x6CE90E28D8CC6678F384FEADD01746B6</checksum>
+		<size>76 196</size>
+		<lastuse>04/03/2005 15:45</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Signs\RightYellow.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Signs\RightYellow.zip</file>
+		<checksum>0x4976D8D5D5A5BFE86204A65CAB637695</checksum>
+		<size>79 379</size>
+		<lastuse>04/03/2005 15:44</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Signs\UpBlue.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Signs\UpBlue.zip</file>
+		<checksum>0x36BC9DF8C7C6C1A971BDE78BBE9D3C86</checksum>
+		<size>77 504</size>
+		<lastuse>04/03/2005 15:46</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Signs\Warning!.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Signs\Warning!.zip</file>
+		<checksum>0x7D92ADE969EEA1DB31078DC5BD2CF3EC</checksum>
+		<size>73 522</size>
+		<lastuse>04/03/2005 15:20</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Bay\Signs\WrongWay.zip</name>
+		<root>data</root>
+		<file>Skins\Bay\Signs\WrongWay.zip</file>
+		<checksum>0x783144500B510A3757371CAE965B1EE7</checksum>
+		<size>72 269</size>
+		<lastuse>04/03/2005 14:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Coast\Music\Race\ Trackmania United - Coast.ogg</name>
+		<root>data</root>
+		<file>Skins\Coast\Music\Race\ Trackmania United - Coast.ogg</file>
+		<checksum>0x51FD7260E6212C725BC598A77BA851B2</checksum>
+		<size>5 170 564</size>
+		<lastuse>28/10/2006 10:00</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Coast\Signs\130.zip</name>
+		<root>data</root>
+		<file>Skins\Coast\Signs\130.zip</file>
+		<checksum>0xC91DEE5A582DE8B6027DAB760C542F00</checksum>
+		<size>33 216</size>
+		<lastuse>10/01/2005 20:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Coast\Signs\30.zip</name>
+		<root>data</root>
+		<file>Skins\Coast\Signs\30.zip</file>
+		<checksum>0xCC4B5367AFA8904BE2EB8515BE96BFC4</checksum>
+		<size>32 713</size>
+		<lastuse>10/01/2005 20:29</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Coast\Signs\50.zip</name>
+		<root>data</root>
+		<file>Skins\Coast\Signs\50.zip</file>
+		<checksum>0x20D4544094CA029ADA4BA241852B1266</checksum>
+		<size>32 569</size>
+		<lastuse>10/01/2005 20:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Coast\Signs\90.zip</name>
+		<root>data</root>
+		<file>Skins\Coast\Signs\90.zip</file>
+		<checksum>0x782A0D96D488EDACAEA6E663499D4D72</checksum>
+		<size>32 561</size>
+		<lastuse>10/01/2005 20:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Coast\Signs\BottleNeck.zip</name>
+		<root>data</root>
+		<file>Skins\Coast\Signs\BottleNeck.zip</file>
+		<checksum>0xC023E37201531A23F1BCDF02DD9D4392</checksum>
+		<size>32 384</size>
+		<lastuse>10/01/2005 20:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Coast\Signs\FallingRocks.zip</name>
+		<root>data</root>
+		<file>Skins\Coast\Signs\FallingRocks.zip</file>
+		<checksum>0x88B7AE307ACA6DEC3978109EE007E379</checksum>
+		<size>33 009</size>
+		<lastuse>10/01/2005 20:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Coast\Signs\Left.zip</name>
+		<root>data</root>
+		<file>Skins\Coast\Signs\Left.zip</file>
+		<checksum>0x14AF0F3F8313A12C26F8D821F85CD343</checksum>
+		<size>32 357</size>
+		<lastuse>10/01/2005 20:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Coast\Signs\Right.zip</name>
+		<root>data</root>
+		<file>Skins\Coast\Signs\Right.zip</file>
+		<checksum>0xF8F94B7DAC25FB5749EAB476345D23A2</checksum>
+		<size>32 362</size>
+		<lastuse>10/01/2005 20:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Coast\Signs\Straight.zip</name>
+		<root>data</root>
+		<file>Skins\Coast\Signs\Straight.zip</file>
+		<checksum>0x8CBCF14F1CA75FCDCCB3F83D8B083891</checksum>
+		<size>31 635</size>
+		<lastuse>10/01/2005 20:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Coast\Signs\UTurnLeft.zip</name>
+		<root>data</root>
+		<file>Skins\Coast\Signs\UTurnLeft.zip</file>
+		<checksum>0x52A3C5B053A9B459C64F745F61710E69</checksum>
+		<size>32 576</size>
+		<lastuse>10/01/2005 20:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Coast\Signs\UTurnRight.zip</name>
+		<root>data</root>
+		<file>Skins\Coast\Signs\UTurnRight.zip</file>
+		<checksum>0xA1F607FF7294BE62243B3E1F81C1D5B4</checksum>
+		<size>32 583</size>
+		<lastuse>10/01/2005 20:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Coast\Signs\Warning.zip</name>
+		<root>data</root>
+		<file>Skins\Coast\Signs\Warning.zip</file>
+		<checksum>0x5AFD273CBE36BADDFBBA88CE406FFB89</checksum>
+		<size>34 007</size>
+		<lastuse>10/01/2005 20:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Coast\Signs\WrongWay.zip</name>
+		<root>data</root>
+		<file>Skins\Coast\Signs\WrongWay.zip</file>
+		<checksum>0x2FA00DD3257A40C0413BC03FE9102528</checksum>
+		<size>31 560</size>
+		<lastuse>10/01/2005 20:32</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Coast\Yacht\Blue.zip</name>
+		<root>data</root>
+		<file>Skins\Coast\Yacht\Blue.zip</file>
+		<checksum>0x82273A474CD3FC06FC1C7473743C0BC3</checksum>
+		<size>356 056</size>
+		<lastuse>22/08/2005 12:14</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Coast\Yacht\Crystal.zip</name>
+		<root>data</root>
+		<file>Skins\Coast\Yacht\Crystal.zip</file>
+		<checksum>0x23AB43720325B48F7F52749DC7F3B131</checksum>
+		<size>434 223</size>
+		<lastuse>22/08/2005 12:01</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Island\Music\Race\ Trackmania United - Island.ogg</name>
+		<root>data</root>
+		<file>Skins\Island\Music\Race\ Trackmania United - Island.ogg</file>
+		<checksum>0xF0B36ED18948B58E937551672AE0D5E2</checksum>
+		<size>5 996 671</size>
+		<lastuse>16/10/2006 12:25</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Island\Signs\DownBlue.zip</name>
+		<root>data</root>
+		<file>Skins\Island\Signs\DownBlue.zip</file>
+		<checksum>0x451172D5A1EAC2545089DE09A5F22AD5</checksum>
+		<size>28 566</size>
+		<lastuse>22/10/2004 06:08</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Island\Signs\LeftGreen.zip</name>
+		<root>data</root>
+		<file>Skins\Island\Signs\LeftGreen.zip</file>
+		<checksum>0x61CBFEF79B880B64AB89CE32725747E8</checksum>
+		<size>28 664</size>
+		<lastuse>22/10/2004 06:08</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Island\Signs\LeftRed.zip</name>
+		<root>data</root>
+		<file>Skins\Island\Signs\LeftRed.zip</file>
+		<checksum>0x5D9A23D113718C07FC3841F3B0EFC7F9</checksum>
+		<size>26 657</size>
+		<lastuse>22/10/2004 06:07</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Island\Signs\LeftYellow.zip</name>
+		<root>data</root>
+		<file>Skins\Island\Signs\LeftYellow.zip</file>
+		<checksum>0x30D3EABD15C90D2A643CA32CA84FE85B</checksum>
+		<size>26 257</size>
+		<lastuse>22/10/2004 06:07</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Island\Signs\RightGreen.zip</name>
+		<root>data</root>
+		<file>Skins\Island\Signs\RightGreen.zip</file>
+		<checksum>0xB0EDB0D8DF3FEB273F41375E372BC5B9</checksum>
+		<size>28 741</size>
+		<lastuse>22/10/2004 06:07</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Island\Signs\RightRed.zip</name>
+		<root>data</root>
+		<file>Skins\Island\Signs\RightRed.zip</file>
+		<checksum>0x8BFD87CAFCAB4F4292AF8C4A66DC7A66</checksum>
+		<size>26 252</size>
+		<lastuse>22/10/2004 06:07</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Island\Signs\RightYellow.zip</name>
+		<root>data</root>
+		<file>Skins\Island\Signs\RightYellow.zip</file>
+		<checksum>0x56F03DA8C0D0F6AC1EA4B5744157405E</checksum>
+		<size>26 663</size>
+		<lastuse>22/10/2004 06:07</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Island\Signs\UpBlue.zip</name>
+		<root>data</root>
+		<file>Skins\Island\Signs\UpBlue.zip</file>
+		<checksum>0xBE43C03F0C374027CBFA616AFC79A4C3</checksum>
+		<size>28 376</size>
+		<lastuse>22/02/2005 21:13</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Island\Signs\Warning!.zip</name>
+		<root>data</root>
+		<file>Skins\Island\Signs\Warning!.zip</file>
+		<checksum>0x942E65F4296575B6E1864CA683E8EA28</checksum>
+		<size>27 382</size>
+		<lastuse>22/10/2004 06:07</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Island\Signs\WrongWay.zip</name>
+		<root>data</root>
+		<file>Skins\Island\Signs\WrongWay.zip</file>
+		<checksum>0x32B3C6B808735174767B16E487464880</checksum>
+		<size>24 158</size>
+		<lastuse>22/10/2004 06:07</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Rally\Music\Race\ Trackmania United - Rally.ogg</name>
+		<root>data</root>
+		<file>Skins\Rally\Music\Race\ Trackmania United - Rally.ogg</file>
+		<checksum>0xEF8C5173ADF6B9955A0AC8CBC01210E9</checksum>
+		<size>4 934 108</size>
+		<lastuse>16/10/2006 12:26</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Speed\Music\Race\ Trackmania United - Desert.ogg</name>
+		<root>data</root>
+		<file>Skins\Speed\Music\Race\ Trackmania United - Desert.ogg</file>
+		<checksum>0xFB456F8F38E6533962D8F159B7FA973B</checksum>
+		<size>4 774 504</size>
+		<lastuse>16/10/2006 12:25</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\AirShip\TMU.zip</name>
+		<root>data</root>
+		<file>Skins\Stadium\AirShip\TMU.zip</file>
+		<checksum>0xFCC46B931189CBD5E02F312D1EC2C134</checksum>
+		<size>175 550</size>
+		<lastuse>24/12/2023 20:28</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\AirShip\White.zip</name>
+		<root>data</root>
+		<file>Skins\Stadium\AirShip\White.zip</file>
+		<checksum>0xADAF921D003EACAEBF460EFD21FB9D58</checksum>
+		<size>237 545</size>
+		<lastuse>20/10/2006 12:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\CircuitScreen\BallLeft.bik</name>
+		<root>data</root>
+		<file>Skins\Stadium\CircuitScreen\BallLeft.bik</file>
+		<checksum>0x1C4D049DB25808CABBAD005C9ADFD0B4</checksum>
+		<size>671 988</size>
+		<lastuse>11/03/2008 06:25</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\CircuitScreen\BallRight.bik</name>
+		<root>data</root>
+		<file>Skins\Stadium\CircuitScreen\BallRight.bik</file>
+		<checksum>0xF6B2DC624F87A03EDDE70F2BAC531E81</checksum>
+		<size>672 084</size>
+		<lastuse>11/03/2008 06:25</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\CircuitScreen\Down.bik</name>
+		<root>data</root>
+		<file>Skins\Stadium\CircuitScreen\Down.bik</file>
+		<checksum>0xDD34831E7860B0EB72B07444F49381ED</checksum>
+		<size>582 360</size>
+		<lastuse>05/03/2008 15:35</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\CircuitScreen\LaserRedLeft.bik</name>
+		<root>data</root>
+		<file>Skins\Stadium\CircuitScreen\LaserRedLeft.bik</file>
+		<checksum>0xA5968F014B5C5C9D62E72CD34A7D1A69</checksum>
+		<size>672 112</size>
+		<lastuse>05/03/2008 15:35</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\CircuitScreen\LaserRedRight.bik</name>
+		<root>data</root>
+		<file>Skins\Stadium\CircuitScreen\LaserRedRight.bik</file>
+		<checksum>0xD09F7F1BD7254A3429F4F46E5A0C38E5</checksum>
+		<size>672 016</size>
+		<lastuse>05/03/2008 15:35</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\CircuitScreen\LaserTMLeft.bik</name>
+		<root>data</root>
+		<file>Skins\Stadium\CircuitScreen\LaserTMLeft.bik</file>
+		<checksum>0x76A50430305C66CA5A380AE3CA80BF5A</checksum>
+		<size>671 820</size>
+		<lastuse>05/03/2008 15:35</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\CircuitScreen\LaserTMRight.bik</name>
+		<root>data</root>
+		<file>Skins\Stadium\CircuitScreen\LaserTMRight.bik</file>
+		<checksum>0x9F986BBCD6C84432179C9ED5D2141C50</checksum>
+		<size>672 076</size>
+		<lastuse>05/03/2008 15:35</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\CircuitScreen\Left.bik</name>
+		<root>data</root>
+		<file>Skins\Stadium\CircuitScreen\Left.bik</file>
+		<checksum>0x83B17F213AE260188ECAC0AA63FD799B</checksum>
+		<size>671 792</size>
+		<lastuse>05/03/2008 15:35</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\CircuitScreen\Right.bik</name>
+		<root>data</root>
+		<file>Skins\Stadium\CircuitScreen\Right.bik</file>
+		<checksum>0xA927C562C8DC3C02B8528A6F75C87C55</checksum>
+		<size>671 436</size>
+		<lastuse>05/03/2008 15:35</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\CircuitScreen\Up.bik</name>
+		<root>data</root>
+		<file>Skins\Stadium\CircuitScreen\Up.bik</file>
+		<checksum>0x5578C2E872AC72B47EB6A48C9FE45FD4</checksum>
+		<size>577 864</size>
+		<lastuse>05/03/2008 15:35</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\CircuitScreen\WaveLeft.bik</name>
+		<root>data</root>
+		<file>Skins\Stadium\CircuitScreen\WaveLeft.bik</file>
+		<checksum>0xB7FD527697AF6E246FA3C4CB59C66BC2</checksum>
+		<size>671 756</size>
+		<lastuse>05/03/2008 15:36</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\CircuitScreen\WaveRight.bik</name>
+		<root>data</root>
+		<file>Skins\Stadium\CircuitScreen\WaveRight.bik</file>
+		<checksum>0xA9407D6C44DF65CEEA4D414393DB233D</checksum>
+		<size>671 768</size>
+		<lastuse>05/03/2008 15:36</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\CircuitScreen\WhiteLeft.bik</name>
+		<root>data</root>
+		<file>Skins\Stadium\CircuitScreen\WhiteLeft.bik</file>
+		<checksum>0x77E2424DE90F552D215CC8AAAEEEE437</checksum>
+		<size>673 592</size>
+		<lastuse>05/03/2008 15:36</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\CircuitScreen\WhiteRight.bik</name>
+		<root>data</root>
+		<file>Skins\Stadium\CircuitScreen\WhiteRight.bik</file>
+		<checksum>0xFB418AE190D163AD626214440EF764EF</checksum>
+		<size>672 864</size>
+		<lastuse>05/03/2008 15:36</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\Inflatable\Black.zip</name>
+		<root>data</root>
+		<file>Skins\Stadium\Inflatable\Black.zip</file>
+		<checksum>0x5026E80F587B096B945EC4131D2BDCD9</checksum>
+		<size>29 064</size>
+		<lastuse>13/04/2024 22:24</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\Inflatable\Blue.zip</name>
+		<root>data</root>
+		<file>Skins\Stadium\Inflatable\Blue.zip</file>
+		<checksum>0x13B1C5F054E3723DF7FA1EB3A91F4DCF</checksum>
+		<size>29 282</size>
+		<lastuse>20/10/2006 12:35</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\Inflatable\Green.zip</name>
+		<root>data</root>
+		<file>Skins\Stadium\Inflatable\Green.zip</file>
+		<checksum>0xC5E54E2C8A079A6E037239D74643A2C9</checksum>
+		<size>29 333</size>
+		<lastuse>20/10/2006 12:36</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\Inflatable\Orange.zip</name>
+		<root>data</root>
+		<file>Skins\Stadium\Inflatable\Orange.zip</file>
+		<checksum>0xE61DFF0B1F4D82D5391894B0D0FE4946</checksum>
+		<size>29 296</size>
+		<lastuse>20/10/2006 12:37</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\Inflatable\White.zip</name>
+		<root>data</root>
+		<file>Skins\Stadium\Inflatable\White.zip</file>
+		<checksum>0xFA2874CB72FE8A0AFE5C332AC54526C9</checksum>
+		<size>28 946</size>
+		<lastuse>13/04/2024 22:24</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\Inflatable\Yellow.zip</name>
+		<root>data</root>
+		<file>Skins\Stadium\Inflatable\Yellow.zip</file>
+		<checksum>0xC95995315CAC9D3BA69CC6F102230F68</checksum>
+		<size>29 096</size>
+		<lastuse>20/10/2006 12:40</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\Music\Race\ Trackmania United - Stadium - Pulp remix.ogg</name>
+		<root>data</root>
+		<file>Skins\Stadium\Music\Race\ Trackmania United - Stadium - Pulp remix.ogg</file>
+		<checksum>0xD688009D178A3D0BF6C6CB562BB3FBFD</checksum>
+		<size>4 641 965</size>
+		<lastuse>23/05/2024 18:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\Music\Race\ Trackmania United - Stadium - Start Off remix.ogg</name>
+		<root>data</root>
+		<file>Skins\Stadium\Music\Race\ Trackmania United - Stadium - Start Off remix.ogg</file>
+		<checksum>0x8B384A7D047B3B33F7E5C05D096817B8</checksum>
+		<size>4 366 963</size>
+		<lastuse>06/04/2024 17:56</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Stadium\Music\Race\ Trackmania United - Stadium - Tictac remix.ogg</name>
+		<root>data</root>
+		<file>Skins\Stadium\Music\Race\ Trackmania United - Stadium - Tictac remix.ogg</file>
+		<checksum>0xB3EBEFC35B798A6D4FFACD0350997CBE</checksum>
+		<size>4 797 680</size>
+		<lastuse>23/05/2024 18:47</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\American\Blackdevil.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\American\Blackdevil.zip</file>
+		<checksum>0xEBA364D14E189BC43F8135BDC9C0EC33</checksum>
+		<size>616 837</size>
+		<lastuse>19/09/2006 08:50</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\American\Default.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\American\Default.zip</file>
+		<checksum>0x9003FC50FBBF0FB5291A4103BBC615EF</checksum>
+		<size>608 312</size>
+		<lastuse>19/09/2006 08:50</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\American\Funkyrace.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\American\Funkyrace.zip</file>
+		<checksum>0x7A6986D0CE044C112B1B2C6B59B62310</checksum>
+		<size>633 921</size>
+		<lastuse>19/09/2006 08:50</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\American\Lagoonracer.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\American\Lagoonracer.zip</file>
+		<checksum>0xA330455F3E9CD0D762F68280A8BB9A91</checksum>
+		<size>307 288</size>
+		<lastuse>16/10/2006 10:26</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\American\Silvermania.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\American\Silvermania.zip</file>
+		<checksum>0x3A1FB509E0A7558B5A1A042B26F84A9E</checksum>
+		<size>530 641</size>
+		<lastuse>19/09/2006 08:50</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\American\Toggleindustry.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\American\Toggleindustry.zip</file>
+		<checksum>0xE384C1268950776647F361FF449A6319</checksum>
+		<size>640 358</size>
+		<lastuse>19/09/2006 08:50</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\BayCar\U_Black.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\BayCar\U_Black.zip</file>
+		<checksum>0x27116675E1D984E70AB9D3C95F44F9C5</checksum>
+		<size>213 640</size>
+		<lastuse>26/03/2008 20:54</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\BayCar\U_Blue.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\BayCar\U_Blue.zip</file>
+		<checksum>0x5CCE0AA40929D5D410BBE91AB46B634A</checksum>
+		<size>382 205</size>
+		<lastuse>26/03/2008 20:54</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\BayCar\U_Green.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\BayCar\U_Green.zip</file>
+		<checksum>0x7885165DDBEF52D65997D01B2E87CBD6</checksum>
+		<size>309 075</size>
+		<lastuse>26/03/2008 20:54</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\BayCar\U_Red.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\BayCar\U_Red.zip</file>
+		<checksum>0x0F176401071E12706BDC5B701E8865D8</checksum>
+		<size>305 896</size>
+		<lastuse>26/03/2008 20:54</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\BayCar\U_White.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\BayCar\U_White.zip</file>
+		<checksum>0x0CBAC8E5CA7AD4A0BD3711B79FE60BD2</checksum>
+		<size>272 730</size>
+		<lastuse>26/03/2008 20:54</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\BayCar\U_Yellow.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\BayCar\U_Yellow.zip</file>
+		<checksum>0x34FBACB1D6CDAED197C80B9D1BC84F8A</checksum>
+		<size>222 333</size>
+		<lastuse>26/03/2008 20:54</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\CoastCar\U_Black.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\CoastCar\U_Black.zip</file>
+		<checksum>0x0725B790DE75C00153D777053D7A9532</checksum>
+		<size>428 697</size>
+		<lastuse>26/03/2008 20:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\CoastCar\U_Blue.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\CoastCar\U_Blue.zip</file>
+		<checksum>0xC39C760ADF039B1CBED6A953D1C4ACC8</checksum>
+		<size>761 161</size>
+		<lastuse>26/03/2008 20:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\CoastCar\U_Green.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\CoastCar\U_Green.zip</file>
+		<checksum>0xE123F26FA2B5E002782A14F6FB980530</checksum>
+		<size>688 108</size>
+		<lastuse>26/03/2008 20:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\CoastCar\U_Red.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\CoastCar\U_Red.zip</file>
+		<checksum>0xDEC72A8A9DF962B93E45439AC5711157</checksum>
+		<size>975 292</size>
+		<lastuse>26/03/2008 20:56</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\CoastCar\U_White.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\CoastCar\U_White.zip</file>
+		<checksum>0x2E0444AD2D2065F1D9EB8D530B0D50A0</checksum>
+		<size>597 710</size>
+		<lastuse>26/03/2008 20:56</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\CoastCar\U_Yellow.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\CoastCar\U_Yellow.zip</file>
+		<checksum>0xE7DEC6614839893DA4988E61D0F45565</checksum>
+		<size>346 887</size>
+		<lastuse>26/03/2008 20:56</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\Rally\DarkVelvet.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\Rally\DarkVelvet.zip</file>
+		<checksum>0x74F34C1F9AD3DBD4860D853527BACA87</checksum>
+		<size>613 960</size>
+		<lastuse>19/09/2006 08:51</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\Rally\DeepSeaKing.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\Rally\DeepSeaKing.zip</file>
+		<checksum>0x2076E9A4D8B1EB82C9B74F0E32D56A78</checksum>
+		<size>666 518</size>
+		<lastuse>19/09/2006 08:51</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\Rally\MadCow.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\Rally\MadCow.zip</file>
+		<checksum>0x58183BA85A944EE03D327B32FE8B5A84</checksum>
+		<size>609 828</size>
+		<lastuse>19/09/2006 08:51</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\Rally\PurpleQueen.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\Rally\PurpleQueen.zip</file>
+		<checksum>0xEF1F6A7C640D9FC1AACCAAD0C82326D1</checksum>
+		<size>625 226</size>
+		<lastuse>19/09/2006 08:51</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\Rally\RoadManns.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\Rally\RoadManns.zip</file>
+		<checksum>0x33C65EB2326B3F4215DC0A0C7E847E13</checksum>
+		<size>586 800</size>
+		<lastuse>19/09/2006 08:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\Rally\SilverBird.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\Rally\SilverBird.zip</file>
+		<checksum>0x10328D20444FA6A057DAE5E52AEEBA85</checksum>
+		<size>529 036</size>
+		<lastuse>19/09/2006 08:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\SnowCar\Bubblecat.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\SnowCar\Bubblecat.zip</file>
+		<checksum>0x90FE37D576B443EC54450D3B2A461379</checksum>
+		<size>586 150</size>
+		<lastuse>19/09/2006 08:53</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\SnowCar\Cerisier.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\SnowCar\Cerisier.zip</file>
+		<checksum>0x7149D3721B0CEC02426CA33EB4FAFB16</checksum>
+		<size>577 592</size>
+		<lastuse>19/09/2006 08:53</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\SnowCar\Dragon.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\SnowCar\Dragon.zip</file>
+		<checksum>0x1AA118290B6C24612396EA1FCAC63DD7</checksum>
+		<size>434 556</size>
+		<lastuse>19/09/2006 08:53</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\SnowCar\Japon.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\SnowCar\Japon.zip</file>
+		<checksum>0xD398F751370571235AFECA75AB724E0F</checksum>
+		<size>530 700</size>
+		<lastuse>19/09/2006 08:53</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\SnowCar\Jungle.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\SnowCar\Jungle.zip</file>
+		<checksum>0x7C91502148B4AAE72F3C5675A4333F55</checksum>
+		<size>581 656</size>
+		<lastuse>19/09/2006 08:54</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\SnowCar\Panda.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\SnowCar\Panda.zip</file>
+		<checksum>0x65708C6C773330266623ED59AB428BE4</checksum>
+		<size>606 065</size>
+		<lastuse>19/09/2006 08:54</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\SportCar\U_Black.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\SportCar\U_Black.zip</file>
+		<checksum>0x85147A12C2BC6DB4268DB103FD2C4600</checksum>
+		<size>431 625</size>
+		<lastuse>26/03/2008 20:56</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\SportCar\U_Blue.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\SportCar\U_Blue.zip</file>
+		<checksum>0x0271DCE5314904D96D282EA7EE18EF3E</checksum>
+		<size>770 365</size>
+		<lastuse>26/03/2008 20:56</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\SportCar\U_Green.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\SportCar\U_Green.zip</file>
+		<checksum>0x51ADC54BDCD48ABFF9FD43731782ED7A</checksum>
+		<size>679 547</size>
+		<lastuse>26/03/2008 20:57</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\SportCar\U_Red.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\SportCar\U_Red.zip</file>
+		<checksum>0xB1163A79A7256F55A5B9029E9C3065DC</checksum>
+		<size>481 953</size>
+		<lastuse>26/03/2008 20:57</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\SportCar\U_White.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\SportCar\U_White.zip</file>
+		<checksum>0x73B044B45A0DD9E076B48AF0D5937E5F</checksum>
+		<size>468 429</size>
+		<lastuse>26/03/2008 20:57</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\SportCar\U_Yellow.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\SportCar\U_Yellow.zip</file>
+		<checksum>0x5904FC4A5334625BAB482DE1997F84FA</checksum>
+		<size>480 104</size>
+		<lastuse>26/03/2008 20:57</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\ALG.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\ALG.zip</file>
+		<checksum>0x0CCA1B5087311727D86F2B3FF819FAC2</checksum>
+		<size>1 455 627</size>
+		<lastuse>14/03/2008 11:24</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\ANG.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\ANG.zip</file>
+		<checksum>0x6B5F0018F294BE33B855427A762205F3</checksum>
+		<size>1 330 388</size>
+		<lastuse>14/03/2008 11:24</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\ARG.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\ARG.zip</file>
+		<checksum>0xE6D5F1FF403B50259FE84579EB7B5834</checksum>
+		<size>1 672 261</size>
+		<lastuse>14/03/2008 11:24</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\AUS.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\AUS.zip</file>
+		<checksum>0x4F2793C93C3F52616AEC3A1B90690F77</checksum>
+		<size>1 062 140</size>
+		<lastuse>14/03/2008 11:25</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\AUT.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\AUT.zip</file>
+		<checksum>0xBD6AAD3DF0B165B5BE0742D90584D7DA</checksum>
+		<size>1 222 559</size>
+		<lastuse>06/04/2024 17:56</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\BAN.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\BAN.zip</file>
+		<checksum>0xD187414408F7428BC08CAF8FB932A2C7</checksum>
+		<size>970 334</size>
+		<lastuse>19/03/2008 22:47</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\BEL.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\BEL.zip</file>
+		<checksum>0xFCAD77A6D7932CD6E826D208397DC131</checksum>
+		<size>1 853 450</size>
+		<lastuse>14/03/2008 11:25</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\BIH.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\BIH.zip</file>
+		<checksum>0xE45A893E78C8F23AFE75C3491A4326C6</checksum>
+		<size>978 994</size>
+		<lastuse>14/03/2008 11:26</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\BLR.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\BLR.zip</file>
+		<checksum>0x171F719CD36FE44D3E0CE5F839A48BF6</checksum>
+		<size>1 813 918</size>
+		<lastuse>14/03/2008 11:26</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\BOL.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\BOL.zip</file>
+		<checksum>0xBA82430071E3ED1FEA08DF0C26ABCC23</checksum>
+		<size>1 448 240</size>
+		<lastuse>14/03/2008 11:26</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\BRA.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\BRA.zip</file>
+		<checksum>0xC559DBB7571F46CB30B6B90C0003EB60</checksum>
+		<size>1 862 176</size>
+		<lastuse>14/03/2008 11:26</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\BRN.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\BRN.zip</file>
+		<checksum>0x95C7E2E76DAE55E9AA3C62E8BF15255A</checksum>
+		<size>1 242 548</size>
+		<lastuse>24/12/2023 20:28</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\BUL.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\BUL.zip</file>
+		<checksum>0x571709B8080725BBB17D9B8561DD17FB</checksum>
+		<size>1 203 671</size>
+		<lastuse>14/03/2008 11:27</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\CAN.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\CAN.zip</file>
+		<checksum>0x37319FF9407BBFB01CE252F7510378D7</checksum>
+		<size>1 288 302</size>
+		<lastuse>14/03/2008 11:27</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\CAR.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\CAR.zip</file>
+		<checksum>0x0BDFE8223D80991EDB32F88AD7B9B970</checksum>
+		<size>1 686 469</size>
+		<lastuse>14/03/2008 11:28</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\CGO.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\CGO.zip</file>
+		<checksum>0x632B26C89979DE174BABA2F18F190298</checksum>
+		<size>1 629 569</size>
+		<lastuse>06/04/2024 18:08</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\CHI.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\CHI.zip</file>
+		<checksum>0xC1BB20E81329A306C8BECB1F57F911B8</checksum>
+		<size>1 089 567</size>
+		<lastuse>14/03/2008 11:28</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\CHN.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\CHN.zip</file>
+		<checksum>0xFE4AFE1F0C4D18DFF67B82A6A4CA9CFC</checksum>
+		<size>1 442 446</size>
+		<lastuse>14/03/2008 11:29</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\CIV.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\CIV.zip</file>
+		<checksum>0x6FC9D38B4B6DE9F93D676ED3A5787CE9</checksum>
+		<size>1 681 787</size>
+		<lastuse>14/03/2008 11:29</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\CMR.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\CMR.zip</file>
+		<checksum>0x3254296AA08135E5A8D3BDC642D56F02</checksum>
+		<size>1 343 733</size>
+		<lastuse>14/03/2008 11:29</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\COL.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\COL.zip</file>
+		<checksum>0x9E77E4C0896835389B8C694D55760C23</checksum>
+		<size>1 775 747</size>
+		<lastuse>14/03/2008 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\CRO.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\CRO.zip</file>
+		<checksum>0x8B747BE584997A3B73677B58BE7E2512</checksum>
+		<size>1 162 870</size>
+		<lastuse>24/12/2023 20:34</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\CYP.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\CYP.zip</file>
+		<checksum>0x9D4C1A19AA3BD769F30CCE07F89D3937</checksum>
+		<size>1 537 742</size>
+		<lastuse>14/03/2008 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\CZE.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\CZE.zip</file>
+		<checksum>0x3E0ACEE11A17A5AE057E33218276A45A</checksum>
+		<size>1 369 857</size>
+		<lastuse>14/03/2008 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\DEN.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\DEN.zip</file>
+		<checksum>0x7EFB5D268F9BCE3A6A16F5616075BE99</checksum>
+		<size>1 475 442</size>
+		<lastuse>14/03/2008 11:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\ECU.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\ECU.zip</file>
+		<checksum>0x40BF949CDEAC15C5E2C75047691ED8C4</checksum>
+		<size>1 297 955</size>
+		<lastuse>14/03/2008 11:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\EGY.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\EGY.zip</file>
+		<checksum>0xB72C673A70FFD2956470E4B440583B93</checksum>
+		<size>1 704 950</size>
+		<lastuse>14/03/2008 11:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\ESP.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\ESP.zip</file>
+		<checksum>0x843406D296AF4EE2318CF4CB3B1D1909</checksum>
+		<size>2 151 546</size>
+		<lastuse>14/03/2008 11:32</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\EST.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\EST.zip</file>
+		<checksum>0x55DD99F7F344E591B0D3CBEF4953FB11</checksum>
+		<size>1 478 622</size>
+		<lastuse>14/03/2008 11:32</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\FIN.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\FIN.zip</file>
+		<checksum>0xEE9E8EC6726B485507D1612D1E591F30</checksum>
+		<size>1 786 494</size>
+		<lastuse>23/05/2024 18:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\FRA.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\FRA.zip</file>
+		<checksum>0xEC9EEB0403659BBB26924D880F745974</checksum>
+		<size>2 260 689</size>
+		<lastuse>14/03/2008 11:33</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\GBR.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\GBR.zip</file>
+		<checksum>0x6FB6B2E4F793F751764C606CEC68EFA5</checksum>
+		<size>1 292 544</size>
+		<lastuse>14/03/2008 11:33</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\GER.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\GER.zip</file>
+		<checksum>0xD1BCB117C9936883D8B9290DD343F945</checksum>
+		<size>1 541 026</size>
+		<lastuse>14/03/2008 11:33</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\GRE.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\GRE.zip</file>
+		<checksum>0x381AF6245FD95F06378EFB4EC3460732</checksum>
+		<size>2 234 427</size>
+		<lastuse>14/03/2008 11:33</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\GUA.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\GUA.zip</file>
+		<checksum>0xE6BCE1BC25F82FD6A86E80453752C386</checksum>
+		<size>1 296 745</size>
+		<lastuse>14/03/2008 11:34</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\HUN.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\HUN.zip</file>
+		<checksum>0xB5887699D543E4C4654C63F4DCD571FF</checksum>
+		<size>1 253 378</size>
+		<lastuse>14/03/2008 11:34</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\INA.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\INA.zip</file>
+		<checksum>0x099654646E1813DF40C6097554A3DDB9</checksum>
+		<size>1 213 189</size>
+		<lastuse>14/03/2008 11:34</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\IND.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\IND.zip</file>
+		<checksum>0xF7A2B5F095592E4C8EF8715C1FC12B5B</checksum>
+		<size>1 304 191</size>
+		<lastuse>25/03/2008 07:48</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\IRI.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\IRI.zip</file>
+		<checksum>0x2015E5FE7B592593033D2C6957CDFD22</checksum>
+		<size>1 102 835</size>
+		<lastuse>11/01/2024 13:19</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\IRL.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\IRL.zip</file>
+		<checksum>0x87EC5EB08A1AD210FE6A82EFAE1B0211</checksum>
+		<size>1 425 382</size>
+		<lastuse>14/03/2008 11:35</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\IRQ.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\IRQ.zip</file>
+		<checksum>0x115497A3C8AB17084080EB96381E8E65</checksum>
+		<size>976 808</size>
+		<lastuse>19/03/2008 22:48</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\ISR.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\ISR.zip</file>
+		<checksum>0x19C2FF0338B6EE92ADE1BF7B09BAFE6E</checksum>
+		<size>1 425 589</size>
+		<lastuse>14/03/2008 11:35</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\ITA.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\ITA.zip</file>
+		<checksum>0x604D9005F1C57C0DB097A61EF5637699</checksum>
+		<size>1 861 414</size>
+		<lastuse>14/03/2008 11:36</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\JPN.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\JPN.zip</file>
+		<checksum>0xB8E0687C983D1265647F2773B95809AD</checksum>
+		<size>1 194 125</size>
+		<lastuse>14/03/2008 11:36</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\KAZ.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\KAZ.zip</file>
+		<checksum>0x654C4337681DD873FD110EAE89A2FB53</checksum>
+		<size>1 701 239</size>
+		<lastuse>14/03/2008 11:36</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\KOR.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\KOR.zip</file>
+		<checksum>0x7E1F93A0EAD7E36B6AEE013032FB8594</checksum>
+		<size>1 171 241</size>
+		<lastuse>14/03/2008 11:37</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\KSA.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\KSA.zip</file>
+		<checksum>0x1F2A82EB0F5AFCED69BFF55F40FCA2A3</checksum>
+		<size>1 799 128</size>
+		<lastuse>14/03/2008 11:37</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\KUW.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\KUW.zip</file>
+		<checksum>0x328AEBD9DEF6F1206666A1872903842A</checksum>
+		<size>879 906</size>
+		<lastuse>14/03/2008 11:37</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\LAO.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\LAO.zip</file>
+		<checksum>0xC350E0C4687DBDDD04C1CE27D99D6018</checksum>
+		<size>1 209 605</size>
+		<lastuse>14/03/2008 11:38</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\LAT.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\LAT.zip</file>
+		<checksum>0xF3202E0D44C682EABC6EFEE40857F000</checksum>
+		<size>1 714 250</size>
+		<lastuse>19/03/2008 22:48</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\LBA.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\LBA.zip</file>
+		<checksum>0x5F4A7B989A644A4F377B970C4161CC16</checksum>
+		<size>1 729 707</size>
+		<lastuse>14/03/2008 11:38</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\LIB.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\LIB.zip</file>
+		<checksum>0x98739559491BF7DC45F6E586B23A9335</checksum>
+		<size>1 489 438</size>
+		<lastuse>14/03/2008 11:38</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\LTU.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\LTU.zip</file>
+		<checksum>0xF8AA7FE83D6051828711365AB5D51006</checksum>
+		<size>1 263 386</size>
+		<lastuse>19/03/2008 22:48</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\LUX.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\LUX.zip</file>
+		<checksum>0xE16633B95F59F40C1B9C2FDAE5666316</checksum>
+		<size>2 227 587</size>
+		<lastuse>14/03/2008 11:39</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\MAR.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\MAR.zip</file>
+		<checksum>0x7B3B71FEC9425583469DA5B1066FC2BB</checksum>
+		<size>1 978 942</size>
+		<lastuse>11/01/2024 13:26</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\MAS.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\MAS.zip</file>
+		<checksum>0xD6C89E68FC89B20FD2A045EE85EFF365</checksum>
+		<size>1 240 258</size>
+		<lastuse>14/03/2008 11:39</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\MEX.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\MEX.zip</file>
+		<checksum>0x249ADE7D76C9954DE5ED826E9B84B3F6</checksum>
+		<size>1 068 054</size>
+		<lastuse>14/03/2008 11:40</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\MGL.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\MGL.zip</file>
+		<checksum>0x1724FA84749E4C7576A5890F0E454FB4</checksum>
+		<size>1 160 258</size>
+		<lastuse>14/03/2008 11:40</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\MKD.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\MKD.zip</file>
+		<checksum>0x71595097B16A82195E89830EB80A105B</checksum>
+		<size>1 901 966</size>
+		<lastuse>19/03/2008 22:49</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\NED.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\NED.zip</file>
+		<checksum>0xA70C0450845C11A994B5B1B0EE2914E7</checksum>
+		<size>1 613 710</size>
+		<lastuse>14/03/2008 11:40</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\NGR.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\NGR.zip</file>
+		<checksum>0xA0F055919419647721162274B65B7B98</checksum>
+		<size>1 019 345</size>
+		<lastuse>14/03/2008 11:40</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\NOR.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\NOR.zip</file>
+		<checksum>0xA765A477F60671D4D829F5755C016EBE</checksum>
+		<size>1 589 079</size>
+		<lastuse>14/03/2008 11:41</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\NZL.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\NZL.zip</file>
+		<checksum>0x690A664F3E4CC437B627D779B34C09C5</checksum>
+		<size>2 020 173</size>
+		<lastuse>14/03/2008 11:41</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\OMA.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\OMA.zip</file>
+		<checksum>0xE1DBA98DBC2A031B115B0C6B71D8579B</checksum>
+		<size>771 871</size>
+		<lastuse>14/03/2008 11:41</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\Other.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\Other.zip</file>
+		<checksum>0xE07408286C2BA0440F83B010F30B0C3F</checksum>
+		<size>1 416 726</size>
+		<lastuse>06/04/2024 17:56</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\PAK.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\PAK.zip</file>
+		<checksum>0xD70CEA14921994F7ED2FC3175788A1E5</checksum>
+		<size>1 437 580</size>
+		<lastuse>23/05/2024 18:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\PAN.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\PAN.zip</file>
+		<checksum>0xDDB319DF0E34D0DB568A566DA2C0B5E8</checksum>
+		<size>1 241 159</size>
+		<lastuse>14/03/2008 11:42</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\PER.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\PER.zip</file>
+		<checksum>0xAA5D80C8B0AE2036DB4C1EE2D527AB7E</checksum>
+		<size>1 168 446</size>
+		<lastuse>14/03/2008 11:42</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\PHI.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\PHI.zip</file>
+		<checksum>0xF3A210FBD7033ADF6F28230FBA57F6E3</checksum>
+		<size>1 191 777</size>
+		<lastuse>13/04/2024 22:14</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\POL.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\POL.zip</file>
+		<checksum>0xF259E24E61174CC5B78CD948525F18E9</checksum>
+		<size>1 503 361</size>
+		<lastuse>14/03/2008 11:43</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\POR.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\POR.zip</file>
+		<checksum>0xE766259E99E04E9508846D4157C10527</checksum>
+		<size>1 722 479</size>
+		<lastuse>14/03/2008 11:43</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\QAT.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\QAT.zip</file>
+		<checksum>0xBF3F38878C49338361D3466CA58B3B3B</checksum>
+		<size>1 100 294</size>
+		<lastuse>14/03/2008 11:43</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\ROU.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\ROU.zip</file>
+		<checksum>0x7ED72E42D45133BCC83DBE8D1E555B1D</checksum>
+		<size>1 050 719</size>
+		<lastuse>23/05/2024 18:48</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\RSA.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\RSA.zip</file>
+		<checksum>0x77FD8C42A1CC01F72A4197FA13326FBE</checksum>
+		<size>1 459 833</size>
+		<lastuse>14/03/2008 11:44</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\RUS.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\RUS.zip</file>
+		<checksum>0x2DAC858854046CA8F6D69BAF62A996AD</checksum>
+		<size>1 542 841</size>
+		<lastuse>14/03/2008 11:44</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\SEN.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\SEN.zip</file>
+		<checksum>0x0A715C4C118180CB5DF06860EF1570A1</checksum>
+		<size>1 391 048</size>
+		<lastuse>14/03/2008 11:45</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\SLO.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\SLO.zip</file>
+		<checksum>0x4B005F97F9B32AA048FEFD3214A3CD2B</checksum>
+		<size>1 190 103</size>
+		<lastuse>19/03/2008 22:49</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\SRB.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\SRB.zip</file>
+		<checksum>0x05C93E01A431AE9647BA70B7E86ADB49</checksum>
+		<size>1 190 661</size>
+		<lastuse>14/03/2008 11:45</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\SUI.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\SUI.zip</file>
+		<checksum>0x40776681BFFAB8B25C77C8A7375B54F0</checksum>
+		<size>948 958</size>
+		<lastuse>14/03/2008 11:45</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\SVK.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\SVK.zip</file>
+		<checksum>0xCBDBBAB2DAE437258444870408DD971A</checksum>
+		<size>1 325 603</size>
+		<lastuse>14/03/2008 11:45</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\SWE.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\SWE.zip</file>
+		<checksum>0xB908CA6ECE2939A7C75AB1E023685F47</checksum>
+		<size>1 254 883</size>
+		<lastuse>14/03/2008 11:46</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\SYR.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\SYR.zip</file>
+		<checksum>0x9707466BCC2D77289D330480FFDFEB4A</checksum>
+		<size>1 051 932</size>
+		<lastuse>19/03/2008 22:49</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\THA.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\THA.zip</file>
+		<checksum>0x53307B6D52DBB74950759EAFDE4EF267</checksum>
+		<size>987 904</size>
+		<lastuse>14/03/2008 11:46</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\TUN.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\TUN.zip</file>
+		<checksum>0x1202A7874BB7C3D7FCDED20CA0E72360</checksum>
+		<size>1 579 013</size>
+		<lastuse>14/03/2008 11:46</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\TUR.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\TUR.zip</file>
+		<checksum>0x00756942AB41A66FF1B18EC6CAFFD90D</checksum>
+		<size>2 013 870</size>
+		<lastuse>14/03/2008 11:47</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\UKR.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\UKR.zip</file>
+		<checksum>0xBE03EA2F47B7D078B979849A928D5170</checksum>
+		<size>1 187 169</size>
+		<lastuse>25/03/2008 07:48</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\URU.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\URU.zip</file>
+		<checksum>0xA8CB5AE6346AA3C74DF5469EF130BC08</checksum>
+		<size>1 127 822</size>
+		<lastuse>19/03/2008 22:50</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\USA.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\USA.zip</file>
+		<checksum>0xF16A769834115F4A7F60141D1FCF10E8</checksum>
+		<size>2 480 620</size>
+		<lastuse>14/03/2008 11:47</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\UZB.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\UZB.zip</file>
+		<checksum>0xF70CD06BB2D27E1B7DC58BF2BCA095FE</checksum>
+		<size>2 060 414</size>
+		<lastuse>14/03/2008 11:48</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\VEN.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\VEN.zip</file>
+		<checksum>0x4713536F71D9994E0EE7417B73052750</checksum>
+		<size>1 091 499</size>
+		<lastuse>19/03/2008 22:50</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Vehicles\StadiumCar\VIE.zip</name>
+		<root>data</root>
+		<file>Skins\Vehicles\StadiumCar\VIE.zip</file>
+		<checksum>0x96E52EDA0D7A36DB48CFFCD9EA2A606F</checksum>
+		<size>1 422 161</size>
+		<lastuse>14/03/2008 11:48</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Any\Advertisement\Advert4.zip</name>
+		<root>data</root>
+		<file>Skins\Any\Advertisement\Advert4.zip</file>
+		<checksum>0x4AFFE19196657A101268E097F8E909ED</checksum>
+		<size>133 920</size>
+		<lastuse>10/03/2005 16:27</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Any\Advertisement\Advert5.zip</name>
+		<root>data</root>
+		<file>Skins\Any\Advertisement\Advert5.zip</file>
+		<checksum>0xA5237D39B7E49CD828B41E1FBEB6017C</checksum>
+		<size>139 998</size>
+		<lastuse>10/03/2005 16:28</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Any\Advertisement\Advert6.zip</name>
+		<root>data</root>
+		<file>Skins\Any\Advertisement\Advert6.zip</file>
+		<checksum>0x23C61BB01092EC3A7F0FE2132658B0FC</checksum>
+		<size>107 940</size>
+		<lastuse>10/03/2005 16:28</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Any\Advertisement\Advert7.zip</name>
+		<root>data</root>
+		<file>Skins\Any\Advertisement\Advert7.zip</file>
+		<checksum>0x7A431509CFB7F5F40FF0397C18F377FE</checksum>
+		<size>118 653</size>
+		<lastuse>10/03/2005 16:29</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Any\Advertisement\Advert8.zip</name>
+		<root>data</root>
+		<file>Skins\Any\Advertisement\Advert8.zip</file>
+		<checksum>0x1BF1AC94F73ABA97F0D5146330EDA7B1</checksum>
+		<size>133 605</size>
+		<lastuse>10/03/2005 16:29</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Any\Advertisement\SignDown.bik</name>
+		<root>data</root>
+		<file>Skins\Any\Advertisement\SignDown.bik</file>
+		<checksum>0x377CF83255EB08330FEA43C429EFDE2C</checksum>
+		<size>240 180</size>
+		<lastuse>06/04/2024 18:08</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Any\Advertisement\SignLeft.bik</name>
+		<root>data</root>
+		<file>Skins\Any\Advertisement\SignLeft.bik</file>
+		<checksum>0x3177BD242827E89E5FE6A7305C2B8C9F</checksum>
+		<size>192 344</size>
+		<lastuse>23/05/2024 18:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Any\Advertisement\SignRight.bik</name>
+		<root>data</root>
+		<file>Skins\Any\Advertisement\SignRight.bik</file>
+		<checksum>0xAE78ACE3281BA4CD3560A97B12BD10DB</checksum>
+		<size>192 308</size>
+		<lastuse>23/05/2024 18:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Any\Advertisement\SignUp.bik</name>
+		<root>data</root>
+		<file>Skins\Any\Advertisement\SignUp.bik</file>
+		<checksum>0x7E85A6AE99F150982E642F830569B0FE</checksum>
+		<size>240 168</size>
+		<lastuse>06/04/2024 18:08</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Any\Advertisement\SignWarning.bik</name>
+		<root>data</root>
+		<file>Skins\Any\Advertisement\SignWarning.bik</file>
+		<checksum>0xAB44F87FEAAC32172982FB4E22547661</checksum>
+		<size>215 004</size>
+		<lastuse>23/05/2024 18:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Skins\Any\Advertisement\SignWrongWay.bik</name>
+		<root>data</root>
+		<file>Skins\Any\Advertisement\SignWrongWay.bik</file>
+		<checksum>0x3EF25844173EBC1C4DD5FEF0FC7FB60A</checksum>
+		<size>240 264</size>
+		<lastuse>24/01/2006 07:06</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.Empty_Stadium.Day.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Common\33DEC9CAE4A409C149B8A78FB76D5C91_Nadeo.Empty_Stadium.Day.LightMap.zip</file>
+		<checksum>0x33DEC9CAE4A409C149B8A78FB76D5C91</checksum>
+		<size>722 073</size>
+		<lastuse>05/03/2008 18:58</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.Empty_Stadium.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Common\4B0D315DD2409AD46DCEFFD3FE438EE8_Nadeo.Empty_Stadium.Sunset.LightMap.zip</file>
+		<checksum>0x4B0D315DD2409AD46DCEFFD3FE438EE8</checksum>
+		<size>743 666</size>
+		<lastuse>05/03/2008 18:58</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.Empty_Stadium.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Common\A4EA16FAA34C132A711478D94E57BF67_Nadeo.Empty_Stadium.Sunrise.LightMap.zip</file>
+		<checksum>0xA4EA16FAA34C132A711478D94E57BF67</checksum>
+		<size>1 149 214</size>
+		<lastuse>05/03/2008 18:57</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>nadeo.Bench.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Common\ACAABED868E55E1C9D0A798EEB4F1D3B_nadeo.Bench.Sunset.LightMap.zip</file>
+		<checksum>0xACAABED868E55E1C9D0A798EEB4F1D3B</checksum>
+		<size>1 176 629</size>
+		<lastuse>31/03/2008 17:17</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.Empty_Stadium.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Common\CDF116D7817C61557EB4B3E54960A785_Nadeo.Empty_Stadium.Night.LightMap.zip</file>
+		<checksum>0xCDF116D7817C61557EB4B3E54960A785</checksum>
+		<size>357 310</size>
+		<lastuse>05/03/2008 18:59</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.B09-Acrobatic.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\015FA08E4DBFD78E42FA3782DAA73BCE_Nadeo.B09-Acrobatic.Night.LightMap.zip</file>
+		<checksum>0x015FA08E4DBFD78E42FA3782DAA73BCE</checksum>
+		<size>1 185 186</size>
+		<lastuse>04/04/2008 11:43</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.A03-Race.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\0CDECD8447937F8575D7B14A13DE57B5_Nadeo.A03-Race.Sunset.LightMap.zip</file>
+		<checksum>0x0CDECD8447937F8575D7B14A13DE57B5</checksum>
+		<size>1 014 885</size>
+		<lastuse>04/04/2008 11:29</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.B14-Speed.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\186110AB8792FA4BBC32A1B41924AB6C_Nadeo.B14-Speed.Night.LightMap.zip</file>
+		<checksum>0x186110AB8792FA4BBC32A1B41924AB6C</checksum>
+		<size>1 393 654</size>
+		<lastuse>04/04/2008 11:47</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.A04-Acrobatic.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\1AA845FD7106DEFBB666260BCB2FE307_Nadeo.A04-Acrobatic.Sunrise.LightMap.zip</file>
+		<checksum>0x1AA845FD7106DEFBB666260BCB2FE307</checksum>
+		<size>1 270 713</size>
+		<lastuse>04/04/2008 11:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.A11-Race.Day.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\1E0B4D2C0D7913DE148CF51E02306414_Nadeo.A11-Race.Day.LightMap.zip</file>
+		<checksum>0x1E0B4D2C0D7913DE148CF51E02306414</checksum>
+		<size>1 218 263</size>
+		<lastuse>04/04/2008 11:35</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.E03-Endurance.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\1FA10F57CC89C2EDAEA2740C7F6DFC3E_Nadeo.E03-Endurance.Sunset.LightMap.zip</file>
+		<checksum>0x1FA10F57CC89C2EDAEA2740C7F6DFC3E</checksum>
+		<size>1 551 548</size>
+		<lastuse>04/04/2008 12:14</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.B08-Endurance.Day.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\22D49F9281D45C3D6215149F806134D8_Nadeo.B08-Endurance.Day.LightMap.zip</file>
+		<checksum>0x22D49F9281D45C3D6215149F806134D8</checksum>
+		<size>1 414 971</size>
+		<lastuse>04/04/2008 11:42</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.C04-Race.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\2607D587A972D3225AF14D3F24F29C24_Nadeo.C04-Race.Sunrise.LightMap.zip</file>
+		<checksum>0x2607D587A972D3225AF14D3F24F29C24</checksum>
+		<size>1 604 686</size>
+		<lastuse>04/04/2008 11:51</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.A06-Obstacle.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\2967F947472FE9AD6E8AA75C9BA557D0_Nadeo.A06-Obstacle.Sunrise.LightMap.zip</file>
+		<checksum>0x2967F947472FE9AD6E8AA75C9BA557D0</checksum>
+		<size>1 471 145</size>
+		<lastuse>04/04/2008 11:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.C06-Speed.Day.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\2A16A3F92897803737C136FE5DDCF2C4_Nadeo.C06-Speed.Day.LightMap.zip</file>
+		<checksum>0x2A16A3F92897803737C136FE5DDCF2C4</checksum>
+		<size>1 597 076</size>
+		<lastuse>04/04/2008 11:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.A08-Endurance.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\32ABA0B7021DEC2501E9F30D7CF166A1_Nadeo.A08-Endurance.Night.LightMap.zip</file>
+		<checksum>0x32ABA0B7021DEC2501E9F30D7CF166A1</checksum>
+		<size>1 066 977</size>
+		<lastuse>23/05/2024 18:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.C14-Endurance.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\3518B0658442935065C26DAD057596F5_Nadeo.C14-Endurance.Sunrise.LightMap.zip</file>
+		<checksum>0x3518B0658442935065C26DAD057596F5</checksum>
+		<size>1 692 568</size>
+		<lastuse>04/04/2008 11:59</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.D02-Race.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\37D69B7BC7EFDA5DA76AD27FE528CAD4_Nadeo.D02-Race.Sunrise.LightMap.zip</file>
+		<checksum>0x37D69B7BC7EFDA5DA76AD27FE528CAD4</checksum>
+		<size>1 695 658</size>
+		<lastuse>04/04/2008 12:01</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.D10-Race.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\3831CCB69CA8DD06EF7BE3CAAD824357_Nadeo.D10-Race.Night.LightMap.zip</file>
+		<checksum>0x3831CCB69CA8DD06EF7BE3CAAD824357</checksum>
+		<size>1 243 482</size>
+		<lastuse>04/04/2008 12:08</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.C12-Obstacle.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\39CB1DEDCD6A34FB0AC5FE15F8766C1B_Nadeo.C12-Obstacle.Night.LightMap.zip</file>
+		<checksum>0x39CB1DEDCD6A34FB0AC5FE15F8766C1B</checksum>
+		<size>1 154 681</size>
+		<lastuse>04/04/2008 11:58</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.A09-Race.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\3BA202474CA532A666E1DD6BC8AADDE3_Nadeo.A09-Race.Night.LightMap.zip</file>
+		<checksum>0x3BA202474CA532A666E1DD6BC8AADDE3</checksum>
+		<size>1 196 744</size>
+		<lastuse>04/04/2008 11:34</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.C03-Acrobatic.Day.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\3DE9CD79A5E7D2BE0E2E57AFCA996D76_Nadeo.C03-Acrobatic.Day.LightMap.zip</file>
+		<checksum>0x3DE9CD79A5E7D2BE0E2E57AFCA996D76</checksum>
+		<size>1 357 815</size>
+		<lastuse>04/04/2008 11:50</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.D15-Endurance.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\3FC10AB99842BE69E0F7E10D88AD52B0_Nadeo.D15-Endurance.Sunrise.LightMap.zip</file>
+		<checksum>0x3FC10AB99842BE69E0F7E10D88AD52B0</checksum>
+		<size>1 780 259</size>
+		<lastuse>08/04/2008 18:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.D03-Acrobatic.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\4B7604E45922DFEC407BEBFF9F0C7997_Nadeo.D03-Acrobatic.Sunrise.LightMap.zip</file>
+		<checksum>0x4B7604E45922DFEC407BEBFF9F0C7997</checksum>
+		<size>1 406 185</size>
+		<lastuse>04/04/2008 12:02</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.D01-endurance.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\4D5FF5687A03CB7BFF2ADD9FEAC1AFBD_Nadeo.D01-endurance.Sunset.LightMap.zip</file>
+		<checksum>0x4D5FF5687A03CB7BFF2ADD9FEAC1AFBD</checksum>
+		<size>1 083 114</size>
+		<lastuse>08/04/2008 18:25</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.E01-Obstacle.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\4E481D83BEE5828D7B0B702D20E88C77_Nadeo.E01-Obstacle.Night.LightMap.zip</file>
+		<checksum>0x4E481D83BEE5828D7B0B702D20E88C77</checksum>
+		<size>1 496 909</size>
+		<lastuse>04/04/2008 12:12</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.C10-Acrobatic.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\4F8EF086C9741AA62261D6699A78698A_Nadeo.C10-Acrobatic.Night.LightMap.zip</file>
+		<checksum>0x4F8EF086C9741AA62261D6699A78698A</checksum>
+		<size>878 647</size>
+		<lastuse>04/04/2008 11:55</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.B04-Acrobatic.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\4FAAD2EDF178D86F0938A72C0A16FBD4_Nadeo.B04-Acrobatic.Sunrise.LightMap.zip</file>
+		<checksum>0x4FAAD2EDF178D86F0938A72C0A16FBD4</checksum>
+		<size>1 536 093</size>
+		<lastuse>04/04/2008 11:40</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.B05-Race.Day.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\5403EFF1118637720DBA77F66E89EF2D_Nadeo.B05-Race.Day.LightMap.zip</file>
+		<checksum>0x5403EFF1118637720DBA77F66E89EF2D</checksum>
+		<size>1 498 039</size>
+		<lastuse>04/04/2008 11:40</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.A07-Race.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\55C332042A0FD3A94920E5FB36449DE2_Nadeo.A07-Race.Night.LightMap.zip</file>
+		<checksum>0x55C332042A0FD3A94920E5FB36449DE2</checksum>
+		<size>1 020 952</size>
+		<lastuse>04/04/2008 11:32</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.A12-Speed.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\5960E7352B9523DDD17404C561400586_Nadeo.A12-Speed.Sunrise.LightMap.zip</file>
+		<checksum>0x5960E7352B9523DDD17404C561400586</checksum>
+		<size>1 630 913</size>
+		<lastuse>04/04/2008 11:35</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.B07-Race.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\5B16C00DF59DF454219768482401DFB0_Nadeo.B07-Race.Sunset.LightMap.zip</file>
+		<checksum>0x5B16C00DF59DF454219768482401DFB0</checksum>
+		<size>1 242 220</size>
+		<lastuse>04/04/2008 11:41</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.B15-Race.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\5B9A6DBE8913C753645C989BBEBD525C_Nadeo.B15-Race.Sunset.LightMap.zip</file>
+		<checksum>0x5B9A6DBE8913C753645C989BBEBD525C</checksum>
+		<size>1 318 865</size>
+		<lastuse>04/04/2008 11:48</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.A02-Race.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\5D13C4BE08E40939804105134DAD1E62_Nadeo.A02-Race.Sunset.LightMap.zip</file>
+		<checksum>0x5D13C4BE08E40939804105134DAD1E62</checksum>
+		<size>1 112 179</size>
+		<lastuse>06/04/2024 17:57</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.D11-Acrobatic.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\635401ADC13F3B49A82E4DE676AF0929_Nadeo.D11-Acrobatic.Sunrise.LightMap.zip</file>
+		<checksum>0x635401ADC13F3B49A82E4DE676AF0929</checksum>
+		<size>1 400 641</size>
+		<lastuse>04/04/2008 12:08</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.A01-Race.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\646DA668C3ACEC06B19D5EFD0592FCAD_Nadeo.A01-Race.Sunset.LightMap.zip</file>
+		<checksum>0x646DA668C3ACEC06B19D5EFD0592FCAD</checksum>
+		<size>1 015 736</size>
+		<lastuse>06/04/2024 17:56</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.D05-Race.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\6955EEDDFB105D0CD08148D953338CA3_Nadeo.D05-Race.Sunrise.LightMap.zip</file>
+		<checksum>0x6955EEDDFB105D0CD08148D953338CA3</checksum>
+		<size>1 653 918</size>
+		<lastuse>06/04/2024 18:08</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.C09-Race.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\6AE307EF9F9A43705DC85CC2A91905B6_Nadeo.C09-Race.Sunset.LightMap.zip</file>
+		<checksum>0x6AE307EF9F9A43705DC85CC2A91905B6</checksum>
+		<size>1 193 837</size>
+		<lastuse>04/04/2008 11:53</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.C02-Race.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\6EC9E8980820CA70F98B4FC82CF0B0D4_Nadeo.C02-Race.Sunset.LightMap.zip</file>
+		<checksum>0x6EC9E8980820CA70F98B4FC82CF0B0D4</checksum>
+		<size>1 267 952</size>
+		<lastuse>04/04/2008 11:49</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.A15-Speed.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\72DC160B3320B28BC49E39A2276F7C17_Nadeo.A15-Speed.Night.LightMap.zip</file>
+		<checksum>0x72DC160B3320B28BC49E39A2276F7C17</checksum>
+		<size>1 181 516</size>
+		<lastuse>04/04/2008 11:38</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.B01-Race.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\737FDEC64B5C65E67ECBE9D5C8310AA3_Nadeo.B01-Race.Sunset.LightMap.zip</file>
+		<checksum>0x737FDEC64B5C65E67ECBE9D5C8310AA3</checksum>
+		<size>1 236 323</size>
+		<lastuse>24/12/2023 20:34</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.D04-Race.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\774E5DEB4424F0A25FAA4CAAA8C9FEFB_Nadeo.D04-Race.Sunset.LightMap.zip</file>
+		<checksum>0x774E5DEB4424F0A25FAA4CAAA8C9FEFB</checksum>
+		<size>1 120 022</size>
+		<lastuse>04/04/2008 12:02</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.A14-Race.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\7B807E046FB9B92A2E89283A4A527BBD_Nadeo.A14-Race.Sunrise.LightMap.zip</file>
+		<checksum>0x7B807E046FB9B92A2E89283A4A527BBD</checksum>
+		<size>1 533 285</size>
+		<lastuse>04/04/2008 11:37</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.D07-Race.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\7E6F14BE8120C523067EB2DB9A76ADD3_Nadeo.D07-Race.Sunrise.LightMap.zip</file>
+		<checksum>0x7E6F14BE8120C523067EB2DB9A76ADD3</checksum>
+		<size>1 736 380</size>
+		<lastuse>04/04/2008 12:04</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.C13-Race.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\7EDE05AE3526103D53D7E0080EC43075_Nadeo.C13-Race.Sunrise.LightMap.zip</file>
+		<checksum>0x7EDE05AE3526103D53D7E0080EC43075</checksum>
+		<size>1 605 674</size>
+		<lastuse>04/04/2008 11:59</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.C01-Race.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\8AF351AAC45AEF46CD83A04BE668652F_Nadeo.C01-Race.Sunset.LightMap.zip</file>
+		<checksum>0x8AF351AAC45AEF46CD83A04BE668652F</checksum>
+		<size>1 094 043</size>
+		<lastuse>13/04/2024 22:24</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.D14-Endurance.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\90B6098966805DE23BF3065B7466EF60_Nadeo.D14-Endurance.Night.LightMap.zip</file>
+		<checksum>0x90B6098966805DE23BF3065B7466EF60</checksum>
+		<size>1 383 890</size>
+		<lastuse>04/04/2008 12:11</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.A05-Race.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\92FC12FAD584C419DEAD92185883C918_Nadeo.A05-Race.Night.LightMap.zip</file>
+		<checksum>0x92FC12FAD584C419DEAD92185883C918</checksum>
+		<size>912 415</size>
+		<lastuse>04/04/2008 11:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.D12-Speed.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\A008BD0C56CD65F46BF68C46E808CEC6_Nadeo.D12-Speed.Sunrise.LightMap.zip</file>
+		<checksum>0xA008BD0C56CD65F46BF68C46E808CEC6</checksum>
+		<size>1 723 361</size>
+		<lastuse>04/04/2008 12:08</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.B03-Race.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\A9226A0C754F870FCCD1A3BA361F34BA_Nadeo.B03-Race.Sunrise.LightMap.zip</file>
+		<checksum>0xA9226A0C754F870FCCD1A3BA361F34BA</checksum>
+		<size>1 512 277</size>
+		<lastuse>04/04/2008 11:39</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.B06-Obstacle.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\AC757D1C78F77AB5387DDDC7EF642406_Nadeo.B06-Obstacle.Sunset.LightMap.zip</file>
+		<checksum>0xAC757D1C78F77AB5387DDDC7EF642406</checksum>
+		<size>901 805</size>
+		<lastuse>04/04/2008 11:41</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.B12-Race.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\ACEF290C8721E6C1FAFD72169F1C16FE_Nadeo.B12-Race.Sunset.LightMap.zip</file>
+		<checksum>0xACEF290C8721E6C1FAFD72169F1C16FE</checksum>
+		<size>1 047 585</size>
+		<lastuse>04/04/2008 11:45</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.C08-Obstacle.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\AD4BE66B00CEE56DA1BF922D729C5119_Nadeo.C08-Obstacle.Sunrise.LightMap.zip</file>
+		<checksum>0xAD4BE66B00CEE56DA1BF922D729C5119</checksum>
+		<size>1 500 084</size>
+		<lastuse>11/01/2024 13:26</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.C07-Race.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\B3A29CC36BBD386B86DB6F7A68BD8701_Nadeo.C07-Race.Night.LightMap.zip</file>
+		<checksum>0xB3A29CC36BBD386B86DB6F7A68BD8701</checksum>
+		<size>1 404 824</size>
+		<lastuse>04/04/2008 11:52</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.B10-Speed.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\B40E504E75B87EAD145FE677EB84DB7E_Nadeo.B10-Speed.Sunrise.LightMap.zip</file>
+		<checksum>0xB40E504E75B87EAD145FE677EB84DB7E</checksum>
+		<size>1 543 977</size>
+		<lastuse>04/04/2008 11:44</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.C15-Speed.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\B5BB1DF5487E3A0FA00E2154389E4BC4_Nadeo.C15-Speed.Sunset.LightMap.zip</file>
+		<checksum>0xB5BB1DF5487E3A0FA00E2154389E4BC4</checksum>
+		<size>1 198 563</size>
+		<lastuse>04/04/2008 12:00</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.D09-obstacle.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\C23D840E5F72528F459340E6C0D12208_Nadeo.D09-obstacle.Sunset.LightMap.zip</file>
+		<checksum>0xC23D840E5F72528F459340E6C0D12208</checksum>
+		<size>1 044 982</size>
+		<lastuse>08/04/2008 18:27</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.A10-Acrobatic.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\C34F476B9EC2C30C1F9905BD88C61F2B_Nadeo.A10-Acrobatic.Sunrise.LightMap.zip</file>
+		<checksum>0xC34F476B9EC2C30C1F9905BD88C61F2B</checksum>
+		<size>1 277 621</size>
+		<lastuse>04/04/2008 11:34</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.D08-Speed.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\C40D7A32F31B47E0AEFFA3BEE6C4CF07_Nadeo.D08-Speed.Sunset.LightMap.zip</file>
+		<checksum>0xC40D7A32F31B47E0AEFFA3BEE6C4CF07</checksum>
+		<size>1 260 399</size>
+		<lastuse>04/04/2008 12:05</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.D06-Obstacle.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\C583CB7F9E64B99F2992309E1E5F1471_Nadeo.D06-Obstacle.Night.LightMap.zip</file>
+		<checksum>0xC583CB7F9E64B99F2992309E1E5F1471</checksum>
+		<size>1 512 617</size>
+		<lastuse>04/04/2008 12:03</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.E05-Endurance.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\D0A6CE03F994A84D1A81A8939CCEF000_Nadeo.E05-Endurance.Sunset.LightMap.zip</file>
+		<checksum>0xD0A6CE03F994A84D1A81A8939CCEF000</checksum>
+		<size>1 109 011</size>
+		<lastuse>04/04/2008 12:15</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.C11-Race.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\D329CC6B3CBEE5EDEA8D99015968E544_Nadeo.C11-Race.Sunset.LightMap.zip</file>
+		<checksum>0xD329CC6B3CBEE5EDEA8D99015968E544</checksum>
+		<size>1 323 020</size>
+		<lastuse>04/04/2008 11:56</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.B11-Race.Day.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\D43055C10EB06F2A72ED25E5320BA3D9_Nadeo.B11-Race.Day.LightMap.zip</file>
+		<checksum>0xD43055C10EB06F2A72ED25E5320BA3D9</checksum>
+		<size>1 513 604</size>
+		<lastuse>04/04/2008 11:45</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.B02-Race.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\D477802AD566D7065D4A44E17CA9FCA3_Nadeo.B02-Race.Sunset.LightMap.zip</file>
+		<checksum>0xD477802AD566D7065D4A44E17CA9FCA3</checksum>
+		<size>1 044 020</size>
+		<lastuse>04/04/2008 11:39</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.E04-Obstacle.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\D6C8D30BCEEA2CF4A2652F0356983EB3_Nadeo.E04-Obstacle.Sunrise.LightMap.zip</file>
+		<checksum>0xD6C8D30BCEEA2CF4A2652F0356983EB3</checksum>
+		<size>1 665 830</size>
+		<lastuse>04/04/2008 12:14</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.E02-Endurance.Day.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\E7932A35308A7C9845F8BB4EEED31293_Nadeo.E02-Endurance.Day.LightMap.zip</file>
+		<checksum>0xE7932A35308A7C9845F8BB4EEED31293</checksum>
+		<size>2 014 059</size>
+		<lastuse>04/04/2008 12:12</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.B13-Obstacle.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\E92FFF22CBA546CE90E4FB485C6829D9_Nadeo.B13-Obstacle.Sunrise.LightMap.zip</file>
+		<checksum>0xE92FFF22CBA546CE90E4FB485C6829D9</checksum>
+		<size>1 547 544</size>
+		<lastuse>04/04/2008 11:45</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.D13-Race.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\F1C0ABD5783AA2FA80D5633C4519839B_Nadeo.D13-Race.Sunrise.LightMap.zip</file>
+		<checksum>0xF1C0ABD5783AA2FA80D5633C4519839B</checksum>
+		<size>1 788 812</size>
+		<lastuse>08/04/2008 18:31</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.A13-Race.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\F3750AAECAA6619040620FC29659FBA6_Nadeo.A13-Race.Night.LightMap.zip</file>
+		<checksum>0xF3750AAECAA6619040620FC29659FBA6</checksum>
+		<size>1 090 221</size>
+		<lastuse>04/04/2008 11:36</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.C05-Endurance.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\Nations\FD0242158F9A35B2BE09565E4DDF4A23_Nadeo.C05-Endurance.Night.LightMap.zip</file>
+		<checksum>0xFD0242158F9A35B2BE09565E4DDF4A23</checksum>
+		<size>1 379 482</size>
+		<lastuse>04/04/2008 11:51</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumB1.Day.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\0220360BB6806080169EE3F66E653D7E_Nadeo.StadiumB1.Day.LightMap.zip</file>
+		<checksum>0x0220360BB6806080169EE3F66E653D7E</checksum>
+		<size>1 104 684</size>
+		<lastuse>07/04/2008 07:20</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.PlatformD4.Day.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\027EF9A8AE8153FE54F1C524E9F63AD6_Nadeo.PlatformD4.Day.LightMap.zip</file>
+		<checksum>0x027EF9A8AE8153FE54F1C524E9F63AD6</checksum>
+		<size>1 756 223</size>
+		<lastuse>07/04/2008 07:16</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumC3.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\02CE185A9B88A02E53A8DF9894F47F4E_Nadeo.StadiumC3.Sunrise.LightMap.zip</file>
+		<checksum>0x02CE185A9B88A02E53A8DF9894F47F4E</checksum>
+		<size>1 624 537</size>
+		<lastuse>07/04/2008 07:25</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.PlatformC4.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\0623068198B3A5C4743274F0B4E26F39_Nadeo.PlatformC4.Night.LightMap.zip</file>
+		<checksum>0x0623068198B3A5C4743274F0B4E26F39</checksum>
+		<size>1 381 929</size>
+		<lastuse>07/04/2008 07:15</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.PlatformB1.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\0E01A3B15B8EBD7624E21CE37225C31A_Nadeo.PlatformB1.Sunrise.LightMap.zip</file>
+		<checksum>0x0E01A3B15B8EBD7624E21CE37225C31A</checksum>
+		<size>1 779 959</size>
+		<lastuse>07/04/2008 07:12</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.PlatformA4.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\0EF723CD43DC449B4E744F9316B20B1D_Nadeo.PlatformA4.Sunset.LightMap.zip</file>
+		<checksum>0x0EF723CD43DC449B4E744F9316B20B1D</checksum>
+		<size>1 304 234</size>
+		<lastuse>07/04/2008 07:11</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumB5.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\10B1AE7B59F378AF678FB791B1F20B36_Nadeo.StadiumB5.Sunrise.LightMap.zip</file>
+		<checksum>0x10B1AE7B59F378AF678FB791B1F20B36</checksum>
+		<size>1 528 797</size>
+		<lastuse>07/04/2008 07:22</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StuntA1.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\12D7500A33F356CF80B02D822AFFABBA_Nadeo.StuntA1.Sunrise.LightMap.zip</file>
+		<checksum>0x12D7500A33F356CF80B02D822AFFABBA</checksum>
+		<size>1 524 284</size>
+		<lastuse>07/04/2008 07:29</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumE.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\133CD8EBF672721D1B139A7EA959FCD4_Nadeo.StadiumE.Sunset.LightMap.zip</file>
+		<checksum>0x133CD8EBF672721D1B139A7EA959FCD4</checksum>
+		<size>1 341 126</size>
+		<lastuse>07/04/2008 07:29</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumD5.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\19F596A66FA7ACF2C04187A5261CE651_Nadeo.StadiumD5.Sunset.LightMap.zip</file>
+		<checksum>0x19F596A66FA7ACF2C04187A5261CE651</checksum>
+		<size>1 162 685</size>
+		<lastuse>07/04/2008 07:28</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumA3.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\2A293AF5951516BFBBA7D880C72BF547_Nadeo.StadiumA3.Night.LightMap.zip</file>
+		<checksum>0x2A293AF5951516BFBBA7D880C72BF547</checksum>
+		<size>1 114 481</size>
+		<lastuse>07/04/2008 07:19</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumB4.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\2AD5C08EDC414D7138D87E88547FBA64_Nadeo.StadiumB4.Sunset.LightMap.zip</file>
+		<checksum>0x2AD5C08EDC414D7138D87E88547FBA64</checksum>
+		<size>992 981</size>
+		<lastuse>07/04/2008 07:22</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.PlatformC1.Day.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\391087663313C150B993F535191AA08F_Nadeo.PlatformC1.Day.LightMap.zip</file>
+		<checksum>0x391087663313C150B993F535191AA08F</checksum>
+		<size>1 745 492</size>
+		<lastuse>07/04/2008 07:12</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumA5.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\3D594929FA2321CF9F6DED374C85EFD7_Nadeo.StadiumA5.Sunset.LightMap.zip</file>
+		<checksum>0x3D594929FA2321CF9F6DED374C85EFD7</checksum>
+		<size>1 062 973</size>
+		<lastuse>07/04/2008 07:20</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumB3.Day.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\3E2789F4700C84D742AD553AF1F80014_Nadeo.StadiumB3.Day.LightMap.zip</file>
+		<checksum>0x3E2789F4700C84D742AD553AF1F80014</checksum>
+		<size>1 345 533</size>
+		<lastuse>07/04/2008 07:21</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumD2.Day.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\4453579A3FB1A6C3D4CD178AA1A750AF_Nadeo.StadiumD2.Day.LightMap.zip</file>
+		<checksum>0x4453579A3FB1A6C3D4CD178AA1A750AF</checksum>
+		<size>1 676 535</size>
+		<lastuse>07/04/2008 07:27</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StuntD3.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\49854871F852234F474A82842101DA79_Nadeo.StuntD3.Sunset.LightMap.zip</file>
+		<checksum>0x49854871F852234F474A82842101DA79</checksum>
+		<size>1 019 350</size>
+		<lastuse>07/04/2008 07:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumA1.Day.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\4A92F406DE35E98C08993CEDF7DD2397_Nadeo.StadiumA1.Day.LightMap.zip</file>
+		<checksum>0x4A92F406DE35E98C08993CEDF7DD2397</checksum>
+		<size>1 363 514</size>
+		<lastuse>07/04/2008 07:17</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumA2.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\539AFE87953FA30C6777D4B8AAB8971F_Nadeo.StadiumA2.Sunset.LightMap.zip</file>
+		<checksum>0x539AFE87953FA30C6777D4B8AAB8971F</checksum>
+		<size>1 165 126</size>
+		<lastuse>07/04/2008 07:18</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumC4.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\695FD3C30CFF024A4E8E570F4B887DBB_Nadeo.StadiumC4.Sunset.LightMap.zip</file>
+		<checksum>0x695FD3C30CFF024A4E8E570F4B887DBB</checksum>
+		<size>1 218 329</size>
+		<lastuse>07/04/2008 07:25</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.PlatformC3.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\6BABB13D84B4E57F649A89375B0FAA06_Nadeo.PlatformC3.Sunset.LightMap.zip</file>
+		<checksum>0x6BABB13D84B4E57F649A89375B0FAA06</checksum>
+		<size>1 195 122</size>
+		<lastuse>07/04/2008 07:13</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumD3.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\8B7F41CEF96AA809EF5B206448CF7731_Nadeo.StadiumD3.Sunset.LightMap.zip</file>
+		<checksum>0x8B7F41CEF96AA809EF5B206448CF7731</checksum>
+		<size>1 149 021</size>
+		<lastuse>07/04/2008 07:27</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumD4.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\9879AC15ACEC496E242C47D5FCA607CB_Nadeo.StadiumD4.Sunrise.LightMap.zip</file>
+		<checksum>0x9879AC15ACEC496E242C47D5FCA607CB</checksum>
+		<size>1 667 527</size>
+		<lastuse>07/04/2008 07:28</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.PlatformB4.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\9E69593DE29955189202670BF9B9CBFD_Nadeo.PlatformB4.Sunset.LightMap.zip</file>
+		<checksum>0x9E69593DE29955189202670BF9B9CBFD</checksum>
+		<size>1 119 369</size>
+		<lastuse>07/04/2008 07:12</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumD1.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\A74F837DAEB6247D925BBA11415122CE_Nadeo.StadiumD1.Night.LightMap.zip</file>
+		<checksum>0xA74F837DAEB6247D925BBA11415122CE</checksum>
+		<size>1 026 344</size>
+		<lastuse>07/04/2008 07:26</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumC1.Sunset.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\B074644E5736277AB58BE94FCE030467_Nadeo.StadiumC1.Sunset.LightMap.zip</file>
+		<checksum>0xB074644E5736277AB58BE94FCE030467</checksum>
+		<size>1 207 092</size>
+		<lastuse>07/04/2008 07:24</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumC2.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\B7FEE9B99BC40CC3E6B9BF92F19FB644_Nadeo.StadiumC2.Night.LightMap.zip</file>
+		<checksum>0xB7FEE9B99BC40CC3E6B9BF92F19FB644</checksum>
+		<size>1 246 800</size>
+		<lastuse>07/04/2008 07:24</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.PlatformA1.Day.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\BD8453C96FEA2FA027B6B087B7AB2C1A_Nadeo.PlatformA1.Day.LightMap.zip</file>
+		<checksum>0xBD8453C96FEA2FA027B6B087B7AB2C1A</checksum>
+		<size>1 367 992</size>
+		<lastuse>07/04/2008 07:10</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumB2.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\BE2A7410F5AD2858998E00E81ABA8FFA_Nadeo.StadiumB2.Night.LightMap.zip</file>
+		<checksum>0xBE2A7410F5AD2858998E00E81ABA8FFA</checksum>
+		<size>805 646</size>
+		<lastuse>07/04/2008 07:21</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.PlatformE.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\BE9FD6857BB0A23E330B96BBB659CF14_Nadeo.PlatformE.Night.LightMap.zip</file>
+		<checksum>0xBE9FD6857BB0A23E330B96BBB659CF14</checksum>
+		<size>1 378 316</size>
+		<lastuse>07/04/2008 07:17</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumC5.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\CCA123373C2A7B76ADA6A1DD0E2D4F2E_Nadeo.StadiumC5.Sunrise.LightMap.zip</file>
+		<checksum>0xCCA123373C2A7B76ADA6A1DD0E2D4F2E</checksum>
+		<size>1 715 846</size>
+		<lastuse>07/04/2008 07:26</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StuntC2.Day.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\CD0DA0A98791ED57BC9E5D9FCE490F3A_Nadeo.StuntC2.Day.LightMap.zip</file>
+		<checksum>0xCD0DA0A98791ED57BC9E5D9FCE490F3A</checksum>
+		<size>1 327 577</size>
+		<lastuse>07/04/2008 07:30</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.PlatformD1.Night.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\D5831D0DC631C8C05386A3D1C8E17596_Nadeo.PlatformD1.Night.LightMap.zip</file>
+		<checksum>0xD5831D0DC631C8C05386A3D1C8E17596</checksum>
+		<size>1 377 969</size>
+		<lastuse>07/04/2008 07:16</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.StadiumA4.Sunrise.LightMap.zip</name>
+		<root>data</root>
+		<file>LightmapsCache\United\D942108675AD80B5108420433BEEFA05_Nadeo.StadiumA4.Sunrise.LightMap.zip</file>
+		<checksum>0xD942108675AD80B5108420433BEEFA05</checksum>
+		<size>1 596 284</size>
+		<lastuse>07/04/2008 07:19</lastuse>
+	</packdesc>
+</cache>

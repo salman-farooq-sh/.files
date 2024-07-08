@@ -1,0 +1,4 @@
+#!/usr/bin/fish
+
+echo $argv[1] | sudo tee /sys/class/power_supply/BAT0/charge_control_start_threshold
+echo $argv[2] | sudo tee /sys/class/power_supply/BAT0/charge_control_end_threshold

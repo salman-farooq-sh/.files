@@ -1,0 +1,20 @@
+#!/usr/bin/fish
+
+set file_list "$HOME/.config/restic/file_lists/laptop-main-backup"
+
+#restic --repo=/tmp/restic_test/ init
+
+restic \
+#--repo=/tmp/restic_test/ \
+backup \
+--files-from=(
+    grep -E '^[^\^]' $file_list \
+    | psub
+) \
+--exclude-file=(
+    grep -E '^\^' $file_list \
+    | string sub --start=2 \
+    | psub
+) \
+--verbose=2 \
+$argv \

@@ -1,0 +1,33 @@
+#!/usr/bin/fish
+
+# pass "+" or "-" as the only argument to change the
+# brightness by 1 step as defined in the steps variable
+
+set steps (
+    for i in (seq 0 5 100)
+        # (seq 3 10 100) (seq 7 10 100)
+        echo $i
+    end | sort -n
+)
+
+set -q CURR_MONITOR_BRIGHT_INDEX || set -U CURR_MONITOR_BRIGHT_INDEX 13
+
+if test "$argv" = "+"
+	set CURR_MONITOR_BRIGHT_INDEX (math $CURR_MONITOR_BRIGHT_INDEX + 1) 
+	test "$CURR_MONITOR_BRIGHT_INDEX" -gt (count $steps) && set CURR_MONITOR_BRIGHT_INDEX (count $steps)
+else if test "$argv" = "-"
+	set CURR_MONITOR_BRIGHT_INDEX (math $CURR_MONITOR_BRIGHT_INDEX - 1) 
+	test "$CURR_MONITOR_BRIGHT_INDEX" -lt 1 && set CURR_MONITOR_BRIGHT_INDEX 1
+else
+	echo "Invalid Option"
+	exit 1
+end
+
+ddcutil \
+    --mfg PHL \
+    # --mfg LEN \
+    # --mfg DEL \
+    --noverify \
+    --sleep-multiplier .03 \
+    setvcp 10 \
+    $steps[$CURR_MONITOR_BRIGHT_INDEX]

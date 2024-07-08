@@ -1,0 +1,18 @@
+(defcfg
+	input  (device-file "/dev/input/event3")
+	output (uinput-sink "kmonad-output-internal-video")
+
+	fallthrough true
+	allow-cmd true
+)
+
+(defsrc
+	brdn brup
+)
+
+(deflayer base_layer
+	_ _
+)
+
+(defalias
+)

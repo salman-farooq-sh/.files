@@ -1,0 +1,39 @@
+(defcfg
+    input (device-file "/dev/input/event18")
+	output (uinput-sink "kmonad output kmoon")
+
+	fallthrough true
+	allow-cmd false
+)
+
+(defsrc
+	1 2 3 4 5 6 7 8 9 0 - =
+	e r u i o p [ ]
+	caps h j k l ; ' ent 
+	x c m , .
+	spc ralt rctl
+)
+
+(deflayer base_layer
+	_ _ _ _ _ _ _ _ _ _ _ _
+	_ _ _ _ _ _ _ _
+	@caps _ _ _ _ _ _ @ent
+	_ _ _ _ _
+	@spc lctl rctl
+)
+
+(deflayer layer1
+	f1 f2 f3 f4 f5 f6 f7 f8 f9 f10 f11 f12
+	brdn brup _ @prevtab @nexttab prnt home end
+	_ left down up right pgup pgdn _
+	vold volu comp ins del
+	_ _ _
+) 
+
+(defalias
+	caps 	(tap-hold 200 esc (layer-toggle layer1))
+	ent  	(tap-hold 200 ent (layer-toggle layer1))
+	spc  	(tap-hold 200 spc lsft)
+	prevtab C-pgup
+	nexttab C-pgdn
+)

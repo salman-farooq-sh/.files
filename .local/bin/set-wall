@@ -1,0 +1,9 @@
+#!/usr/bin/fish
+
+killall swaybg
+
+swaybg \
+    --mode fill \
+    --output "*" \
+    --image \
+    /home/salman/Pictures/wallpapers/current

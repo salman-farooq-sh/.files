@@ -1,0 +1,9 @@
+#!/usr/bin/fish
+
+set port 1234
+set address 'http://'(ip route get 1.2.3.4 | awk '{print $7}' | tr -d \n)":$port/"
+
+echo "Go to: $address"
+qrencode -t ANSIUTF8 -o - $address
+
+python3 -m http.server $port

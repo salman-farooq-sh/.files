@@ -1,0 +1,11 @@
+#!/bin/fish
+
+set this_special_number (math (cat /sys/class/backlight/intel_backlight/max_brightness) - 2)
+set current_brightness (cat /sys/class/backlight/intel_backlight/brightness)
+
+if [ $current_brightness != $this_special_number ]
+	set -U BRIGHTNESS_BEFORE_BOOSTING $current_brightness 
+	echo $this_special_number | sudo tee /sys/class/backlight/intel_backlight/brightness
+else
+	echo $BRIGHTNESS_BEFORE_BOOSTING | sudo tee /sys/class/backlight/intel_backlight/brightness
+end

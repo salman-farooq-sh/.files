@@ -1,0 +1,274 @@
+input {
+    keyboard {
+        xkb {
+        }
+
+        repeat-delay 220
+        repeat-rate 60
+    }
+
+    touchpad {
+        tap
+        dwt
+        // dwtp
+        natural-scroll
+        click-method "clickfinger"
+        accel-speed 0.2
+        // accel-profile "flat"
+    }
+
+    mouse {
+        // natural-scroll
+        // accel-speed 0.2
+        // accel-profile "flat"
+    }
+
+    touch {
+        map-to-output "eDP-1"
+    }
+
+    warp-mouse-to-focus
+    focus-follows-mouse max-scroll-amount="99%"
+    workspace-auto-back-and-forth
+}
+
+output "eDP-1" {
+    // off
+    // mode "1920x1200@60"
+    // scale 1.0
+    scale 2
+    position x=0 y=0
+
+    // normal, 90, 180, 270, flipped, flipped-90, flipped-180 and flipped-270.
+    // transform "normal"
+}
+
+output "DP-1" {
+    // off
+    // mode "3840x2160@60"
+    scale 1.2
+    position x=-1280 y=-1800
+}
+
+output "DP-3" {
+    // off
+    // mode "3840x2160@60"
+    scale 1.5
+    position x=1920 y=-1800
+    transform "90"
+}
+
+layout {
+    gaps 0
+    center-focused-column "never"
+
+    preset-column-widths {
+        proportion 0.5
+        // fixed 1920
+    }
+
+    // default-column-width { proportion 0.30; }
+    default-column-width {}
+
+    focus-ring {
+        off
+        // width 0
+
+        // Color of the ring on the active monitor.
+        // active-color "#0ff"
+
+        // Color of the ring on inactive monitors.
+        // inactive-color "#000"
+
+        // active-gradient from="#dd0" to="#0ff" angle=0 relative-to="workspace-view"
+        // inactive-gradient from="#dd06" to="#0ff6" angle=0 relative-to="workspace-view"
+    }
+
+    border {
+        off
+        width 1
+        active-color "#f30"
+        inactive-color "#000"
+
+        // active-gradient from="#f30" to="#f30" angle=45
+        // inactive-gradient from="#dd06" to="#0ff6" angle=45
+    }
+
+    struts {
+        // left 50
+        // right 50
+        // top 50
+        // bottom 50
+    }
+}
+
+prefer-no-csd
+window-rule {
+    // geometry-corner-radius 8
+    // clip-to-geometry true
+}
+
+// screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+screenshot-path null
+
+animations {
+    // off
+
+    // Values below 1 speed them up instead
+    slowdown 1.4
+}
+
+// window-rule {
+//     match app-id="kitty"
+//     default-column-width { proportion 1.0; }
+// }
+
+window-rule {
+    match app-id="org.gnome.Calculator"
+    default-column-width { fixed 500; }
+}
+
+window-rule {
+    match app-id="com.usebottles.bottles"
+    default-column-width { fixed 800; }
+}
+
+window-rule {
+    match app-id="bottles"
+    default-column-width { fixed 800; }
+}
+
+// window-rule {
+//     match app-id="music-player"
+//     default-column-width { fixed 500; }
+// }
+
+window-rule {
+    match app-id="nm-connection-editor"
+    default-column-width { fixed 500; }
+}
+
+spawn-at-startup "swayosd-server"
+spawn-at-startup "set-wall"
+spawn-at-startup "waybar"
+spawn-at-startup "fusuma"
+spawn-at-startup "low-bat-warn"
+spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
+
+binds {
+    Mod+Slash { show-hotkey-overlay; }
+
+    Mod+space { spawn "fish" "-c" "kitty"; }
+    Mod+M { spawn "mhm"; }
+    Mod+D { spawn "fuzzel"; }
+    Mod+U { spawn "gnome-calculator"; }
+    Mod+F { spawn "nautilus"; }
+    Mod+C { spawn "google-chrome-stable"; }
+    Mod+V { spawn "cb-mgr"; }
+    Mod+Shift+C { spawn "google-chrome-stable" "--incognito"; }
+    Mod+W { spawn "fish" "-c" "niri msg action do-screen-transition --delay-ms 100; killall swayosd-server waybar fusuma low-bat-warn; set-wall &; waybar &; fusuma &; swayosd-server &; low-bat-warn &"; }
+    Mod+Shift+W { spawn "sel-wall"; }
+    Super+Alt+L { spawn "fish" "-c" "niri msg action do-screen-transition --delay-ms 1; swaylock"; }
+    Mod+1 { spawn "fish" "-c" "niri msg output eDP-1 on"; }
+    Mod+Shift+1 { spawn "fish" "-c" "niri msg output eDP-1 off"; }
+    Mod+2 { spawn "fish" "-c" "niri msg output DP-1 on"; }
+    Mod+Shift+2 { spawn "fish" "-c" "niri msg output DP-1 off"; }
+    Mod+3 { spawn "fish" "-c" "niri msg output DP-2 on"; }
+    Mod+Shift+3 { spawn "fish" "-c" "niri msg output DP-2 off"; }
+    Mod+4 { spawn "fish" "-c" "niri msg output DP-3 on"; }
+    Mod+Shift+4 { spawn "fish" "-c" "niri msg output DP-3 off"; }
+
+    // XF86MonBrightnessUp   allow-when-locked=true { spawn "ibright" "+"; }
+    // XF86MonBrightnessDown allow-when-locked=true { spawn "ibright" "-"; }
+
+    XF86AudioRaiseVolume       allow-when-locked=true { spawn "swayosd-client" "--output-volume" "raise" "--max-volume" "150"; }
+    Shift+XF86AudioRaiseVolume allow-when-locked=true { spawn "swayosd-client" "--output-volume" "raise" "--max-volume" "150"; }
+    XF86AudioLowerVolume       allow-when-locked=true { spawn "swayosd-client" "--output-volume" "lower" "--max-volume" "150"; }
+    Shift+XF86AudioLowerVolume allow-when-locked=true { spawn "swayosd-client" "--output-volume" "lower" "--max-volume" "150"; }
+    XF86AudioMute              allow-when-locked=true { spawn "swayosd-client" "--output-volume" "mute-toggle"; }
+    Shift+XF86AudioMute        allow-when-locked=true { spawn "swayosd-client" "--output-volume" "mute-toggle"; }
+    XF86AudioMicMute           allow-when-locked=true { spawn "swayosd-client"  "--input-volume" "mute-toggle"; }
+    XF86MonBrightnessUp        allow-when-locked=true { spawn "swayosd-client" "--brightness" "raise"; }
+    XF86MonBrightnessDown      allow-when-locked=true { spawn "swayosd-client" "--brightness" "lower"; }
+
+    Mod+E { close-window; }
+
+    Mod+Left  { focus-column-or-monitor-left; }
+    Mod+Down  { focus-window-or-monitor-down; }
+    Mod+Up    { focus-window-or-monitor-up; }
+    Mod+Right { focus-column-or-monitor-right; }
+    Mod+H     { focus-column-or-monitor-left; }
+    Mod+J     { focus-window-or-monitor-down; }
+    Mod+K     { focus-window-or-monitor-up; }
+    Mod+L     { focus-column-or-monitor-right; }
+
+    Mod+Ctrl+Left  { move-column-left; }
+    Mod+Ctrl+Down  { move-window-down-or-to-workspace-down; }
+    Mod+Ctrl+Up    { move-window-up-or-to-workspace-up; }
+    Mod+Ctrl+Right { move-column-right; }
+    Mod+Ctrl+H     { move-column-left; }
+    Mod+Ctrl+J     { move-window-down-or-to-workspace-down; }
+    Mod+Ctrl+K     { move-window-up-or-to-workspace-up; }
+    Mod+Ctrl+L     { move-column-right; }
+
+    Mod+Home { focus-column-first; }
+    Mod+End  { focus-column-last; }
+    Mod+Ctrl+Home { move-column-to-first; }
+    Mod+Ctrl+End  { move-column-to-last; }
+
+    Mod+Shift+Left  { focus-monitor-left; }
+    Mod+Shift+Down  { focus-monitor-down; }
+    Mod+Shift+Up    { focus-monitor-up; }
+    Mod+Shift+Right { focus-monitor-right; }
+    Mod+Shift+H     { focus-monitor-left; }
+    Mod+Shift+J     { focus-monitor-down; }
+    Mod+Shift+K     { focus-monitor-up; }
+    Mod+Shift+L     { focus-monitor-right; }
+
+    Mod+Shift+Ctrl+Left  { move-column-to-monitor-left; }
+    Mod+Shift+Ctrl+Down  { move-column-to-monitor-down; }
+    Mod+Shift+Ctrl+Up    { move-column-to-monitor-up; }
+    Mod+Shift+Ctrl+Right { move-column-to-monitor-right; }
+    Mod+Shift+Ctrl+H     { move-column-to-monitor-left; }
+    Mod+Shift+Ctrl+J     { move-column-to-monitor-down; }
+    Mod+Shift+Ctrl+K     { move-column-to-monitor-up; }
+    Mod+Shift+Ctrl+L     { move-column-to-monitor-right; }
+
+    // Mod+Shift+Ctrl+Left  { move-workspace-to-monitor-left; }
+
+    Mod+WheelScrollDown             cooldown-ms=150 { focus-column-right; }
+    Mod+WheelScrollUp               cooldown-ms=150 { focus-column-left; }
+    Mod+Ctrl+WheelScrollDown        cooldown-ms=150 { move-column-right; }
+    Mod+Ctrl+WheelScrollUp          cooldown-ms=150 { move-column-left; }
+
+    Mod+Shift+WheelScrollDown       cooldown-ms=150 { focus-workspace-down; }
+    Mod+Shift+WheelScrollUp         cooldown-ms=150 { focus-workspace-up; }
+    Mod+Ctrl+Shift+WheelScrollDown  cooldown-ms=150 { move-column-to-workspace-down; }
+    Mod+Ctrl+Shift+WheelScrollUp    cooldown-ms=150 { move-column-to-workspace-up; }
+
+    Mod+BracketLeft  { consume-or-expel-window-left; }
+    Mod+BracketRight { consume-or-expel-window-right; }
+
+    Mod+R { switch-preset-column-width; }
+    Mod+Q { maximize-column; }
+    Mod+Shift+F { fullscreen-window; }
+
+    Mod+Minus { set-column-width "-10%"; }
+    Mod+Equal { set-column-width "+10%"; }
+
+    Mod+Shift+Minus { set-window-height "-10%"; }
+    Mod+Shift+Equal { set-window-height "+10%"; }
+
+    Print { screenshot; }
+    Ctrl+Print { screenshot-screen; }
+    Alt+Print { screenshot-window; }
+
+    Mod+Delete { quit; }
+    Mod+Shift+Delete { spawn "reboot"; }
+
+    Mod+Shift+P { power-off-monitors; }
+}
+
+hotkey-overlay {
+    skip-at-startup
+}

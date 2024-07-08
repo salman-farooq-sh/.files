@@ -1,0 +1,19 @@
+(defcfg
+	input	(device-file "/dev/annepro2")
+	output (uinput-sink "AnnePro2 Kmonad")
+
+	fallthrough true
+	allow-cmd false
+)
+
+(defsrc
+	spc
+)
+
+(deflayer base_layer
+	@spc
+)
+
+(defalias
+	spc	(tap-hold 300 spc lsft)
+)

@@ -1,0 +1,3 @@
+#!/usr/bin/fish
+
+powerprofilesctl launch --profile performance $argv

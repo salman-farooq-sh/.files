@@ -1,0 +1,7 @@
+#!/usr/bin/fish
+
+# sleep 5
+
+kmonad -d ~/.config/kmonad/internal/main.kbd && systemctl --user restart kmonad-internal-main.service
+kmonad -d ~/.config/kmonad/internal/video.kbd && systemctl --user restart kmonad-internal-video.service
+kmonad -d ~/.config/kmonad/internal/thinkpad-extra.kbd && systemctl --user restart kmonad-internal-thinkpad-extra.service

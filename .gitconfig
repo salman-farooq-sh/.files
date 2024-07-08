@@ -1,0 +1,30 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[pull]
+	ff = true
+[push]
+	autoSetupRemote = true
+[init]
+	defaultBranch = main
+[user]
+	email = salman.farooq3310@gmail.com
+	name = Salman Farooq
+[merge]
+	conflictstyle = diff3
+[mergetool]
+	prompt = false
+[credential]
+	helper = store
+[core]
+	pager = moar
+	excludesfile = /home/salman/.config/git/ignore
+[pager]
+	diff = riff
+	show = riff
+	log = riff
+[interactive]
+	diffFilter = riff

@@ -1,0 +1,8 @@
+#!/usr/bin/fish
+
+math round ( \
+    cat /proc/acpi/ibm/fan \
+    | grep -E 'speed:\s+' \
+    | cut -c 7- \
+    | string trim \
+) / 100

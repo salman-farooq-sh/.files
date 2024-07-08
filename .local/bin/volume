@@ -1,0 +1,52 @@
+#!/usr/bin/fish
+
+function current_sink_name
+	# returns the name of the current sound output device
+
+	ponymix defaults | \
+	head -n 2 | tail -n 1 | \
+	string replace "Audio Analog Stereo" "" | \
+	string trim | \
+	string upper
+end
+
+function cycle_sinks
+	# cycles between the available sound outputs
+
+	set sinks (ponymix list -t sink | grep -E -o '^sink [0-9]+' | grep -E -o '[0-9]+')
+	set cur_sink (ponymix defaults | grep -E -m 1 -o '^sink [0-9]+' | grep -E -o '[0-9]+')
+	
+	set next 1
+	for i in $sinks
+		set next (math $next + 1)
+		test $i = $cur_sink && break
+	end
+	
+	if test $next -gt (count $sinks)
+		# set 1st sink
+		ponymix set-default --device $sinks[1]
+	else
+		# set $next'th sink
+		ponymix set-default --device $sinks[$next]
+	end
+
+	current_sink_name
+end
+
+if test "$argv[1]" = "+"
+	ponymix --max-volume 150 increase 5
+	dunstify -t 1700 -r 700 "Volume: "(ponymix get-volume)" %"
+else if test "$argv[1]" = "-"
+	ponymix decrease 5
+	dunstify -t 1700 -r 700 "Volume: "(ponymix get-volume)" %"
+else if test "$argv[1]" = "m"
+	ponymix toggle
+	dunstify -t 1700 -r 700 "Volume Toggled"
+else if test "$argv[1]" = "o"
+	current_sink_name
+else if test "$argv[1]" = "c"
+	cycle_sinks
+else
+	echo "Invalid Option"
+	exit 1
+end

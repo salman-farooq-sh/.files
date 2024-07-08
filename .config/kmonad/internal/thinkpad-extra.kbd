@@ -1,0 +1,24 @@
+(defcfg
+	input  (device-file "/dev/input/by-path/platform-thinkpad_acpi-event")
+	output (uinput-sink "kmonad-output-internal-thinkpad-extra")
+
+	fallthrough true
+	allow-cmd true
+)
+
+(defsrc
+	f20 switchvideomode wlan connect cancel bookmarks
+)
+
+(deflayer base_layer
+	@f20 @video @wlan @connect @cancel @bookmarks
+)
+
+(defalias
+	f20       (cmd-button "killall -SIGUSR1 waybar")
+	video     f11
+	wlan      (cmd-button "networkmanager_dmenu")
+	connect   (cmd-button "playerctl next")
+	cancel    XX
+	bookmarks XX
+)

@@ -1,0 +1,89 @@
+#!/usr/bin/env python3
+
+# semi-smartly (i.e. based on filepaths alone)
+# syncs a folder from a restic repo
+# to a local folder such that
+# the local folder's files (and not
+# subfolders) become a duplicate of
+# the folder from the restic repo
+
+import os
+import sys
+import json
+import shutil
+import tempfile
+import subprocess
+
+remote_folder = sys.argv[1]
+local_folder = sys.argv[2]
+fish_executable = subprocess.run(
+    ["which", "fish"], capture_output=True, text=True
+).stdout.strip()
+
+remote_files = [
+    file
+    for json_str in (
+        subprocess.run(
+            f"restic ls --quiet --long=true --json=true latest {remote_folder}",
+            capture_output=True,
+            text=True,
+            shell=True,
+            executable=fish_executable,
+        )
+        .stdout.strip()
+        .split("\n")[1:]
+    )
+    if (file := json.loads(json_str))["type"] == "file"
+]
+
+missing_local_files = [
+    file
+    for file in remote_files
+    if not os.path.exists(os.path.join(local_folder, file["name"]))
+]
+
+with tempfile.TemporaryDirectory() as temp_folder:
+    if missing_local_files:
+        print(
+            *["missing file: " + file["path"] for file in missing_local_files], sep="\n"
+        )
+        print("\ndownloading missing files...")
+        subprocess.run(
+            " ".join(
+                ["restic", "restore", "--target='" + temp_folder + "'"]
+                + [
+                    "--include='" + file["path"].replace("'", "\\'") + "'"
+                    for file in missing_local_files
+                ]
+                + ["latest"]
+            ),
+            capture_output=True,
+            shell=True,
+            executable=fish_executable,
+        )
+        print("downloading done")
+    else:
+        print("no missing files")
+    print()
+
+    for file in missing_local_files:
+        shutil.move(
+            os.path.join(
+                temp_folder,
+                file["path"][1:],
+            ),
+            os.path.join(
+                local_folder,
+                file["name"],
+            ),
+        )
+
+remote_files_2 = [file["name"] for file in remote_files]
+for local_file in [
+    file
+    for f in os.listdir(local_folder)
+    if os.path.isfile(file := os.path.join(local_folder, f))
+]:
+    if os.path.basename(local_file) not in remote_files_2:
+        print("deleting:", local_file)
+        os.remove(local_file)

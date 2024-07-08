@@ -1,0 +1,15 @@
+#!/usr/bin/fish
+
+set file /proc/acpi/ibm/fan
+set current (cat $file | grep -E 'level:\s*((auto)|4|5|6|7)' | grep -oE 'auto|4|5|6|7')
+
+test $current = 4 && set next 5
+test $current = 5 && set next 6
+test $current = 6 && set next 7
+test $current = 7 && set next auto
+test $current = auto && set next 4
+
+echo "level $next" | sudo tee $file
+# zenity --notification --text "Fan level: $next" --icon=thinkfan-ui
+notify-send --transient --expire-time=800 --icon=thinkfan-ui " 󰈐 $next"
+# espeak -a 20 -p 7 -s 140 $next

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Thinkfan UI
+Exec=sudo /usr/bin/env QT_SCALE_FACTOR=2.3 /usr/bin/thinkfan-ui --hide
+Icon=thinkfan-ui
+Type=Application
+Terminal=false
+StartupNotify=true
+Categories=Utility;

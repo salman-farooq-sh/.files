@@ -1,0 +1,10 @@
+#!/usr/bin/fish
+
+konsole \
+# --name markedfloating \
+-p TerminalMargin=5 \
+-p Font='Hack,14' \
+-p TerminalColumns=64 \
+-p TerminalRows=37 \
+-e fish -c \
+"ptywrap ncal -C -y (date "+%Y") | tail -n +2 | string sub --end -2 && echo && read -n 1 -P 'Press any key to exit...'"

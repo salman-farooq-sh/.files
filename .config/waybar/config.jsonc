@@ -1,0 +1,110 @@
+// -*- mode: jsonc -*-
+{
+  // "mode": "overlay",
+  // "output": "eDP-1",
+  "layer": "top",
+  "exclusive": false,
+  "passthrough": true,
+  "position": "top",
+  // "margin-top": 7,
+  // "margin-left": 2,
+  // "margin-bottom": 0,
+  // "margin-right": 3,
+  "spacing": 0,
+  // "ipc": true,
+  // "id": "0",
+  "reload_style_on_change": true,
+  // "fixed-center": true,
+  "modules-left": [],
+  "modules-center": [],
+  "modules-right": [
+    "network",
+    // "wlr/taskbar",
+    "mpris",
+    // "cpu",
+    // "memory",
+    // "pulseaudio",
+    // "backlight",
+    // "clock#date",
+    "battery",
+    "power-profiles-daemon",
+    // "tray",
+    "clock"
+  ],
+  "network": {
+    // "on-click": "networkmanager_dmenu",
+    "interval": 2,
+    "length": 20,
+    //   │ {essid}
+    "format": " {bandwidthDownBytes} {bandwidthUpBytes} ",
+    "format-disconnected": "No Internet",
+    "format-alt": false,
+    "tooltip": false
+  },
+  "mpris": {
+    "format": " {title} ",
+    "title-len": 50,
+    "ignored-players": [
+      "firefox",
+      "chromium"
+    ]
+  },
+  "battery": {
+    "format": " {capacity}% ",
+    "format-full": " {capacity}% ",
+    "format-charging": " {capacity}% ",
+    "format-plugged": " {capacity}% ",
+    "states": {
+      "warning": 15
+    },
+    "interval": 2
+  },
+  "power-profiles-daemon": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "performance": " H ", // 
+      "balanced": "", // 
+      "power-saver": " L " // 
+    }
+  },
+  "clock": {
+    // "tooltip-format": "<tt><big>{calendar}</big></tt>",
+    // "format": "    {:%I:%M %p %a %b %d-%m-%Y}"
+    "format": " {:%I:%M %p} "
+  },
+  /////////////////////////////////////////////////////////////////
+  "wlr/taskbar": {
+    "all-outputs": true,
+    // "icon-theme": "Hicolor",
+    "icon-theme": "WhiteSur-dark",
+    "format": "",
+    // 
+    // "icon-size": 36,
+    "tooltip": false,
+    "on-click": "activate"
+  },
+  "tray": {
+    "spacing": 20,
+    "icon-size": 30
+  },
+  "clock#date": {
+    "tooltip-format": "<tt><big>{calendar}</big></tt>",
+    "format": "{:%a %b %d-%m-%Y}"
+  },
+  "cpu": {
+    "format": "{usage}% <big>󰓅</big>",
+    "tooltip": false
+  },
+  "memory": {
+    "format": "{}% "
+  },
+  "backlight": {
+    "format": "{percent}% "
+  },
+  "pulseaudio": {
+    "format": "{volume}% 󰓃",
+    "format-muted": "MUTED",
+    "format-bluetooth": "{volume}% "
+  }
+}

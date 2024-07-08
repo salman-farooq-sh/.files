@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Haptics
+Type=Application
+Terminal=false
+Icon=touchpad
+Exec=/opt/ehps-main.sh
+X-Desktop-File-Install-Version=0.27

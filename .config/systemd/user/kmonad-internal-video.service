@@ -1,0 +1,10 @@
+[Unit]
+Description=Start kmonad with internal/video.kbd
+
+[Service]
+ExecStart=/usr/bin/kmonad %E/kmonad/internal/video.kbd
+KillMode=process
+Nice=-20
+
+[Install]
+WantedBy=default.target

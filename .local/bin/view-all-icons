@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+# Credit: https://askubuntu.com/a/695834/1104908
+
+## Create the target directory
+mkdir /tmp/view_all_icons
+## Iterate over all files/dirs in the target locations
+for i in ~/.icons/* /usr/share/icons/* /usr/share/pixmaps/*; do 
+    ## find all icon files in this directory. If the current $i
+    ## is not a directory, find will just print its path directly.
+    find "$i" -name '*xpm' -o -name '*.svg' -o -name '*png' | 
+        ## Iterate over find's results
+        while read ico; do 
+            ## Make the link. ${var##*/} will print the
+            ## basename of $var, without the path. Here, I use
+            ## it both to get the theme name (${i##*/}) and the
+            ## icon's name (${ico##*/}).         
+            ln -sf "$ico" /tmp/view_all_icons/"${i##*/}"_"${ico##*/}"
+        done
+done
+
+xdg-open /tmp/view_all_icons/
+
+# To get the source packages, you could run: 
+# for i in /tmp/view_all_icons/*; do dpkg -S $(readlink -f "$i"); done

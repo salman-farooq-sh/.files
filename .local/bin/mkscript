@@ -1,0 +1,18 @@
+#!/usr/bin/fish
+
+set SCRIPTS_DIR "$HOME/.local/bin/"
+mkdir -p $SCRIPTS_DIR
+
+set script_name $argv
+set script_path $SCRIPTS_DIR/$script_name
+
+if test -e $script_path
+    echo editing $script_path
+else
+    echo creating $script_path
+    echo "#!/usr/bin/fish"\n\n >>$script_path
+    chmod +x $script_path
+end
+
+# sleep 0.8
+$EDITOR $script_path
