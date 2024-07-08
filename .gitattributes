@@ -1,0 +1,1 @@
+.config/fish/conf.d/50-secrets.fish filter=crypt diff=crypt merge=crypt
