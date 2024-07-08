@@ -1,0 +1,8 @@
+model: ollama
+clients:
+- type: ollama
+  api_base: http://localhost:11434
+  api_auth: null
+  models:
+  - name: llama3
+    max_input_tokens: null
