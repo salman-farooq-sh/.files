@@ -1,0 +1,25 @@
+scale = 32
+
+define trunc(num, to_scale) {
+    s = scale
+    
+    scale = to_scale
+    num = num / 1
+    
+    scale = s
+    return num
+}
+
+define void dpi(width_px, height_px, diagonal_in) {
+    diagonal_px = sqrt(width_px^2 + height_px^2)
+    d = trunc(diagonal_px / diagonal_in, 3)
+
+    theta = a(height_px / width_px)
+
+    width_in = trunc(diagonal_in * c(theta), 3)
+    height_in = trunc(diagonal_in * s(theta), 3)
+
+    megapx = trunc(width_px * height_px / 1000000, 3)
+
+    print "dpi: ", d, "\n", "width: ", width_in, "\n", "height: ", height_in, "\n", "MP: ", megapx, "\n"
+}

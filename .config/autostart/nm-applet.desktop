@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=NetworkManager Applet
+Comment=Manage your network connections
+Icon=nm-device-wireless
+Exec=false nm-applet --no-agent
+Terminal=false
+Type=Application
+NoDisplay=true
+NotShowIn=KDE;GNOME;niri;

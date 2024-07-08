@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=false /home/salman/.local/bin/restart-kmonad
+Icon=application-x-executable-script
+Name=restart-kmonad
+Type=Application
+X-KDE-AutostartScript=true
