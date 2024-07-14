@@ -2,9 +2,7 @@
 
 #define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 250
-#ifndef AUDIO_ENABLE
 #define QUICK_TAP_TERM 0
-#endif
 
 #define NO_ACTION_ONESHOT
 #define NO_ACTION_MACRO
@@ -18,6 +16,7 @@
 #define MK_C_INTERVAL_1     14
 #define MK_C_INTERVAL_UNMOD 15
 #define MK_C_INTERVAL_2     8
+
 // #define MOUSEKEY_DELAY       0
 // #define MOUSEKEY_INTERVAL    16
 // #define MOUSEKEY_MAX_SPEED   7
@@ -29,6 +28,3 @@
 
 #define USE_SERIAL
 #define EE_HANDS
-
-#define AUDIO_PIN C6
-#define STARTUP_SONG SONG(STARTUP_SOUND)

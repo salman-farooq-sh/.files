@@ -11,5 +11,5 @@ test $current = auto && set next 4
 
 echo "level $next" | sudo tee $file
 # zenity --notification --text "Fan level: $next" --icon=thinkfan-ui
-notify-send --transient --expire-time=800 --icon=thinkfan-ui " 󰈐 $next"
+set -U toggle_fan_notification_id (notify-send --print-id --replace-id=$toggle_fan_notification_id --transient --expire-time=2000 --icon=thinkfan-ui " 󰈐 $next")
 # espeak -a 20 -p 7 -s 140 $next

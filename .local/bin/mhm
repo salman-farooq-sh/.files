@@ -1,14 +1,11 @@
 #!/usr/bin/fish
 
-pactl set-sink-volume alsa_output.pci-0000_67_00.6.HiFi__hw_Generic_1__sink 5%
+pactl set-sink-volume alsa_output.pci-0000_67_00.6.HiFi__Speaker__sink 5%
 
 gtk-launch mhm-api
 gtk-launch mhm-web
 gtk-launch mhm-next
 
-google-chrome-stable \
-    "https://chat.openai.com/" \
+google-chrome-stable --new-window \
     "https://app.slack.com/client/TF9PDRRUH/C04MSGTF9DK" \
-    "https://web.skype.com/" \
-    "https://mentalhealthmatch.atlassian.net/jira/software/c/projects/WB/boards/7" \
-    "https://v2.chakra-ui.com/docs/components/icon" &
+    "https://web.skype.com/" &

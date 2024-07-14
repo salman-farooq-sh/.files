@@ -37,7 +37,7 @@ set video_folders_display (
 # set lines 25
 set lines (math min (count $video_folders_display), 26)
 
-set dmenu_index (for v in $video_folders_display; echo $v; end | dmenu --index)
+set dmenu_index (for v in $video_folders_display; echo $v; end | fuzzel --dmenu --index)
 
 set dmenu_status $status
 

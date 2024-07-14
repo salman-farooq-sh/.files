@@ -1,15 +1,15 @@
 // -*- mode: jsonc -*-
 {
   // "mode": "overlay",
-  // "output": "eDP-1",
+  "output": "eDP-1",
   "layer": "top",
   "exclusive": false,
   "passthrough": true,
   "position": "top",
-  // "margin-top": 7,
+  // "margin-top": 2,
   // "margin-left": 2,
   // "margin-bottom": 0,
-  // "margin-right": 3,
+  "margin-right": 10,
   "spacing": 0,
   // "ipc": true,
   // "id": "0",
@@ -18,7 +18,7 @@
   "modules-left": [],
   "modules-center": [],
   "modules-right": [
-    "network",
+    // "network",
     // "wlr/taskbar",
     "mpris",
     // "cpu",
@@ -37,7 +37,7 @@
     "length": 20,
     //   │ {essid}
     "format": " {bandwidthDownBytes} {bandwidthUpBytes} ",
-    "format-disconnected": "No Internet",
+    "format-disconnected": " offline ",
     "format-alt": false,
     "tooltip": false
   },
@@ -71,7 +71,7 @@
   "clock": {
     // "tooltip-format": "<tt><big>{calendar}</big></tt>",
     // "format": "    {:%I:%M %p %a %b %d-%m-%Y}"
-    "format": " {:%I:%M %p} "
+    "format": " {:%I:%M}"
   },
   /////////////////////////////////////////////////////////////////
   "wlr/taskbar": {

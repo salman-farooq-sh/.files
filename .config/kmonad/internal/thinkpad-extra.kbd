@@ -11,7 +11,7 @@
 )
 
 (deflayer base_layer
-	@f20 @video @wlan @connect @cancel @bookmarks
+	@f20 @video @wlan @connect @cancel bookmarks
 )
 
 (defalias
