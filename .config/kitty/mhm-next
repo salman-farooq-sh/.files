@@ -1,6 +1,6 @@
 cd ~/Programming/esketchers/mentalhealthmatch/apps/next/ 
-launch low fish --interactive --init-command 'nvm use 18 && npm run dev #mhm-next'
+launch low fish --interactive --init-command 'nvm use && npm run dev'
 
 new_tab
 cd ~/Programming/esketchers/mentalhealthmatch/apps/next/ 
-launch fish --interactive --init-command 'nvm use 18 && hx .'
+launch fish --interactive --init-command 'nvm use && hx'

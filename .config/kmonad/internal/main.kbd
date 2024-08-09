@@ -1,54 +1,42 @@
 (defcfg
-	input  (device-file "/dev/input/by-path/platform-i8042-serio-0-event-kbd")
+	input (device-file "/dev/input/by-path/platform-i8042-serio-0-event-kbd")
 	output (uinput-sink "kmonad-output-internal")
-	fallthrough true
-	allow-cmd true)
+	fallthrough true allow-cmd true)
 
 (defsrc
-	f1 f2 f3 f4 f5 f6 f7 f8 f9 f10 f11 f12 ins
 	esc mute vold volu home end sysrq del
 	grv 1 2 3 4 5 6 7 8 9 0 - = bspc
 	tab q w e r t y u i o p [ ] \
 	caps a s d f g h j k l ; ' ent
 	lsft z x c v b n m , . / rsft
-	lctl wkup lmeta lalt spc ralt rctl left down up right
-	pgup pgdn)
+	lctl wkup lmeta lalt spc ralt rctl left down up right)
 	
 (deflayer base
-	_ _ _ _ _ _ _ _ _ _ _ _ _
-	_ @mute _ _ _ _ _ _
-	_ _ _ _ _ _ _ _ _ _ _ _ _ _
-	_ _ _ _ _ _ _ _ _ _ _ _ _ _
-	@caps _ _ _ _ _ _ _ _ _ _ _ _
-	_ _ _ _ _ _ _ _ _ _ _ _
-	_ _ _ lalt spc lalt lctl _ _ _ _
-	_ _)
+	XX XX XX XX XX XX XX XX
+	XX 1 2 3 4 5 6 7 8 9 0 - = XX
+	XX q w e r t y u i o p [ ] XX
+	XX @a @s @d @f g h @j @k @l @ent ; XX
+	XX z x c v b n m , . / XX
+	XX XX XX esc @spc bspc XX XX XX XX XX)
 	
 (deflayer layer1
-	XX XX XX XX XX XX XX XX XX XX XX XX XX
-	_ XX XX XX XX XX XX XX
-	XX f1 f2 f3 f4 f5 f6 f7 f8 f9 f10 f11 f12 _
-	XX XX back fwd brdn brup f14 @pt @nt XX XX XX XX XX
-	_ XX @pt @nt f15 XX left down up right ; ' _
-	_ XX f17 f16 f13 ins del comp home end XX _
-	_ _ _ _ _ _ _ vold brdn brup volu
-	XX XX) 
-	
-(deflayer layer2
-	XX XX XX XX XX XX XX XX XX XX XX XX XX
-	pp XX prev next XX XX XX XX
-	XX XX XX XX XX XX XX XX XX XX XX XX XX XX
-	XX XX XX XX XX XX XX XX XX XX XX XX XX XX
-	XX XX XX XX XX XX rewind XX XX fastforward XX XX XX
-	_ XX XX XX XX XX XX XX XX XX XX _
-	_ XX _ _ _ _ _ XX XX XX XX
-	XX XX)
+	XX XX XX XX XX XX XX XX
+	XX f1 f2 f3 f4 f5 f6 f7 f8 f9 f10 f11 f12 XX
+	XX grv vold volu brdn brup f14 @pt @nt bookmarks sysrq mute XX XX
+	XX @a @s @d @f tab left down up right ' \ XX
+	XX f15 f17 f16 f13 cancel del comp home end XX XX
+	XX XX XX _ @spc _ XX XX XX XX XX)
 	
 (defalias
-	pt      C-pgup
-	nt      C-pgdn
+	pt C-pgup nt C-pgdn
 
-	caps    (tap-hold 200 esc (layer-toggle layer1))
-	mute    (tap-hold 200 mute (layer-toggle layer2))
-	spc     (tap-hold 200 spc lsft)
+	a       (tap-hold 240 a lalt)
+	s       (tap-hold 240 s lctl)
+	d       (tap-hold 240 d lsft)
+	f       (tap-hold 240 f lmet)
+	spc     (tap-hold 240 spc (layer-toggle layer1))
+	j       (tap-hold 240 j rmet)
+	k       (tap-hold 240 k rsft)
+	l       (tap-hold 240 l rctl)
+	ent     (tap-hold 240 ent ralt)
 )

@@ -6,6 +6,7 @@ gtk-launch mhm-api
 gtk-launch mhm-web
 gtk-launch mhm-next
 
-google-chrome-stable --new-window \
-    "https://app.slack.com/client/TF9PDRRUH/C04MSGTF9DK" \
-    "https://web.skype.com/" &
+test $argv[1] = with-chrome &&
+    google-chrome-stable --new-window \
+        "https://app.slack.com/client/TF9PDRRUH/C04MSGTF9DK" \
+        "https://web.skype.com/" &

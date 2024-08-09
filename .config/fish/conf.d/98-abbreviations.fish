@@ -91,7 +91,7 @@ abbr -a pms 'DJANGO_SETTINGS_MODULE=(python3 manage.py shell -i python -c \'impo
 # systemd
 abbr -a sr 'systemctl restart'
 abbr -a sur 'systemctl --user restart'
-abbr -a rbios 'systemctl reboot -firmware-setup'
+abbr -a rbios 'systemctl reboot --firmware-setup'
 abbr -a sdi 'systemd-inhibit --what=sleep:handle-lid-switch'
 
 # udisksctl
@@ -129,4 +129,4 @@ abbr -a a amdgpu_top
 abbr -a ys 'yay -S --needed'
 abbr -a yr 'yay -Rnsu'
 abbr -a yq 'yay -Qi'
-abbr -a ys 'yay -Si'
+abbr -a ysi 'yay -Si'

@@ -1,3 +1,8 @@
 ignore-empty-password
+daemonize
+color=000000
+indicator-idle-visible
 scaling=fill
-image=/home/salman/Pictures/wallpapers/current
+indicator-radius=400
+indicator-thickness=40
+ring-color=003300

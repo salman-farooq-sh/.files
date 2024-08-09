@@ -3,4 +3,4 @@ launch low fish --interactive --init-command 'nvm use 18 && NODE_OPTIONS=--opens
 
 new_tab
 cd ~/Programming/esketchers/mentalhealthmatch/apps/api/ 
-launch fish --interactive --init-command 'nvm use 18 && hx .'
+launch fish --interactive --init-command 'nvm use 18 && hx'

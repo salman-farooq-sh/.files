@@ -4,7 +4,7 @@ while true
     if upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep state: | grep discharging
         set percentage (upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep percentage: | grep -Eo '[[:digit:]]+%$' | grep -Eo '[[:digit:]]+')
 
-        if test $percentage -le 15
+        if test $percentage -le 8
             set id (notify-send --print-id --replace-id=$id "Battery low! Only $percentage% left")
         end
     end

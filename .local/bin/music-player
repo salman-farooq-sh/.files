@@ -13,8 +13,8 @@ if true
         --override remember_window_size='no' \
         --override font_size='18' \
         # --override background_opacity='1.0' \
-        --override background='#000' \
-        --override foreground='#0ff' \
+        # --override background='#000' \
+        # --override foreground='#0ff' \
         --override initial_window_height='2c' \
         --override initial_window_width=(
                     ls $music_folder | python3 -c (

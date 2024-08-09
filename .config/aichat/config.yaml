@@ -4,5 +4,5 @@ clients:
   api_base: http://localhost:11434
   api_auth: null
   models:
-  - name: llama3
+  - name: llama3.1:8b
     max_input_tokens: null

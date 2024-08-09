@@ -1,4 +1,6 @@
 [Desktop Entry]
-Exec=rk
 Name=Restart Kmonad
+Exec=rk
+Terminal=false
 Type=Application
+NoDisplay=true

@@ -1,5 +1,5 @@
-# theme = "dark_plus"
-theme = "base16_transparent"
+theme = "dark_plus"
+# theme = "base16_transparent"
 # theme = "dark_high_contrast"
 # theme = "heisenberg"
 # theme = "molokai"
@@ -9,39 +9,37 @@ theme = "base16_transparent"
 # theme = "emacs"
 
 [editor]
-scrolloff = 5
-line-number = "absolute"
 shell = ["fish", "-c"]
 cursorline = true
-# cursorcolumn = true
+gutters = []
 auto-format = true
-auto-save = true
 auto-pairs = false
 bufferline = "multiple"
 color-modes = true
+insert-final-newline = true
 popup-border = "all"
-insert-final-newline = false
 mouse = true
 completion-timeout = 5
 soft-wrap.enable = true
 
+[editor.auto-save]
+focus-lost = true
+
+[editor.search]
+wrap-around = false
+
 [editor.statusline]
-left = ["mode", "spinner", "read-only-indicator", "file-modification-indicator"]
-center = ["file-name"]
-right = [
-  "diagnostics",
-  "workspace-diagnostics",
-  "selections",
-  "register",
-  "position",
+left = [
+  "spinner",
   "version-control",
+  "file-name",
+  "file-modification-indicator",
+  "read-only-indicator",
 ]
+center = []
+right = ["diagnostics", "position", "position-percentage", "file-type"]
 
 [editor.lsp]
-enable = true
-display-messages = true
-auto-signature-help = false
-display-inlay-hints = false
 goto-reference-include-declaration = false
 
 [editor.cursor-shape]
@@ -52,57 +50,73 @@ select = "underline"
 [editor.file-picker]
 hidden = false
 git-ignore = false
-git-global = true
+git-global = false
 
-[editor.whitespace.render]
-space = "none"
-tab = "none"
-nbsp = "none"
-nnbsp = "none"
-newline = "none"
+[editor.whitespace]
+render = "all"
 
-[editor.whitespace.characters]
-space = "·"
-nbsp = "⍽"
-nnbsp = "␣"
-newline = "⏎"
-tab = "·"
-tabpad = "·"
+[editor.indent-guides]
+render = true
 
 [keys.normal]
+"=" = ":fmt"
 tab = "move_parent_node_end"
 S-tab = "move_parent_node_start"
-d = [":yank-join", ":clipboard-yank-join", ":primary-clipboard-yank-join", "delete_selection_noyank"]
-y = [":yank-join", ":clipboard-yank-join", ":primary-clipboard-yank-join", "collapse_selection", "exit_select_mode"]
+C-S-pagedown = "goto_next_buffer"
+C-S-pageup = "goto_previous_buffer"
+p = "paste_clipboard_after"
+P = "no_op"
+y = "yank_to_clipboard"
 Y = "no_op"
-p = ":clipboard-paste-after"
-P = ":clipboard-paste-before"
-r = [":clipboard-paste-replace", "collapse_selection", "collapse_selection", "exit_select_mode"]
-# C-pagedown = "goto_next_buffer"
-# C-pageup = "goto_previous_buffer"
+R = "replace_selections_with_clipboard"
+d = ["yank_to_clipboard", "delete_selection_noyank"]
 
 [keys.insert]
-S-tab = "move_parent_node_start"
-# C-pagedown = "goto_next_buffer"
-# C-pageup = "goto_previous_buffer"
+C-S-pagedown = "goto_next_buffer"
+C-S-pageup = "goto_previous_buffer"
 
 [keys.select]
+"=" = ":fmt"
 tab = "extend_parent_node_end"
 S-tab = "extend_parent_node_start"
-d = [":yank-join", ":clipboard-yank-join", ":primary-clipboard-yank-join", "delete_selection_noyank"]
-y = [":yank-join", ":clipboard-yank-join", ":primary-clipboard-yank-join", "collapse_selection", "exit_select_mode"]
+C-S-pagedown = "goto_next_buffer"
+C-S-pageup = "goto_previous_buffer"
+p = "paste_clipboard_after"
+P = "no_op"
+y = "yank_to_clipboard"
 Y = "no_op"
-r = [":clipboard-paste-replace", "collapse_selection", "collapse_selection", "exit_select_mode"]
-# C-pagedown = "goto_next_buffer"
-# C-pageup = "goto_previous_buffer"
+R = "replace_selections_with_clipboard"
+d = ["yank_to_clipboard", "delete_selection_noyank"]
 
+# fbjsdga'w/krhc
 [keys.normal.space]
-Y = "no_op"
-
-[keys.normal.minus]
-w = ":w"
-c = ":config-reload"
+m = ":w"
+M = ":w!"
+C-c = ":config-reload"
+R = ":rla"
 q = ":q"
 Q = ":q!"
-r = ":rla"
 e = ":buffer-close"
+F = "no_op"
+y = "no_op"
+Y = "no_op"
+p = "no_op"
+P = "no_op"
+
+[keys.normal.g]
+n = "no_op"
+p = "no_op"
+j = "no_op"
+k = "no_op"
+t = "no_op"
+c = "no_op"
+b = "no_op"
+
+[keys.select.g]
+n = "no_op"
+p = "no_op"
+j = "no_op"
+k = "no_op"
+t = "no_op"
+c = "no_op"
+b = "no_op"

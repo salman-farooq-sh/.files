@@ -2,8 +2,10 @@
 
 killall swaybg
 
+exit
+
 swaybg \
     --mode fill \
     --output "*" \
     --image \
-    /home/salman/Pictures/wallpapers/current
+    ~/Pictures/wallpapers/current

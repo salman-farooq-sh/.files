@@ -1,13 +1,14 @@
 font=JetBrainsMonoNFM 20
-background-color=#000000B0
-width=450
+background-color=#000000b0
+width=500
 height=300
 border-size=1
-border-radius=12
-border-color=#ff0000ff
+border-radius=0
+border-color=#00ffff80
 anchor=bottom-right
 outer-margin=22,11
 padding=12
 on-button-left=dismiss
 layer=overlay
-on-notify=exec mpv --no-config /usr/share/sounds/freedesktop/stereo/message-new-instant.oga
+on-notify=exec play -v 0.12 /usr/share/sounds/freedesktop/stereo/message.oga
+

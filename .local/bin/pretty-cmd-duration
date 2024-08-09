@@ -17,15 +17,9 @@ h_format = "{h}h, " + m_format
 d_format = "{d}d, " + h_format
 
 print(
-    "[took ",
+    "[",
     (
-        d_format
-        if d > 0
-        else h_format
-        if h > 0
-        else m_format
-        if m > 0
-        else s_format
+        d_format if d > 0 else h_format if h > 0 else m_format if m > 0 else s_format
     ).format(
         d=d,
         h=h,
