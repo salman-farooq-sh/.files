@@ -1,0 +1,4 @@
+#!/usr/bin/fish
+
+nmcli radio wifi off
+nmcli radio wifi on

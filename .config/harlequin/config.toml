@@ -1,0 +1,6 @@
+default_profile = "postgres"
+[profiles.postgres]
+adapter = "postgres"
+theme = "rrt"
+limit = 1234567890
+keymap_name = ["vscode"]

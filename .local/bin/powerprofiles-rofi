@@ -1,0 +1,38 @@
+#!/usr/bin/fish
+
+set profiles (
+    powerprofilesctl list \
+    | grep \
+        -E \
+        -o \
+        '^..[a-z-]+' \
+    | tac
+)
+
+set current_profile (
+    string join \n $profiles \
+    | grep \
+        -n \
+        '\*' \
+    | string split ':'
+)[1]
+
+set profiles (
+    string join \n $profiles \
+    | string trim --chars '* '
+)
+
+set selected_profile (
+    string join \n $profiles \
+    | rofi \
+        -normal-window \
+        -dmenu \
+        -i \
+        -matching fuzzy \
+        -theme-str 'listview {lines: '(count $profiles)';} window {width: 8em; font: "mono 20";}' \
+        -p "" \
+        -selected-row (math $current_profile - 1)
+)
+
+test $status = 0 && \
+    powerprofilesctl set $selected_profile

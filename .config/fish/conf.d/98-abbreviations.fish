@@ -69,6 +69,7 @@ abbr -a nug 'sudo nala upgrade'
 
 # protonvpn
 abbr -a pc 'sudo protonvpn c --cc NL'
+abbr -a pcf 'sudo protonvpn c -f'
 abbr -a pcu 'sudo protonvpn c --cc US'
 abbr -a pd 'sudo protonvpn d'
 
@@ -103,7 +104,7 @@ abbr -a udu 'udisksctl unmount --force --block-device /dev/sd'
 # utility
 abbr -a w which
 abbr -a xo xdg-open
-abbr -a cpl 'history | head -n 1 | wl-copy'
+abbr -a cpl 'history | head -n 1 | tr -d '\\n' | wl-copy'
 abbr -a ch 'sudo chth'
 abbr -a st speedtest
 abbr -a m moar

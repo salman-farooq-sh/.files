@@ -2,7 +2,7 @@
 
 killall swaybg
 
-exit
+# exit
 
 swaybg \
     --mode fill \

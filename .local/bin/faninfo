@@ -1,8 +1,9 @@
 #!/usr/bin/fish
 
-math round ( \
-    cat /proc/acpi/ibm/fan \
-    | grep -E 'speed:\s+' \
-    | cut -c 7- \
-    | string trim \
-) / 100
+set -l file /proc/acpi/ibm/fan
+
+printf '%d rpm, ' (math "round($(cat $file | grep -E 'speed:\s+' | cut -c 7- | tr -d \n) / 100) x 100")
+
+# echo -n 'level: '
+
+cat $file | grep -E 'level:' | string replace --regex '\s+' ' ' | tr -d \n | cut -b8

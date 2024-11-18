@@ -1,0 +1,5 @@
+profile {
+	output eDP-1 enable transform normal scale 2 position 0,1080
+	output DP-1  enable transform 90     scale 2 position 1920,0
+	output DP-2  enable transform normal scale 2 position 0,0
+}

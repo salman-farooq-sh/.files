@@ -1,0 +1,7 @@
+#!/usr/bin/fish
+
+set -l file '/sys/devices/system/cpu/intel_pstate/no_turbo'
+set -l current (cat $file)
+
+test $current = 0 && echo 1 | sudo tee $file && echo turbo off
+test $current = 1 && echo 0 | sudo tee $file && echo turbo on

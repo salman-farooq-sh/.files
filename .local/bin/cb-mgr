@@ -1,3 +1,3 @@
 #!/usr/bin/fish
 
-cliphist list | fuzzel --dmenu --width 110 | cliphist decode | wl-copy
+cliphist list | fuzzel --dmenu | cliphist decode | wl-copy

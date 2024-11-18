@@ -1,7 +1,7 @@
 (defcfg
 	input (device-file "/dev/input/by-path/platform-thinkpad_acpi-event")
 	output (uinput-sink "kmonad-output-internal-thinkpad-extra")
-	fallthrough true allow-cmd true)
+	fallthrough true allow-cmd false)
 
 (defsrc
 	f20
@@ -12,9 +12,9 @@
 	bookmarks)
 
 (deflayer base_layer
-	XX
-	XX
-	XX
-	XX
-	XX
-	XX)
+	_
+	_
+	_
+	_
+	_
+	media)

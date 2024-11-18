@@ -1,5 +1,5 @@
-theme = "dark_plus"
-# theme = "base16_transparent"
+# theme = "dark_plus"
+theme = "base16_transparent"
 # theme = "dark_high_contrast"
 # theme = "heisenberg"
 # theme = "molokai"
@@ -11,22 +11,26 @@ theme = "dark_plus"
 [editor]
 shell = ["fish", "-c"]
 cursorline = true
-gutters = []
+cursorcolumn = true
+# gutters = []
 auto-format = true
 auto-pairs = false
 bufferline = "multiple"
 color-modes = true
 insert-final-newline = true
 popup-border = "all"
+indent-heuristic = "hybrid"
 mouse = true
-completion-timeout = 5
+# auto-completion = false
+completion-timeout = 800
 soft-wrap.enable = true
+scrolloff = 5
 
 [editor.auto-save]
 focus-lost = true
 
 [editor.search]
-wrap-around = false
+wrap-around = true
 
 [editor.statusline]
 left = [
@@ -41,6 +45,7 @@ right = ["diagnostics", "position", "position-percentage", "file-type"]
 
 [editor.lsp]
 goto-reference-include-declaration = false
+auto-signature-help = false
 
 [editor.cursor-shape]
 insert = "bar"
@@ -53,10 +58,10 @@ git-ignore = false
 git-global = false
 
 [editor.whitespace]
-render = "all"
+render = "none"
 
 [editor.indent-guides]
-render = true
+render = false
 
 [keys.normal]
 "=" = ":fmt"
@@ -88,9 +93,9 @@ Y = "no_op"
 R = "replace_selections_with_clipboard"
 d = ["yank_to_clipboard", "delete_selection_noyank"]
 
-# fbjsdga'w/krhc
 [keys.normal.space]
-m = ":w"
+space = ":w"
+m = "no_op"
 M = ":w!"
 C-c = ":config-reload"
 R = ":rla"

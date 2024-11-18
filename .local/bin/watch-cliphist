@@ -1,0 +1,3 @@
+#!/usr/bin/fish
+
+wl-paste --watch cliphist -max-items 30 store

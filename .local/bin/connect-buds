@@ -1,5 +1,6 @@
 #!/usr/bin/fish
 
-bluetoothctl connect "EC:AC:1A:AC:F4:B7"
+bluetoothctl connect 42:43:4C:00:05:28
+bluetoothctl connect EC:AC:1A:AC:F4:B7
 
-pactl set-default-sink bluez_output.EC_AC_1A_AC_F4_B7.1
+# pactl set-default-sink bluez_output.EC_AC_1A_AC_F4_B7.1

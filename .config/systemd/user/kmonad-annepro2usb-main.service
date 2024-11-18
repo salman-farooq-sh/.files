@@ -1,0 +1,11 @@
+[Unit]
+Description=Start kmonad with annepro2/main.kbd
+
+[Service]
+ExecStart=/usr/bin/kmonad %E/kmonad/annepro2/main.kbd --input "device-file \"/dev/input/by-id/usb-OBINS_OBINS_AnnePro2_00000000000000000000000000000000-event-kbd\""
+Restart=on-failure
+KillMode=process
+Nice=-20
+
+[Install]
+WantedBy=dev-annepro2usb.device

@@ -1,0 +1,26 @@
+#!/usr/bin/fish
+
+set touchscreen_device 'Raydium Corporation Raydium Touch System' # as given by xinput
+
+set current_state (xinput list-props $touchscreen_device | grep -oE 'Device Enabled.*' | grep -oE '.$')
+
+function notify
+    notify-send \
+    --expire-time=4000 \
+    --icon='dialog-information.svg' \
+    --app-name='Info' \
+    "Touchscreen $argv[1]"
+end
+
+if test $current_state = 0
+    if test "$argv" = '--notify'
+        notify enabled
+    end
+    xinput enable $touchscreen_device
+else
+    if test "$argv" = '--notify'
+        notify disabled
+    end
+    xinput disable $touchscreen_device
+end
+

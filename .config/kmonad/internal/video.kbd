@@ -1,10 +1,8 @@
 (defcfg
 	input (device-file "/dev/input/event3")
 	output (uinput-sink "kmonad-output-internal-video")
-	fallthrough true allow-cmd true)
+	fallthrough true allow-cmd false)
 
-(defsrc
-	brdn brup)
+(defsrc brdn brup)
 
-(deflayer base_layer 
-	XX XX)
+(deflayer base_layer brdn brup)

@@ -1,8 +1,6 @@
-model: ollama
 clients:
-- type: ollama
-  api_base: http://localhost:11434
-  api_auth: null
-  models:
-  - name: llama3.1:8b
-    max_input_tokens: null
+  - type: openai-compatible
+    name: ollama
+    api_base: http://localhost:11434/v1
+    models:
+    - name: qwen2.5-coder:latest

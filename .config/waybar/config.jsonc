@@ -1,107 +1,42 @@
 // -*- mode: jsonc -*-
 {
+  // "start_hidden": true,
   // "mode": "overlay",
   // "output": "eDP-1",
+  "fixed-center": false,
   "layer": "top",
   "exclusive": false,
   "passthrough": true,
   "position": "top",
+  "margin-left": 0,
+  "margin-bottom": 0,
   "margin-top": 0,
-  // "margin-left": 2,
-  // "margin-bottom": 0,
-  "margin-right": 3,
+  "margin-right": 0,
   "spacing": 0,
-  // "ipc": true,
-  // "id": "0",
   "reload_style_on_change": true,
-  // "fixed-center": true,
   "modules-left": [],
   "modules-center": [],
   "modules-right": [
-    // "wlr/taskbar",
-    "mpris",
-    // "clock#date",
-    "network",
+    "pulseaudio",
     "battery",
-    "power-profiles-daemon",
     "clock"
-    // "tray",
   ],
-  "network": {
-    // "on-click": "networkmanager_dmenu",
-    "interval": 3,
-    // "length": 20,
-    //   │ {essid}
-    "format": " {bandwidthDownBytes} {bandwidthUpBytes} ",
-    // "format": "",
-    "format-disconnected": " offline ",
-    "format-alt": false,
+  "pulseaudio": {
+    "format": "",
+    "format-muted": "  ",
+    "format-bluetooth": "  ",
     "tooltip": false
   },
-  "mpris": {
-    "format": " {title} ",
-    "title-len": 50,
-    "ignored-players": [
-      "firefox",
-      "chromium"
-    ]
-  },
   "battery": {
-    "format": " {capacity}% ",
-    "format-full": " {capacity}% ",
-    "format-charging": " {capacity}% ",
-    "format-plugged": " {capacity}% ",
+    "format": "{capacity}%  ",
     "states": {
       "warning": 15
     },
-    "interval": 2
-  },
-  "power-profiles-daemon": {
-    "tooltip": false,
-    "format": "{icon}",
-    "format-icons": {
-      "performance": " H ", // 
-      "balanced": "", // 
-      "power-saver": " L " // 
-    }
-  },
-  "clock": {
-    // "tooltip-format": "<tt><big>{calendar}</big></tt>",
-    // "format": "    {:%I:%M %p %a %b %d-%m-%Y}"
-    "format": " {:%I:%M}"
-  },
-  /////////////////////////////////////////////////////////////////
-  "wlr/taskbar": {
-    "all-outputs": true,
-    // "icon-theme": "Hicolor",
-    "icon-theme": "WhiteSur-dark",
-    "format": "",
-    // 
-    // "icon-size": 36,
-    "tooltip": false,
-    "on-click": "activate"
-  },
-  "tray": {
-    "spacing": 20,
-    "icon-size": 30
-  },
-  "clock#date": {
-    "tooltip-format": "<tt><big>{calendar}</big></tt>",
-    "format": "{:%a %b %d-%m-%Y}"
-  },
-  "cpu": {
-    "format": "{usage}% <big>󰓅</big>",
+    "interval": 1,
     "tooltip": false
   },
-  "memory": {
-    "format": "{}% "
-  },
-  "backlight": {
-    "format": "{percent}% "
-  },
-  "pulseaudio": {
-    "format": "{volume}% 󰓃",
-    "format-muted": "MUTED",
-    "format-bluetooth": "{volume}% "
+  "clock": {
+    "interval": 5,
+    "format": "{:%d %b, %I:%M}"
   }
 }

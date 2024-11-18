@@ -1,0 +1,9 @@
+#!/usr/bin/fish
+
+set -l file $HOME/Videos/recordings/(date).mp4
+mkdir -p (dirname $file)
+
+wf-recorder -c hevc_vaapi -p rc_mode=CQP -p qp=14 -f $file
+# wl-screenrec --audio --codec=hevc --bitrate="16 MB" --low-power=off --filename=$file
+
+wl-copy file://$file -t text/uri-list

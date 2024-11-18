@@ -1,0 +1,9 @@
+#!/usr/bin/fish
+
+set -l brightness_on_dim 9
+
+swayidle -w \
+    before-sleep "test (brightnessctl get) != $brightness_on_dim && brightnessctl --save" \
+    after-resume "brightnessctl --restore" \
+    # timeout 900 "niri msg action power-off-monitors" resume "brightnessctl --restore" \
+    timeout 300 "brightnessctl --save; brightnessctl set $brightness_on_dim" resume "brightnessctl --restore"

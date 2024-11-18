@@ -1,0 +1,7 @@
+#!/usr/bin/fish
+
+set -U notify_playing_notification_id (
+    notify-send --print-id --replace-id=$notify_playing_notification_id --transient --expire-time=2000 (
+        playerctl metadata --format '{{title}}'
+    )
+)

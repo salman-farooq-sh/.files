@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+.idea/
+.vscode/
+.next/
+.venv/
+venv/
+node_modules/
+coverage/
+out/
+dist/
+cypress/
+playwright/
+build/
+.build/
+.esbuild/
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+jest_html_reporters.html
+jest-html-reporters-attach
+

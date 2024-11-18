@@ -19,8 +19,8 @@ language-servers = ["pyright", "ruff"]
 config.python.analysis.typeCheckingMode = "basic"
 
 [language-server.ruff]
-command = "ruff-lsp"
-config.settings.args = ["--ignore", "E501"]
+command = "ruff"
+args = ["server"]
 
 #######################################################################################
 # WEB:
@@ -65,3 +65,14 @@ language-servers = ["typescript-language-server"]
 command = "./node_modules/@angular/language-server/bin/ngserver"
 args = ["--stdio", "--tsProbeLocations", ".", "--ngProbeLocations", "."]
 #######################################################################################
+
+[language-server.gpt]
+command = "helix-gpt"
+args = [
+  "--handler",
+  "ollama",
+  "--ollamaModel",
+  "qwen:4b",
+  "--ollamaTimeout",
+  "9000",
+]

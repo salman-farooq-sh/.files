@@ -1,16 +1,17 @@
 #!/bin/fish
 
-set video_url (wl-paste)
-set suggested_name (yt-dlp --no-playlist $video_url --get-filename -o '%(title)s')
-set final_name (read -p "set_color green; echo -n 'Name for audio file: '; set_color normal;" -c $suggested_name)
-set format 'mp3'
+set -l music_folder "$HOME/Music"
+set -l video_url (wl-paste)
+set -l suggested_name (yt-dlp --no-playlist $video_url --get-filename -o '%(title)s')
+set -l final_name (read -p "set_color green; echo -n 'Name for audio file: '; set_color normal;" -c $suggested_name)
+set -l format mp3
 
 yt-dlp $video_url \
---no-playlist \
---retries infinite \
---extract-audio \
---audio-format $format \
---output "$HOME/Music/audio/$final_name.$format" \
---postprocessor-args "ExtractAudio:-metadata title="(string escape $final_name)
+    --no-playlist \
+    --retries infinite \
+    --extract-audio \
+    --audio-format $format \
+    --output "$music_folder/$final_name.$format" \
+    --postprocessor-args "ExtractAudio:-metadata title="(string escape $final_name)
 
-touch "$HOME/Music/audio/$final_name.$format"
+touch "$music_folder/$final_name.$format"

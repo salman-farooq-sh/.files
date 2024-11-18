@@ -654,7 +654,7 @@
 		<file>Skins\Avatars\Smileys\Smiley01.dds</file>
 		<checksum>0xD4C94E7C8C99635C4136F82FD4D98017</checksum>
 		<size>8 320</size>
-		<lastuse>26/07/2024 01:22</lastuse>
+		<lastuse>12/11/2024 03:25</lastuse>
 	</packdesc>
 	<packdesc>
 		<name>Skins\Avatars\Smileys\Smiley02.dds</name>
@@ -918,7 +918,7 @@
 		<file>Interface\Advertising\Any+Advertisement#RaceAd2x1A.dds</file>
 		<checksum>0x00000000000000000000000000000001</checksum>
 		<size>21 992</size>
-		<lastuse>26/07/2024 01:22</lastuse>
+		<lastuse>12/11/2024 03:25</lastuse>
 	</packdesc>
 	<packdesc>
 		<name>Skins\Any\Advertisement\Advert2.zip</name>
@@ -926,7 +926,7 @@
 		<file>Interface\Advertising\Any+Advertisement#RaceAd2x1B.dds</file>
 		<checksum>0x00000000000000000000000000000001</checksum>
 		<size>21 992</size>
-		<lastuse>26/07/2024 01:22</lastuse>
+		<lastuse>12/11/2024 03:25</lastuse>
 	</packdesc>
 	<packdesc>
 		<name>Skins\Any\Advertisement\Advert3.zip</name>
@@ -934,7 +934,7 @@
 		<file>Interface\Advertising\Any+Advertisement#RaceAd2x1C.dds</file>
 		<checksum>0x00000000000000000000000000000001</checksum>
 		<size>21 992</size>
-		<lastuse>26/07/2024 01:22</lastuse>
+		<lastuse>12/11/2024 03:25</lastuse>
 	</packdesc>
 	<packdesc>
 		<name>Skins\Bay\Buildings\AmberSalt.zip</name>
@@ -1510,7 +1510,7 @@
 		<file>Skins\Stadium\Inflatable\Orange.zip</file>
 		<checksum>0xE61DFF0B1F4D82D5391894B0D0FE4946</checksum>
 		<size>29 296</size>
-		<lastuse>20/10/2006 12:37</lastuse>
+		<lastuse>12/11/2024 03:25</lastuse>
 	</packdesc>
 	<packdesc>
 		<name>Skins\Stadium\Inflatable\White.zip</name>
@@ -1542,7 +1542,7 @@
 		<file>Skins\Stadium\Music\Race\ Trackmania United - Stadium - Start Off remix.ogg</file>
 		<checksum>0x8B384A7D047B3B33F7E5C05D096817B8</checksum>
 		<size>4 366 963</size>
-		<lastuse>06/04/2024 17:56</lastuse>
+		<lastuse>12/11/2024 03:25</lastuse>
 	</packdesc>
 	<packdesc>
 		<name>Skins\Stadium\Music\Race\ Trackmania United - Stadium - Tictac remix.ogg</name>
@@ -2078,7 +2078,7 @@
 		<file>Skins\Vehicles\StadiumCar\FIN.zip</file>
 		<checksum>0xEE9E8EC6726B485507D1612D1E591F30</checksum>
 		<size>1 786 494</size>
-		<lastuse>26/07/2024 01:22</lastuse>
+		<lastuse>12/11/2024 03:25</lastuse>
 	</packdesc>
 	<packdesc>
 		<name>Skins\Vehicles\StadiumCar\FRA.zip</name>
@@ -2294,7 +2294,7 @@
 		<file>Skins\Vehicles\StadiumCar\MEX.zip</file>
 		<checksum>0x249ADE7D76C9954DE5ED826E9B84B3F6</checksum>
 		<size>1 068 054</size>
-		<lastuse>14/03/2008 11:40</lastuse>
+		<lastuse>12/11/2024 03:25</lastuse>
 	</packdesc>
 	<packdesc>
 		<name>Skins\Vehicles\StadiumCar\MGL.zip</name>
@@ -2614,7 +2614,7 @@
 		<file>Skins\Any\Advertisement\SignDown.bik</file>
 		<checksum>0x377CF83255EB08330FEA43C429EFDE2C</checksum>
 		<size>240 180</size>
-		<lastuse>06/04/2024 18:08</lastuse>
+		<lastuse>12/11/2024 03:25</lastuse>
 	</packdesc>
 	<packdesc>
 		<name>Skins\Any\Advertisement\SignLeft.bik</name>
@@ -2622,7 +2622,7 @@
 		<file>Skins\Any\Advertisement\SignLeft.bik</file>
 		<checksum>0x3177BD242827E89E5FE6A7305C2B8C9F</checksum>
 		<size>192 344</size>
-		<lastuse>23/05/2024 18:55</lastuse>
+		<lastuse>12/11/2024 03:25</lastuse>
 	</packdesc>
 	<packdesc>
 		<name>Skins\Any\Advertisement\SignRight.bik</name>
@@ -2630,7 +2630,7 @@
 		<file>Skins\Any\Advertisement\SignRight.bik</file>
 		<checksum>0xAE78ACE3281BA4CD3560A97B12BD10DB</checksum>
 		<size>192 308</size>
-		<lastuse>23/05/2024 18:55</lastuse>
+		<lastuse>12/11/2024 03:25</lastuse>
 	</packdesc>
 	<packdesc>
 		<name>Skins\Any\Advertisement\SignUp.bik</name>
@@ -3487,5 +3487,29 @@
 		<checksum>0xD942108675AD80B5108420433BEEFA05</checksum>
 		<size>1 596 284</size>
 		<lastuse>07/04/2008 07:19</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>nadeo.Bench.4k.Sunset.LightMap.zip</name>
+		<root>shared</root>
+		<file>Cache\29E662FAF675FE56E825F915345E3EA7_nadeo.Bench.4k.Sunset.LightMap.zip</file>
+		<checksum>0x29E662FAF675FE56E825F915345E3EA7</checksum>
+		<size>3 774 642</size>
+		<lastuse>12/11/2024 03:16</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>nadeo.Bench.8k.Sunset.LightMap.zip</name>
+		<root>shared</root>
+		<file>Cache\06DE39F2A7F6F97809DC74DA563A1FD4_nadeo.Bench.8k.Sunset.LightMap.zip</file>
+		<checksum>0x06DE39F2A7F6F97809DC74DA563A1FD4</checksum>
+		<size>11 491 507</size>
+		<lastuse>12/11/2024 03:18</lastuse>
+	</packdesc>
+	<packdesc>
+		<name>Nadeo.B05-Race.8k.Day.LightMap.zip</name>
+		<root>shared</root>
+		<file>Cache\60CC9AF9B9ACE6D6F7B4311DC8AC8F67_Nadeo.B05-Race.8k.Day.LightMap.zip</file>
+		<checksum>0x60CC9AF9B9ACE6D6F7B4311DC8AC8F67</checksum>
+		<size>14 992 858</size>
+		<lastuse>12/11/2024 03:25</lastuse>
 	</packdesc>
 </cache>

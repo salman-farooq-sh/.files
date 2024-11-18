@@ -10,7 +10,7 @@ if test -e $script_path
     echo editing $script_path
 else
     echo creating $script_path
-    echo "#!/usr/bin/fish"\n\n >>$script_path
+    echo "#!/usr/bin/fish"\n >>$script_path
     chmod +x $script_path
 end
 

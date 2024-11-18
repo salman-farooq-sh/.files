@@ -1,10 +1,10 @@
 #!/usr/bin/fish
 
-pactl set-sink-volume alsa_output.pci-0000_67_00.6.HiFi__Speaker__sink 5%
+pactl set-sink-volume alsa_output.pci-0000_66_00.6.HiFi__Speaker__sink 5%
 
 gtk-launch mhm-api
-gtk-launch mhm-web
 gtk-launch mhm-next
+gtk-launch mhm-web
 
 test $argv[1] = with-chrome &&
     google-chrome-stable --new-window \

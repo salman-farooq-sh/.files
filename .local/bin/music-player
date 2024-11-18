@@ -1,50 +1,49 @@
 #!/usr/bin/fish
 
-set music_folder "$HOME/Music/audio"
+set -l music_folder "$HOME/Music"
 
-if true
-    systemd-inhibit \
-        --mode=block \
-        --what=sleep \
-        --who=(basename (status filename)) \
-        --why='playing music' \
-        kitty \
-        --class music-player \
-        --override remember_window_size='no' \
-        --override font_size='18' \
-        # --override background_opacity='1.0' \
-        # --override background='#000' \
-        # --override foreground='#0ff' \
-        --override initial_window_height='2c' \
-        --override initial_window_width=(
-                    ls $music_folder | python3 -c (
-                        echo '''
-                        import sys
-                        import os
-                        sys.stdout.writelines(
-                            str(
-                                len(
-                                    os.path.splitext(
-                                        sorted(
-                                            sys.stdin.readlines(), 
-                                            key=len,
-                                        )[-1]
-                                    )[0]
-                                ) + 1
-                            )
-                        )
-                        ''' | dedent | string collect
-                    )
-                )'c' \
-        mpv \
-        --no-term-osd-bar \
-        --term-title='${filename/no-ext}' \
-        --term-playing-msg='\n${filename/no-ext}' \
-        #--term-playing-msg='\n${media-title/no-ext}' \
-        --term-status-msg='${time-pos} / ${duration} ${?pause==yes:(Paused)}' \
-        # (for i in $music_folder/*.mp3; echo $i; end | sort --version-sort)
-        # (random choice $music_folder/*.mp3)
-        # (shuf -e $music_folder/*.mp3)
-        --loop \
-        (ls --sort=time --time=modification $music_folder/*.mp3) # use `touch any.mp3` to bring it in front
-end
+systemd-inhibit \
+    --mode=block \
+    --what=sleep \
+    --who=(basename (status filename)) \
+    --why='playing music' \
+    kitty \
+    --class music-player \
+    --override remember_window_size=no \
+    --override tab_bar_style=hidden \
+    # --override font_size='18' \
+    # --override background_opacity='1.0' \
+    # --override background='#000' \
+    # --override foreground='#0fa' \
+    # --override initial_window_height='2c' \
+    # --override initial_window_width=(
+    #             ls $music_folder | python3 -c (
+    #                 echo '''
+    #                 import sys
+    #                 import os
+    #                 sys.stdout.writelines(
+    #                     str(
+    #                         len(
+    #                             os.path.splitext(
+    #                                 sorted(
+    #                                     sys.stdin.readlines(), 
+    #                                     key=len,
+    #                                 )[-1]
+    #                             )[0]
+    #                         ) + 1
+    #                     )
+    #                 )
+    #                 ''' | dedent | string collect
+    #             )
+    #         )'c' \
+    mpv \
+    --no-term-osd-bar \
+    --term-title='${filename/no-ext}' \
+    --term-playing-msg='\n${filename/no-ext}' \
+    #--loop \
+    #--term-playing-msg='\n${media-title/no-ext}' \
+    --term-status-msg='${time-pos} / ${duration} ${?pause==yes:(Paused)}' \
+    #(for i in $music_folder/*.mp3; echo $i; end | sort --version-sort)
+    #(random choice $music_folder/*.mp3)
+    # (shuf -e $music_folder/*.mp3)
+    (ls --sort=time --time=modification $music_folder/*.mp3) # use `touch any.mp3` to bring it in front

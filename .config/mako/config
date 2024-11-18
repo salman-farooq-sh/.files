@@ -1,14 +1,15 @@
-font=JetBrainsMonoNFM 20
-background-color=#000000b0
+font=Droid Sans 15
+background-color=#000000ff
 width=500
-height=300
-border-size=1
-border-radius=0
-border-color=#00ffff80
+height=500
+border-size=2
+border-radius=10
+border-color=#ffffffff
 anchor=bottom-right
-outer-margin=22,11
-padding=12
+outer-margin=15,0
+padding=16
 on-button-left=dismiss
 layer=overlay
-on-notify=exec play -v 0.12 /usr/share/sounds/freedesktop/stereo/message.oga
+max-visible=8
+#on-notify=exec play -v 0.12 /usr/share/sounds/freedesktop/stereo/message.oga
 

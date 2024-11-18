@@ -1,0 +1,56 @@
+# Theming
+font: JetBrainsMono Nerd Font Propo 17
+background: "#000000"
+color: "#ffffff"
+border: "#ffffff"
+separator: " ➜ "
+border_width: 2
+corner_r: 16
+padding: 16 # Defaults to corner_r
+
+# Anchor and margin
+anchor: center # One of center, left, right, top, bottom, bottom-left, top-left, etc.
+# Only relevant when anchor is not center
+margin_right: 0
+margin_bottom: 0
+margin_left: 0
+margin_top: 0
+
+menu: 
+  "w":
+    desc: wifi
+    submenu:
+      "r": { desc: restart, cmd: restart-wifi }
+      "c": { desc: connect, cmd: kitty --class nmtui-connect nmtui-connect }
+      "e": { desc: edit, cmd: kitty --class nmtui-edit nmtui-edit }
+  "p":
+    desc: power
+    submenu:
+      "s": { desc: sleep, cmd: systemctl suspend }
+      "h": { desc: high, cmd: powerprofilesctl set performance }
+      "m": { desc: medium, cmd: powerprofilesctl set balanced }
+      "l": { desc: low, cmd: powerprofilesctl set power-saver }
+  "b":
+    desc: battery
+    submenu:
+      "l": { desc: 80%, cmd: chth 75 80 }
+      "n": { desc: 100%, cmd: chth 0 100 }
+  "v":
+    desc: vpn
+    submenu:
+      "f": { desc: fastest, cmd: sudo protonvpn c -f }
+      "d": { desc: disconnect, cmd: sudo protonvpn d }
+  "f":
+    desc: fan
+    submenu:
+      "a": { desc: "level auto", cmd: set-fan auto }
+      "1": { desc: "level 1", cmd: set-fan 1 }
+      "2": { desc: "level 2", cmd: set-fan 2 }
+      "3": { desc: "level 3", cmd: set-fan 3 }
+      "4": { desc: "level 4", cmd: set-fan 4 }
+      "5": { desc: "level 5", cmd: set-fan 5 }
+      "6": { desc: "level 6", cmd: set-fan 6 }
+      "7": { desc: "level 7", cmd: set-fan 7 }
+  "l":
+    desc: wallpaper
+    cmd: sel-wall

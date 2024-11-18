@@ -1,42 +1,37 @@
 (defcfg
 	input (device-file "/dev/input/by-path/platform-i8042-serio-0-event-kbd")
 	output (uinput-sink "kmonad-output-internal")
-	fallthrough true allow-cmd true)
+	fallthrough true allow-cmd false)
 
 (defsrc
-	esc mute vold volu home end sysrq del
-	grv 1 2 3 4 5 6 7 8 9 0 - = bspc
-	tab q w e r t y u i o p [ ] \
-	caps a s d f g h j k l ; ' ent
-	lsft z x c v b n m , . / rsft
-	lctl wkup lmeta lalt spc ralt rctl left down up right)
+	mute vold volu
+	1 2 3 4 5 6 7 8 9 0 - =
+	q w e r t y u i o
+	caps g h j k l
+	z x c v n m , .
+	spc)
 	
 (deflayer base
-	XX XX XX XX XX XX XX XX
-	XX 1 2 3 4 5 6 7 8 9 0 - = XX
-	XX q w e r t y u i o p [ ] XX
-	XX @a @s @d @f g h @j @k @l @ent ; XX
-	XX z x c v b n m , . / XX
-	XX XX XX esc @spc bspc XX XX XX XX XX)
+	_ _ _
+	_ _ _ _ _ _ _ _ _ _ _ _
+	_ _ _ _ _ _ _ _ _
+	_ _ _ _ _ _
+	_ _ _ _ _ _ _ _
+	@spc)
 	
 (deflayer layer1
-	XX XX XX XX XX XX XX XX
-	XX f1 f2 f3 f4 f5 f6 f7 f8 f9 f10 f11 f12 XX
-	XX grv vold volu brdn brup f14 @pt @nt bookmarks sysrq mute XX XX
-	XX @a @s @d @f tab left down up right ' \ XX
-	XX f15 f17 f16 f13 cancel del comp home end XX XX
-	XX XX XX _ @spc _ XX XX XX XX XX)
+	pp prev next
+	f1 f2 f3 f4 f5 f6 f7 f8 f9 f10 f11 f12
+	mute vold volu brdn brup f14 @pt @nt f18
+	@pt2 @nt2 left down up right
+	f15 f17 f16 f13 del comp home end
+	@spc)
 	
 (defalias
-	pt C-pgup nt C-pgdn
+	spc (tap-hold 200 spc (layer-toggle layer1))
 
-	a       (tap-hold 240 a lalt)
-	s       (tap-hold 240 s lctl)
-	d       (tap-hold 240 d lsft)
-	f       (tap-hold 240 f lmet)
-	spc     (tap-hold 240 spc (layer-toggle layer1))
-	j       (tap-hold 240 j rmet)
-	k       (tap-hold 240 k rsft)
-	l       (tap-hold 240 l rctl)
-	ent     (tap-hold 240 ent ralt)
+	pt  C-pgup
+	nt  C-pgdn
+	pt2 C-S-pgup
+	nt2 C-S-pgdn
 )

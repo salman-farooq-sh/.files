@@ -1,213 +1,164 @@
 input {
-    keyboard { repeat-delay 250; repeat-rate 60; }
-    touchpad { tap; dwt; natural-scroll; click-method "clickfinger"; accel-speed 0.2; }
+    keyboard { repeat-delay 230; repeat-rate 60; }
+    touchpad { tap; natural-scroll; click-method "clickfinger"; accel-speed 0.12; }
     touch { map-to-output "eDP-1"; }
     warp-mouse-to-focus
-    focus-follows-mouse max-scroll-amount="95%"
+    focus-follows-mouse max-scroll-amount="99%"
     disable-power-key-handling
 }
 
-output "eDP-1" {
-    // mode "1920x1200@60"; scale 1
-    mode "3840x2400@60"; scale 2
-    // position x=1280 y=1800
-    position x=0 y=0
-    background-color "#000"
-}
-
-output "DP-9" {
-    mode "3840x2160@60"
-    scale 1.2
-    position x=0 y=0
-    background-color "#000"
-}
-
-output "DP-10" {
-    mode "3840x2160@60"
-    scale 1.5
-    position x=3200 y=0
-    transform "90"
-    background-color "#000"
-}
-
-output "DP-11" {
-    mode "3840x2160@60"
-    scale 1.2
-    position x=0 y=0
-    background-color "#000"
-}
-
-output "DP-12" {
-    mode "3840x2160@60"
-    scale 1.5
-    position x=3200 y=0
-    transform "90"
-    background-color "#000"
-}
+output "eDP-1" { scale 2; background-color "#000"; }
 
 layout {
     center-focused-column "never"
     preset-column-widths { proportion 0.5; }
     default-column-width {}
-    struts { left -1; right -1; top -1; bottom -1; }
-    gaps 1
+    struts { left 0; right 0; top 0; bottom 0; }
+    gaps 0
 
     focus-ring {
         off
-        width 1.5
-        active-gradient from="#f00f" to="#f00f" angle=135 in="oklch longer hue"
+        width 1
+        // active-gradient from="#f0f" to="#f0f" angle=45 in="oklch longer hue"
+        active-color "#0f0"
     }
 
     border {
-        // off
-        width 1
-        // active-gradient from="#ff0f" to="#ff0f" angle=45 in="oklch longer hue"
-        active-color "#666"
-        inactive-color "#000"
+        off
+        width 0.5
+        active-gradient from="#0f0" to="#f00" angle=270 in="oklch longer hue"
+        // inactive-gradient from="#f00" to="#0f0" angle=0 in="oklch longer hue"
+        // active-color "#000"
+        inactive-color "#555"
     }
 }
 
+cursor {
+    hide-when-typing
+    hide-after-inactive-ms 3000
+}
+
 prefer-no-csd
-window-rule { geometry-corner-radius 6; clip-to-geometry true; }
+// window-rule { geometry-corner-radius 8; clip-to-geometry true; }
 
 // screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 screenshot-path null
 
-animations { slowdown 1.35; }
+animations { slowdown 1.5; }
 
-window-rule { match app-id="org.gnome.Calculator"; default-column-width { proportion 0.2; }; }
-window-rule { match app-id="music-player"; default-column-width { proportion 0.3; }; }
+window-rule { match app-id="music-player"; default-column-width { proportion 0.2; }; }
+window-rule { match app-id="org.gnome.Calculator"; default-column-width { proportion 0.3; }; }
 window-rule { match app-id="nm-connection-editor|nmtui-connect|nmtui-edit|bottles|com.usebottles.bottles|transmission|deluge"; default-column-width { proportion 0.4; }; }
 window-rule { match app-id="deluge"; default-column-width { proportion 0.5; }; }
+window-rule { match app-id="firefox|org.gnome.Nautilus|kitty"; default-column-width { proportion 1.0; }; }
 
+// spawn-at-startup "swaylock"
 spawn-at-startup "set-wall"
 spawn-at-startup "waybar"
 spawn-at-startup "swayosd-server"
-spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
+spawn-at-startup "watch-cliphist"
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 spawn-at-startup "low-bat-warn"
-spawn-at-startup "fish" "-c" "swayidle -w before-sleep swaylock lock swaylock timeout 120 'niri msg action power-off-monitors'"
+spawn-at-startup "myidle"
+// spawn-at-startup "waycorner"
+// spawn-at-startup "xwayland-satellite"
+spawn-at-startup "fish" "-c" "swayosd-client --output-volume=mute-toggle; swayosd-client --output-volume=mute-toggle"
 
 binds {
-    Mod+space     { spawn "kitty"; }
-    Mod+M         { spawn "mhm"; }
-    Mod+Shift+M   { spawn "mhm" "with-chrome"; }
-    Mod+D         { spawn "fuzzel"; }
-    Mod+U         { spawn "gnome-calculator"; }
-    Mod+F         { spawn "nautilus"; }
-    Mod+V         { spawn "cb-mgr"; }
-    Mod+C         { spawn "google-chrome-stable"; }
-    Mod+Shift+C   { spawn "google-chrome-stable" "--incognito"; }
-    Mod+W         { spawn "fish" "-c" "killall swayosd-server waybar low-bat-warn; set-wall &; waybar &; swayosd-server &; low-bat-warn &"; }
-    Mod+Shift+W   { spawn "sel-wall"; }
-    Mod+Q         { spawn "fish" "-c" "niri msg action maximize-column; niri msg action reset-window-height;";  }
-    Mod+E         { close-window; }
+    Mod+space     repeat=false { spawn "kitty"; }
+    Mod+D         repeat=false { spawn "fuzzel"; }
+    Mod+U         repeat=false { spawn "gnome-calculator"; }
+    Mod+F         repeat=false { spawn "nautilus"; }
+    Mod+C         repeat=false { spawn "firefox"; }
+    Mod+Shift+C   repeat=false { spawn "firefox" "--private-window"; }
+    Mod+Control+C { spawn "makoctl" "dismiss"; }
+    Mod+Q         repeat=false { spawn "fish" "-c" "niri msg action maximize-column; niri msg action reset-window-height;";  }
+    Mod+W         repeat=false { 
+        spawn "fish" "-c" \
+        "killall swayosd-server waybar low-bat-warn swayidle waycorner; set-wall &; waybar &; disabled.waycorner &; swayosd-server &; low-bat-warn &; myidle &"
+    }
 
-    Cancel        { spawn "swaylock"; }
-    XF86Tools     { spawn "video-player"; }
-    XF86Favorites { spawn "wlr-which-key"; }
-    XF86Launch5   { spawn "music-player"; }
-    XF86Launch6   { spawn "toggle-fan"; }
-    XF86Launch7   { spawn "connect-buds"; }
-    XF86Launch8   { spawn "disconnect-buds"; }
+    Cancel         repeat=false { spawn "swaylock"; }
+    XF86Tools      repeat=false { spawn "video-player"; }
+    XF86Launch5    repeat=false { spawn "music-player"; }
+    XF86Launch6    repeat=false { spawn "toggle-fan"; }
+    XF86Launch7    repeat=false { spawn "connect-buds"; }
+    XF86Launch8    repeat=false { spawn "disconnect-buds"; }
+    XF86Launch9    repeat=false { spawn "cb-mgr"; }
+    XF86AudioMedia repeat=false { spawn "wlr-which-key"; }
 
-    Mod+Down       { focus-window-or-monitor-down; }
-    Mod+Up         { focus-window-or-monitor-up; }
-    Mod+Ctrl+Down  { move-window-to-monitor-down; }
-    Mod+Ctrl+Up    { move-window-to-monitor-up; }
-    
-    Mod+Left       { focus-column-or-monitor-left; }
-    Mod+Right      { focus-column-or-monitor-right; }
-    Mod+Ctrl+Left  { move-column-left-or-to-monitor-left; }
-    Mod+Ctrl+Right { move-column-right-or-to-monitor-right; }
+    Mod+WheelScrollDown cooldown-ms=150 { focus-workspace-down; }
+    Mod+WheelScrollUp   cooldown-ms=150 { focus-workspace-up; }
+    Alt+WheelScrollDown cooldown-ms=150 { focus-column-right; }
+    Alt+WheelScrollUp   cooldown-ms=150 { focus-column-left; }
 
-    // Mod+J { focus-window-or-monitor-down; }; Mod+Ctrl+J { move-window-to-monitor-down; }; Mod+K { focus-window-or-monitor-up; }; Mod+Ctrl+K { move-window-to-monitor-up; };  
+    Mod+H          { focus-column-left; }
+    Mod+J          { focus-window-or-workspace-down; }
+    Mod+K          { focus-window-or-workspace-up; }
+    Mod+L          { focus-column-right; }
+    Mod+Ctrl+H     { move-column-left; }
+    Mod+Ctrl+J     { move-window-down-or-to-workspace-down; }
+    Mod+Ctrl+K     { move-window-up-or-to-workspace-up; } 
+    Mod+Ctrl+L     { move-column-right; }
 
-    Mod+J { focus-window-or-workspace-down; }; Mod+Ctrl+J { move-window-down-or-to-workspace-down; }; Mod+K { focus-window-or-workspace-up; }; Mod+Ctrl+K { move-window-up-or-to-workspace-up; } 
+    Mod+Left       { focus-column-left; }
+    Mod+Down       { focus-window-or-workspace-down; }
+    Mod+Up         { focus-window-or-workspace-up; }
+    Mod+Right      { focus-column-right; }
+    Mod+Ctrl+Left  { move-column-left; }
+    Mod+Ctrl+Down  { move-window-down-or-to-workspace-down; }
+    Mod+Ctrl+Up    { move-window-up-or-to-workspace-up; } 
+    Mod+Ctrl+Right { move-column-right; }
 
-    Mod+H          { focus-column-or-monitor-left; }
-    Mod+L          { focus-column-or-monitor-right; }
-    Mod+Ctrl+H     { move-column-left-or-to-monitor-left; }
-    Mod+Ctrl+L     { move-column-right-or-to-monitor-right; }
+    Mod+Home      repeat=false { focus-column-first; }
+    Mod+End       repeat=false { focus-column-last; }
+    Mod+Ctrl+Home repeat=false { move-column-to-first; }
+    Mod+Ctrl+End  repeat=false { move-column-to-last; }
 
-    Mod+Home      { focus-column-first; }
-    Mod+End       { focus-column-last; }
-    Mod+Ctrl+Home { move-column-to-first; }
-    Mod+Ctrl+End  { move-column-to-last; }
+    Mod+BracketLeft  repeat=false { consume-or-expel-window-left; }
+    Mod+BracketRight repeat=false { consume-or-expel-window-right; }
 
-    Mod+WheelScrollDown      cooldown-ms=220 { focus-column-or-monitor-right; }
-    Mod+WheelScrollUp        cooldown-ms=220 { focus-column-or-monitor-left; }
-    Mod+Ctrl+WheelScrollDown cooldown-ms=220 { move-column-right-or-to-monitor-right; }
-    Mod+Ctrl+WheelScrollUp   cooldown-ms=220 { move-column-left-or-to-monitor-left; }
-
-    Alt+WheelScrollDown      cooldown-ms=220 { focus-workspace-down; }
-    Alt+WheelScrollUp        cooldown-ms=220 { focus-workspace-up; }
-    Alt+Ctrl+WheelScrollDown cooldown-ms=220 { move-column-to-workspace-down; }
-    Alt+Ctrl+WheelScrollUp   cooldown-ms=220 { move-column-to-workspace-up; }
-
-    Mod+BracketLeft  { consume-or-expel-window-left; }
-    Mod+BracketRight { consume-or-expel-window-right; }
-    Mod+BackSlash    { consume-window-into-column; }
-
-    Mod+R       { switch-preset-column-width; }
-    Mod+Shift+F { fullscreen-window; }
+    Mod+R       repeat=false { switch-preset-column-width; }
+    Mod+Shift+F repeat=false { fullscreen-window; }
+    Mod+E       repeat=false { close-window; }
 
     Mod+Minus       { set-column-width "-10%"; }
     Mod+Equal       { set-column-width "+10%"; }
     Mod+Shift+Minus { set-window-height "-10%"; }
     Mod+Shift+Equal { set-window-height "+10%"; }
 
-    Print       { screenshot; }
-    Shift+Print { screenshot-window; }
-    Ctrl+Print  { screenshot-screen; }
+    Print            repeat=false { screenshot; }
+    Shift+Print      repeat=false { screenshot-window; }
+    Ctrl+Shift+Print repeat=false { spawn "scr-rec"; }
+    Ctrl+Escape      repeat=false { spawn "killall" "-s" "SIGINT" "wf-recorder" "wl-screenrec"; }
 
-    Mod+Delete { quit skip-confirmation=true; }
-    Mod+Shift+Delete { spawn "reboot"; }
+    Mod+Delete       repeat=false { quit skip-confirmation=true; }
+    Mod+Shift+Delete repeat=false { spawn "reboot"; }
 
-    XF86MonBrightnessUp              { spawn "swayosd-client" "--brightness" "raise"; }
-    Shift+XF86MonBrightnessUp        { spawn "swayosd-client" "--brightness" "raise"; }
+    XF86MonBrightnessUp   allow-when-locked=true { spawn "swayosd-client" "--brightness=raise"; }
+    XF86MonBrightnessDown allow-when-locked=true { spawn "swayosd-client" "--brightness=lower"; }
 
-    XF86MonBrightnessDown            { spawn "swayosd-client" "--brightness" "lower"; }
-    Shift+XF86MonBrightnessDown      { spawn "swayosd-client" "--brightness" "lower"; }
+    XF86AudioRaiseVolume       allow-when-locked=true { spawn "swayosd-client" "--output-volume=raise" "--max-volume=150"; }
+    Shift+XF86AudioRaiseVolume allow-when-locked=true { spawn "swayosd-client" "--output-volume=raise" "--max-volume=150"; }
+    XF86AudioLowerVolume       allow-when-locked=true { spawn "swayosd-client" "--output-volume=lower" "--max-volume=150"; }
+    Shift+XF86AudioLowerVolume allow-when-locked=true { spawn "swayosd-client" "--output-volume=lower" "--max-volume=150"; }
+    XF86AudioMute              allow-when-locked=true repeat=false { spawn "swayosd-client" "--output-volume=mute-toggle"; }
+    Shift+XF86AudioMute        allow-when-locked=true repeat=false { spawn "swayosd-client" "--output-volume=mute-toggle"; }
 
-    XF86AudioRaiseVolume             allow-when-locked=true { spawn "swayosd-client" "--output-volume" "raise" "--max-volume" "150"; }
-    Shift+XF86AudioRaiseVolume       allow-when-locked=true { spawn "swayosd-client" "--output-volume" "raise" "--max-volume" "150"; }
+    XF86AudioPlay    { spawn "playerctl" "play-pause"; }
+    XF86AudioNext    { spawn "fish" "-c" "playerctl next && notify-playing"; }
+    XF86AudioPrev    { spawn "fish" "-c" "playerctl previous && notify-playing"; }
+    XF86AudioForward { spawn "playerctl" "position" "10+"; }
+    XF86AudioRewind  { spawn "playerctl" "position" "10-"; }
 
-    XF86AudioLowerVolume             allow-when-locked=true { spawn "swayosd-client" "--output-volume" "lower" "--max-volume" "150"; }
-    Shift+XF86AudioLowerVolume       allow-when-locked=true { spawn "swayosd-client" "--output-volume" "lower" "--max-volume" "150"; }
+    XF86AudioMicMute repeat=false { spawn "swayosd-client" "--input-volume=mute-toggle"; }
+    
+    // XF86AudioPlay
+    // XF86AudioNext
+    // XF86AudioPrev
+    // XF86AudioForwar
+    // XF86AudioRewind
 
-    XF86AudioMute                    { spawn "swayosd-client" "--output-volume" "mute-toggle"; }
-    Shift+XF86AudioMute              { spawn "swayosd-client" "--output-volume" "mute-toggle"; }
-
-    XF86AudioMicMute                 { spawn "swayosd-client" "--input-volume" "mute-toggle"; }
-    XF86AudioPlay                    { spawn "playerctl" "play-pause"; }
-    XF86AudioNext                    { spawn "playerctl" "next"; }
-    XF86AudioPrev                    { spawn "playerctl" "previous"; }
-    XF86AudioForward                 { spawn "playerctl" "position" "10+"; }
-    XF86AudioRewind                  { spawn "playerctl" "position" "10-"; }
-
-    Mod+Grave       { spawn "fish" "-c" "niri msg output eDP-1 on"; }
-    Mod+1           { spawn "fish" "-c" "niri msg output DP-1 on"; }
-    Mod+2           { spawn "fish" "-c" "niri msg output DP-2 on"; }
-    Mod+3           { spawn "fish" "-c" "niri msg output DP-3 on"; }
-    Mod+4           { spawn "fish" "-c" "niri msg output DP-4 on"; }
-    Mod+5           { spawn "fish" "-c" "niri msg output DP-5 on"; }
-    Mod+6           { spawn "fish" "-c" "niri msg output DP-6 on"; }
-    Mod+7           { spawn "fish" "-c" "niri msg output DP-7 on"; }
-    Mod+8           { spawn "fish" "-c" "niri msg output DP-8 on"; }
-    Mod+9           { spawn "fish" "-c" "niri msg output DP-9 on"; }
-    Mod+0           { spawn "fish" "-c" "niri msg output DP-10 on"; }
-    Mod+Shift+Grave { spawn "fish" "-c" "niri msg output eDP-1 off"; }
-    Mod+Shift+1     { spawn "fish" "-c" "niri msg output DP-1 off"; }
-    Mod+Shift+2     { spawn "fish" "-c" "niri msg output DP-2 off"; }
-    Mod+Shift+3     { spawn "fish" "-c" "niri msg output DP-3 off"; }
-    Mod+Shift+4     { spawn "fish" "-c" "niri msg output DP-4 off"; }
-    Mod+Shift+5     { spawn "fish" "-c" "niri msg output DP-5 off"; }
-    Mod+Shift+6     { spawn "fish" "-c" "niri msg output DP-6 off"; }
-    Mod+Shift+7     { spawn "fish" "-c" "niri msg output DP-7 off"; }
-    Mod+Shift+8     { spawn "fish" "-c" "niri msg output DP-8 off"; }
-    Mod+Shift+9     { spawn "fish" "-c" "niri msg output DP-9 off"; }
-    Mod+Shift+0     { spawn "fish" "-c" "niri msg output DP-10 off"; }
 }
 
 hotkey-overlay { skip-at-startup; }

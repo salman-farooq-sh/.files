@@ -6,5 +6,5 @@ function fish_prompt --description 'Informative prompt'
 
     # printf '%s%s%s%s%s%s\nλ ' (set_color $fish_color_cwd) '['(string replace --regex "^$HOME" '~' $PWD)']' ' '$pipestatus_string (set_color cyan) ' '(pretty-cmd-duration $CMD_DURATION) (set_color normal)
 
-    printf '%s%s%s%s> ' $pipestatus_string' ' (set_color cyan) (pretty-cmd-duration $CMD_DURATION)' ' (set_color normal)
+    printf '%s%s%s%s%s> ' "[$(date +'%I:%M:%S')] " $pipestatus_string' ' (set_color cyan) (pretty-cmd-duration $CMD_DURATION)' ' (set_color normal)
 end

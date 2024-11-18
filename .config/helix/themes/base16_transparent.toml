@@ -1,0 +1,122 @@
+# Author: GreasySlug <9619abgoni@gmail.com>
+# This theme is base on base16_theme(Author: NNB <nnbnh@protonmail.com>)
+
+"ui.background" = { fg = "white" }
+"ui.background.separator" = { fg = "gray" }
+"ui.text" = { fg = "light-gray" }
+"ui.text.focus" = { fg = "white" }
+"ui.menu" = { fg = "white" }
+"ui.menu.selected" = { modifiers = ["reversed"] }
+"ui.menu.scroll" = { fg = "light-gray" }
+"ui.linenr" = { fg = "light-gray" }
+"ui.linenr.selected" = { fg = "white", modifiers = ["bold"] }
+"ui.popup" = { fg = "white" }
+"ui.window" = { fg = "gray" }
+"ui.selection" = { bg = "gray" }
+"comment" = "#808080"
+"ui.statusline" = { fg = "white" }
+"ui.statusline.inactive" = { fg = "gray" }
+"ui.statusline.normal" = { fg = "black", bg = "blue" }
+"ui.statusline.insert" = { fg = "black", bg = "green" }
+"ui.statusline.select" = { fg = "black", bg = "magenta" }
+"ui.help" = { fg = "light-gray" }
+"ui.cursor" = { modifiers = ["reversed"] }
+"ui.cursor.match" = { fg = "light-yellow", underline = { color = "light-yellow", style = "line" } }
+"ui.cursor.primary" = { modifiers = ["reversed", "slow_blink"] }
+"ui.cursor.secondary" = { modifiers = ["reversed"] }
+"ui.cursorline.primary" = { bg = "dark_gray3" }
+"ui.cursorline.secondary" = { bg = "dark_gray3" }
+"ui.cursorcolumn.primary" = { bg = "dark_gray3" }
+"ui.cursorcolumn.secondary" = { bg = "dark_gray3" }
+"ui.virtual.ruler" = { bg = "gray" }
+"ui.virtual.whitespace" = "gray"
+"ui.virtual.indent-guide" = "gray"
+"ui.virtual.inlay-hint" = { fg = "white", bg = "gray" }
+"ui.virtual.inlay-hint.parameter" = { fg = "white", bg = "gray" }
+"ui.virtual.inlay-hint.type" = { fg = "white", bg = "gray" }
+"ui.virtual.wrap" = "gray"
+"ui.virtual.jump-label" = { fg = "blue", modifiers = ["bold", "underlined"] }
+
+"variable" = "light-red"
+"constant.numeric" = "yellow"
+"constant" = "yellow"
+"attribute" = "yellow"
+"type" = "light-yellow"
+"string" = "light-green"
+"variable.other.member" = "green"
+"constant.character.escape" = "light-cyan"
+"function" = "light-blue"
+"constructor" = "light-blue"
+"special" = "light-blue"
+"keyword" = "light-magenta"
+"label" = "light-magenta"
+"namespace" = "light-magenta"
+
+"markup.heading" = "light-blue"
+"markup.list" = "light-red"
+"markup.bold" = { fg = "light-yellow", modifiers = ["bold"] }
+"markup.italic" = { fg = "light-magenta", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "yellow", underline = { color = "yellow", style = "line" } }
+"markup.link.text" = "light-red"
+"markup.quote" = "light-cyan"
+"markup.raw" = "green"
+"markup.normal" = { fg = "blue" }
+"markup.insert" = { fg = "green" }
+"markup.select" = { fg = "magenta" }
+
+"diff.plus" = "light-green"
+"diff.delta" = "light-blue"
+"diff.delta.moved" = "blue"
+"diff.minus" = "light-red"
+
+"ui.gutter" = "gray"
+"info" = "light-blue"
+"hint" = "light-gray"
+"debug" = "light-gray"
+"warning" = "light-yellow"
+"error" = "light-red"
+
+"diagnostic.info" = { underline = { color = "light-blue", style = "dotted" } }
+"diagnostic.hint" = { underline = { color = "light-gray", style = "double_line" } }
+"diagnostic.debug" = { underline = { color = "light-gray", style = "dashed" } }
+"diagnostic.warning" = { underline = { color = "light-yellow", style = "curl" } }
+"diagnostic.error" = { underline = { color = "light-red", style = "curl" } }
+
+[palette]
+white = "#ffffff"
+orange = "#ce9178"
+gold = "#d7ba7d"
+gold2 = "#cca700"
+pale_green = "#b5cea8"
+dark_green = "#6A9955"
+dark_green2 = "#487e02"
+light_gray = "#d4d4d4"
+light_gray2 = "#c6c6c6"
+light_gray3 = "#eeeeee"
+dark_gray = "#858585"
+dark_gray2 = "#1e1e1e"
+dark_gray3 = "#282828"
+dark_gray4 = "#404040"
+dark_gray5 = "#8b949e"
+blue = "#007acc"
+blue2 = "#569CD6"
+blue3 = "#6796E6"
+blue4 = "#1b81a8"
+light_blue = "#75beff"
+dark_blue = "#264f78"
+dark_blue2 = "#094771"
+red = "#ff1212"
+orange_red = "#f14c4c"
+
+type = "#4EC9B0"
+special = "#C586C0"
+variable = "#9CDCFE"
+fn_declaration = "#DCDCAA"
+constant = "#4FC1FF"
+
+background = "#1e1e1e"
+text = "#d4d4d4"
+cursor = "#a6a6a6"
+widget = "#252526"
+borders = "#323232"

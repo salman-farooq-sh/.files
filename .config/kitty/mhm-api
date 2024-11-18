@@ -1,5 +1,5 @@
 cd ~/Programming/esketchers/mentalhealthmatch/apps/api/
-launch low fish --interactive --init-command 'nvm use 18 && NODE_OPTIONS=--openssl-legacy-provider npm run dev'
+launch fish --interactive --init-command 'nvm use 18 && NODE_OPTIONS=--openssl-legacy-provider npm run dev'
 
 new_tab
 cd ~/Programming/esketchers/mentalhealthmatch/apps/api/ 
